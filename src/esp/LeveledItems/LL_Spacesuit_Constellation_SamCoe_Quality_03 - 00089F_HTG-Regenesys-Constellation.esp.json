@@ -1,0 +1,31 @@
+{
+  "FormKey": "00089F:HTG-Regenesys-Constellation.esp",
+  "MajorRecordFlagsRaw": 32768,
+  "EditorID": "LL_Spacesuit_Constellation_SamCoe_Quality_03",
+  "FormVersion": 576,
+  "StarfieldMajorRecordFlags": [
+    "VisibleWhenDistant"
+  ],
+  "ODTY": 0.0,
+  "MaxCount": 0,
+  "Flags": [
+    "UseAll"
+  ],
+  "Entries": [
+    {
+      "Level": 1,
+      "Unused": 19924,
+      "Reference": "2452A0:Starfield.esm",
+      "Count": 1
+    }
+  ],
+  "FilterKeywordChances": [
+    {
+      "Keyword": "11E2BE:Starfield.esm",
+      "Chance": 2.3283064370807974E-08
+    }
+  ],
+  "Model": {
+    "FLLD": "0x01000000"
+  }
+}

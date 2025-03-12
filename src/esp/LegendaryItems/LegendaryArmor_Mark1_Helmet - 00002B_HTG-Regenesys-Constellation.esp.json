@@ -1,0 +1,39 @@
+{
+  "FormKey": "00002B:HTG-Regenesys-Constellation.esp",
+  "EditorID": "LegendaryArmor_Mark1_Helmet",
+  "FormVersion": 576,
+  "ObjectBounds": {},
+  "ODTY": 0.0,
+  "Model": {
+    "FLLD": "0x01000000"
+  },
+  "DATA": "[]",
+  "ApplicableItemList": "228CE4:Starfield.esm",
+  "LegendaryTemplateList": "1336C3:Starfield.esm",
+  "LegendaryMods": [
+    {
+      "LegendaryModifier": "1336C1:Starfield.esm"
+    },
+    {
+      "LegendaryModifier": "1336C6:Starfield.esm"
+    },
+    {
+      "LegendaryModifier": "13369E:Starfield.esm"
+    },
+    {
+      "LegendaryModifier": "1336BD:Starfield.esm"
+    },
+    {
+      "LegendaryModifier": "13369C:Starfield.esm"
+    },
+    {
+      "LegendaryModifier": "1336BE:Starfield.esm"
+    },
+    {
+      "LegendaryModifier": "133699:Starfield.esm"
+    },
+    {
+      "LegendaryModifier": "1336BC:Starfield.esm"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "FormKey": "01831D:Starfield.esm",
+  "EditorID": "Outfit_Spacesuit_ZeroNoHelmet",
+  "FormVersion": 576,
+  "Version2": 2,
+  "Items": [
+    "000004:HTG-Regenesys-Constellation.esp",
+    "000021:HTG-Regenesys-Constellation.esp"
+  ]
+}

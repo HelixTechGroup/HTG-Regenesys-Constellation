@@ -1,0 +1,10 @@
+{
+  "FormKey": "000885:HTG-Regenesys-Constellation.esp",
+  "EditorID": "RegenesysConstellationOptions",
+  "FormVersion": 576,
+  "Title": {
+    "TargetLanguage": "English",
+    "Value": "Regenesys Constellation Settings"
+  },
+  "BNAM": "0x00"
+}

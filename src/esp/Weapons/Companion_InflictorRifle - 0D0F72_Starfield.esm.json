@@ -1,0 +1,195 @@
+{
+  "FormKey": "0D0F72:Starfield.esm",
+  "MajorRecordFlagsRaw": 1073741824,
+  "EditorID": "Companion_InflictorRifle",
+  "FormVersion": 576,
+  "StarfieldMajorRecordFlags": [
+    "0x40000000"
+  ],
+  "ODTY": 0.0,
+  "Transforms": {
+    "Inventory": "04A705:Starfield.esm",
+    "MainGameUI": "12F677:Starfield.esm"
+  },
+  "Components": [
+    {
+      "MutagenObjectType": "EffectSequenceComponent",
+      "REFL": "0x4245544808000000040000000900000053545254A400000042475345666665637453657175656E6365466F726D436F6D706F6E656E740075704D61700045666665637453657175656E63654D61700053657175656E6365730070506172656E74466F726D0045666665637453657175656E63654D61704D657461646174610054696D656C696E65537461727454696D650054696D656C696E65556E697473506572506978656C004D61704D65746164617461004D6574616461746100545950450400000003000000434C41533C0000002500000000000000000004003700000004FFFFFF080030004100000005FFFFFF480008008F0000004D000000500008009B00000004FFFFFF58005800434C4153180000000000000000000000000001001F00000005FFFFFF48000800434C4153240000004D00000000000000000002006700000011FFFFFF000004007900000011FFFFFF040004004F424A541800000000000000250000000DFFFFFF00000000000000000000803F4D4150430C00000001FFFFFF01FFFFFF000000004D4150430C00000001FFFFFF01FFFFFF00000000"
+    },
+    {
+      "MutagenObjectType": "ParticleSystemComponent",
+      "PTCL": "0x42455448080000000400000007000000535452542F0000005061727469636C65466F726D436F6D706F6E656E7400446566696E6573005265666572656E6365446566696E657300545950450400000001000000434C4153240000000000000000000000000002001600000003FFFFFF400018001E00000003FFFFFF580018004F424A5404000000000000004C4953540800000001FFFFFF000000004C4953540800000001FFFFFF00000000"
+    }
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Andreja's Inflictor"
+  },
+  "Model": {
+    "File": "Weapons\\Bullpup\\BullpupDummyReceiver.nif",
+    "FLLD": "0x01000000"
+  },
+  "EquipmentType": "04334D:Starfield.esm",
+  "BlockBashImpactDataSet": "0116F2:Starfield.esm",
+  "AlternateBlockMaterial": "077251:Starfield.esm",
+  "PickupSound": {
+    "Start": "7ed846bd-4548-7927-2551-aba7b9c332ab"
+  },
+  "DropdownSound": {
+    "Start": "61ad414d-6725-38df-301d-2736c38eaca5"
+  },
+  "Keywords": [
+    "01FC18:Starfield.esm",
+    "1954D8:Starfield.esm",
+    "1F70D6:Starfield.esm",
+    "077C2F:Starfield.esm",
+    "0F4AEA:Starfield.esm",
+    "10C485:Starfield.esm",
+    "017F13:Starfield.esm",
+    "0245A0:Starfield.esm",
+    "0A191C:Starfield.esm",
+    "23AA1B:Starfield.esm",
+    "03ADB4:Starfield.esm",
+    "27BAFE:Starfield.esm",
+    "02B714:Starfield.esm",
+    "04A0A1:Starfield.esm"
+  ],
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": ""
+  },
+  "AttachParentSlots": [
+    "024004:Starfield.esm",
+    "1E32C8:Starfield.esm",
+    "02249C:Starfield.esm",
+    "02249D:Starfield.esm",
+    "147AFE:Starfield.esm",
+    "05D4D7:Starfield.esm",
+    "022499:Starfield.esm",
+    "0191EE:Starfield.esm",
+    "329ABC:Starfield.esm",
+    "329ABD:Starfield.esm"
+  ],
+  "ObjectTemplates": [
+    {
+      "Includes": [
+        {
+          "Mod": "08FD2E:Starfield.esm",
+          "DontUseAll": true
+        },
+        {
+          "Mod": "1230BC:Starfield.esm",
+          "DontUseAll": true
+        },
+        {
+          "Mod": "1230B5:Starfield.esm",
+          "DontUseAll": true
+        },
+        {
+          "Mod": "1230B3:Starfield.esm",
+          "DontUseAll": true
+        },
+        {
+          "Mod": "1230BF:Starfield.esm",
+          "DontUseAll": true
+        },
+        {
+          "Mod": "1230BE:Starfield.esm",
+          "DontUseAll": true
+        },
+        {
+          "Mod": "1CEF71:Starfield.esm",
+          "DontUseAll": true
+        }
+      ]
+    }
+  ],
+  "EmbeddedWeaponMod": "Null",
+  "SightedTransitionSeconds": 0.26,
+  "AimDownSightTemplate": "1954DA:Starfield.esm",
+  "AimModel": "1954D9:Starfield.esm",
+  "AimAssistTemplate": "2BB8B5:Starfield.esm",
+  "ReticleType": 5,
+  "AmmoType": "23055A:Starfield.esm",
+  "AmmoCapacity": 20,
+  "AmmoList": "23055F:Starfield.esm",
+  "OverrideProjectile": "0C1D59:Starfield.esm",
+  "ProjectilesCount": 1,
+  "WAM2Unknown1": 1,
+  "MeleeOrCreature": {},
+  "PrimedExplosive": {},
+  "DryFire": {
+    "Start": "a1984232-7a94-d24a-2737-6fa608e0f6bc"
+  },
+  "Idle": {},
+  "Equip": {
+    "Start": "382b4bfc-490e-e1da-08ac-e0c322e0aaa3"
+  },
+  "Unequip": {
+    "Start": "f1cc4606-1376-334d-0019-948bd662b3bb"
+  },
+  "FastEquip": {
+    "Start": "52a54404-cbb1-c6a9-1011-89d78120aa94"
+  },
+  "SoundLevel": "Quiet",
+  "WAUDUnknown2": 2,
+  "WTUR": "0x00000034C3000034430000B4C20000B44200003443000034430000803F",
+  "ChargeCritBonus": 1.0,
+  "AttackDamage": 45.0,
+  "MinRange": 50.0,
+  "MaxRange": 75.0,
+  "OutOfRangeDamageMult": 0.5,
+  "CritDamageMult": 2.0,
+  "CritEffectOnDeathOnly": true,
+  "WDMGUnknown4": 1.0,
+  "WDMGUnknown5": 1.0,
+  "WDMGUnknown6": 1.0,
+  "WDMGUnknown7": 1.0,
+  "WDMGUnknown8": 1.0,
+  "WDMGUnknown9": 1.0,
+  "CritChanceIncMult": 1.0,
+  "DamageTypes": [
+    {
+      "DamageType": "060A81:Starfield.esm",
+      "Value": 125
+    },
+    {
+      "DamageType": "208DCD:Starfield.esm",
+      "Value": 1
+    }
+  ],
+  "AttackSeconds": 0.6333334,
+  "FireSeconds": 1.1920929E-07,
+  "AttackDelaySeconds": 0.4,
+  "ShotsPerSecond": 2.5,
+  "WFIRUnknown7": 0.4,
+  "TriggerThresholdPrimaryTrigger": 0.33,
+  "TriggerThresholdSecondStage": 0.33,
+  "BurstDelaySeconds": 0.3,
+  "WGENUnknown1": 9,
+  "BaseWeight": 3.75,
+  "BaseValue": 8255,
+  "BaseSpeed": 1.0,
+  "AttackOxygenCost": 56.0,
+  "WeaponBarrel": "25CD27:Starfield.esm",
+  "WMELUnknown1": 2,
+  "MeleeBashDamage": 12.0,
+  "MeleeReach": 1.0,
+  "MeleeStagger": "Medium",
+  "QNAMUnknown5": 1.0,
+  "WRLOUnknown1": 3.1666667,
+  "ReloadSpeed": 1.0,
+  "FirstPersonModel": {
+    "File": "Weapons\\Bullpup\\BullpupDummyReceiver.nif",
+    "FLLD": "0x01000000"
+  },
+  "ImpactDataSet": "164E03:Starfield.esm",
+  "ColorRemappingIndex": 3.4028235E+38,
+  "WTRMUnknown1": 20.0,
+  "WTRMUnknown3": 0.3,
+  "WTRMUnknown4": 0.5,
+  "WTRMUnknown5": 30.0,
+  "MajorFlags": [
+    "0x40000000"
+  ]
+}

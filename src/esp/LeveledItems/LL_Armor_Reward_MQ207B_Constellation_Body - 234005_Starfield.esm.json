@@ -1,0 +1,19 @@
+{
+  "FormKey": "234005:Starfield.esm",
+  "EditorID": "LL_Armor_Reward_MQ207B_Constellation_Body",
+  "FormVersion": 576,
+  "Version2": 4,
+  "ODTY": 0.0,
+  "MaxCount": 0,
+  "Entries": [
+    {
+      "Level": 1,
+      "Unused": 19924,
+      "Reference": "0008B7:HTG-Regenesys-Constellation.esp",
+      "Count": 1
+    }
+  ],
+  "Model": {
+    "FLLD": "0x01000000"
+  }
+}

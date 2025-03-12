@@ -1,0 +1,14 @@
+{
+  "FormKey": "000812:HTG-Regenesys-Core.esm",
+  "EditorID": "RegenesysRootOptionsGroup",
+  "FormVersion": 576,
+  "Title": {
+    "TargetLanguage": "English",
+    "Value": "Regenesis Options"
+  },
+  "BNAM": "0x01",
+  "Options": [
+    "000815:HTG-Regenesys-Core.esm",
+    "000885:HTG-Regenesys-Constellation.esp"
+  ]
+}
