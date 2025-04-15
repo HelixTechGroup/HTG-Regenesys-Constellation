@@ -11,7 +11,7 @@
   "VirtualMachineAdapter": {
     "Scripts": [
       {
-        "Name": "htg:constellation:collections:constellationmemberlist"
+        "Name": "HTG:Constellation:Collections:ConstellationMemberList"
       }
     ]
   },

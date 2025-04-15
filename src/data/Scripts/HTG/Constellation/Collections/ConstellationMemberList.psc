@@ -11,13 +11,10 @@ Event OnInit()
 EndEvent
 
 ConstellationMemberList Function ConstellationMemberList(Int aiSize = 4) Global
-    Int aFormId = 0x00001540
+    Int iFormId = 0x0000002
     String aModName = "HTG-Regenesys-Constellation"
-    Form aForm = HTG:Collections:List._CreateForm(aFormId, aModName)
-    ConstellationMemberList res = HTG:Collections:List._CreateReference(aForm, aiSize) as ConstellationMemberList
+    ConstellationMemberList res =  HTG:Collections:List._CreateList(iFormId, aModName, aiSize) as ConstellationMemberList
     LogObjectGlobal(res, "HTG:Constellation:Collections:ConstellationMemberList.ConstellationMemberList(" + aiSize  + "): " + res)
-    res.Enable(False)
-    res.Initialize(aiSize)
     return res
 EndFunction
 

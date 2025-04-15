@@ -71,7 +71,6 @@ Event OnQuestStarted()
             FirstActivation.SetValueInt(0)
         EndIf
     EndIF
-    Debug.Notification("Regenesys:Constellation has been started.")
 EndEvent
 
 Event OnStageSet(int auiStageID, int auiItemID)

@@ -8,6 +8,11 @@
         "Name": "HTG:Constellation:Quests:SQ_ConstellationController",
         "Properties": [
           {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "LL_Spacesuit_Constellation_Legendary",
+            "Object": "00001C:HTG-Regenesys-Constellation.esp"
+          },
+          {
             "MutagenObjectType": "ScriptStructListProperty",
             "Name": "DefaultMemberData",
             "Structs": [
@@ -71,18 +76,8 @@
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "LL_Spacesuit_Constellation_Legendary",
-            "Object": "00001C:HTG-Regenesys-Constellation.esp"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
             "Name": "ShowWornItemsKeyword",
             "Object": "12DFF1:Starfield.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "LL_Clothes_Constellation_Legendary",
-            "Object": "000017:HTG-Regenesys-Constellation.esp"
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
@@ -91,13 +86,13 @@
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "Loot_Mannequin_Spacesuit_Female_Mark1_Lodge",
-            "Object": "080AC0:Starfield.esm"
+            "Name": "PlayerUnityTimesEntered",
+            "Object": "219529:Starfield.esm"
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "FirstActivation",
-            "Object": "000001:HTG-Regenesys-Constellation.esp"
+            "Name": "LL_Clothes_Constellation_Legendary",
+            "Object": "000017:HTG-Regenesys-Constellation.esp"
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
@@ -107,14 +102,9 @@
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "LL_Spacesuit_Mark1_FullSet_Legendary",
-            "Object": "000006:HTG-Regenesys-Constellation.esp"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "SystemUtilities",
+            "Name": "ActiveConstellationMembers",
             "Object": "000022:HTG-Regenesys-Constellation.esp",
-            "Alias": 12
+            "Alias": 9
           },
           {
             "MutagenObjectType": "ScriptStructProperty",
@@ -144,14 +134,24 @@
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "PlayerRef",
-            "Object": "000014:Starfield.esm"
+            "Name": "SystemUtilities",
+            "Object": "000022:HTG-Regenesys-Constellation.esp",
+            "Alias": 12
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "ActiveConstellationMembers",
-            "Object": "000022:HTG-Regenesys-Constellation.esp",
-            "Alias": 9
+            "Name": "LL_Spacesuit_Mark1_FullSet_Legendary",
+            "Object": "000006:HTG-Regenesys-Constellation.esp"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "FirstActivation",
+            "Object": "000001:HTG-Regenesys-Constellation.esp"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "PlayerRef",
+            "Object": "000014:Starfield.esm"
           },
           {
             "MutagenObjectType": "ScriptStructListProperty",
@@ -285,8 +285,8 @@
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "PlayerUnityTimesEntered",
-            "Object": "219529:Starfield.esm"
+            "Name": "Loot_Mannequin_Spacesuit_Female_Mark1_Lodge",
+            "Object": "080AC0:Starfield.esm"
           }
         ]
       }
@@ -368,7 +368,14 @@
             "Name": "HTG:UtilityExt"
           },
           {
-            "Name": "HTG:SystemUtilities"
+            "Name": "HTG:SystemUtilities",
+            "Properties": [
+              {
+                "MutagenObjectType": "ScriptObjectProperty",
+                "Name": "DebugGlobal",
+                "Object": "0A7D31:Starfield.esm"
+              }
+            ]
           }
         ]
       }
@@ -511,7 +518,7 @@
       ],
       "ALFG": 0,
       "External": {
-        "Quest": "001348:HTG-Regenesys-Core.esm",
+        "Quest": "000001:HTG-Regenesys-Core.esm",
         "AliasID": 7
       },
       "VoiceTypes": "Null"
@@ -526,13 +533,10 @@
       ],
       "ALFG": 0,
       "External": {
-        "Quest": "001348:HTG-Regenesys-Core.esm",
+        "Quest": "000001:HTG-Regenesys-Core.esm",
         "AliasID": 11
       },
-      "VoiceTypes": "Null",
-      "TerminalMenus": [
-        "000023:HTG-Regenesys-Constellation.esp"
-      ]
+      "VoiceTypes": "Null"
     },
     {
       "MutagenObjectType": "QuestCollectionAlias",

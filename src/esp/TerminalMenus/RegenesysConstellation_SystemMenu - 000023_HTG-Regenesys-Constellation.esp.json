@@ -13,15 +13,7 @@
     "TargetLanguage": "English",
     "Value": "Regenesys:Constellation"
   },
-  "BodyTexts": [
-    {
-      "Text": {
-        "TargetLanguage": "English",
-        "Value": "test"
-      },
-      "UseTemplatedText": false
-    }
-  ],
+  "BodyTexts": [],
   "MenuItems": [
     {
       "Text": {

@@ -15,28 +15,8 @@
         "Properties": [
           {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "SQ_Crew",
-            "Object": "2A567D:Starfield.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "COM_CREW_GiveItem_HasItems",
-            "Object": "3371F0:Starfield.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "COM_CREW_GiveItemReminder",
-            "Object": "17AD8B:Starfield.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "COM_CREW_CND_GiveItemAvailable",
-            "Object": "17AD8D:Starfield.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "GiveItemList",
-            "Object": "17AD84:Starfield.esm"
+            "Name": "COM_CREW_GiveItemAvailableCooldownDays",
+            "Object": "17AD92:Starfield.esm"
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
@@ -45,8 +25,28 @@
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "COM_CREW_GiveItemAvailableCooldownDays",
-            "Object": "17AD92:Starfield.esm"
+            "Name": "GiveItemList",
+            "Object": "17AD84:Starfield.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "COM_CREW_CND_GiveItemAvailable",
+            "Object": "17AD8D:Starfield.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "COM_CREW_GiveItemReminder",
+            "Object": "17AD8B:Starfield.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "COM_CREW_GiveItem_HasItems",
+            "Object": "3371F0:Starfield.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "SQ_Crew",
+            "Object": "2A567D:Starfield.esm"
           }
         ]
       },
@@ -55,23 +55,8 @@
         "Properties": [
           {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "Assistance",
-            "Object": "0002C1:Starfield.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "COM_CombatResponseCivilianList",
-            "Object": "180F0C:Starfield.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
             "Name": "Aggression",
             "Object": "0002BC:Starfield.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "CurrentCompanionFaction",
-            "Object": "023C01:Starfield.esm"
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
@@ -80,23 +65,38 @@
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "COM_AngerReason_Common_1_Murder",
-            "Object": "2C2A36:Starfield.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
             "Name": "COM_NotCivilian",
             "Object": "0F223F:Starfield.esm"
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "AffinityEventOnKill",
-            "Object": "180F0B:Starfield.esm"
+            "Name": "Assistance",
+            "Object": "0002C1:Starfield.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "COM_AngerReason_Common_1_Murder",
+            "Object": "2C2A36:Starfield.esm"
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
             "Name": "SQ_Companions",
             "Object": "2A567C:Starfield.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "CurrentCompanionFaction",
+            "Object": "023C01:Starfield.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "COM_CombatResponseCivilianList",
+            "Object": "180F0C:Starfield.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "AffinityEventOnKill",
+            "Object": "180F0B:Starfield.esm"
           }
         ]
       },
@@ -105,23 +105,8 @@
         "Properties": [
           {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "COM_Affinity",
-            "Object": "0A1B80:Starfield.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "COM_CompanionID",
-            "Object": "2BE2D3:Starfield.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "SQ_Companions",
-            "Object": "2A567C:Starfield.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "COM_PQ_TxtReplace_QuestName",
-            "Object": "0963E2:Starfield.esm"
+            "Name": "COM_PreventStoryGateScenes",
+            "Object": "28A168:Starfield.esm"
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
@@ -130,19 +115,29 @@
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "COM_PreventStoryGateScenes",
-            "Object": "28A168:Starfield.esm"
+            "Name": "COM_PQ_TxtReplace_QuestName",
+            "Object": "0963E2:Starfield.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "SQ_Companions",
+            "Object": "2A567C:Starfield.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "COM_CompanionID",
+            "Object": "2BE2D3:Starfield.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "COM_Affinity",
+            "Object": "0A1B80:Starfield.esm"
           }
         ]
       },
       {
         "Name": "CompanionAffinityScript",
         "Properties": [
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "SQ_Companions",
-            "Object": "2A567C:Starfield.esm"
-          },
           {
             "MutagenObjectType": "ScriptStructListProperty",
             "Name": "AngerEventData",
@@ -200,23 +195,17 @@
                 ]
               }
             ]
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "SQ_Companions",
+            "Object": "2A567C:Starfield.esm"
           }
         ]
       },
       {
         "Name": "CompanionDebugScript",
         "Properties": [
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "ActiveCompanion",
-            "Object": "2A567C:Starfield.esm",
-            "Alias": 0
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "COM_DEBUG_OnPlayerShip",
-            "Object": "2C4C96:Starfield.esm"
-          },
           {
             "MutagenObjectType": "ScriptStructListProperty",
             "Name": "QuestStageData",
@@ -306,6 +295,17 @@
                 ]
               }
             ]
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "COM_DEBUG_OnPlayerShip",
+            "Object": "2C4C96:Starfield.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "ActiveCompanion",
+            "Object": "2A567C:Starfield.esm",
+            "Alias": 0
           }
         ]
       }
@@ -667,32 +667,32 @@
       "Position": -1.0
     },
     {
-      "Index": 69,
-      "Position": -1.0
+      "Index": 59,
+      "Position": -0.32
     },
     {
       "Index": 67,
       "Position": 1.0
     },
     {
-      "Index": 61,
-      "Position": 1.0
+      "Index": 75,
+      "Position": 0.69
     },
     {
       "Index": 65,
       "Position": 0.86
     },
     {
-      "Index": 75,
-      "Position": 0.69
+      "Index": 61,
+      "Position": 1.0
     },
     {
       "Index": 54,
       "Position": 1.0
     },
     {
-      "Index": 59,
-      "Position": -0.32
+      "Index": 69,
+      "Position": -1.0
     },
     {
       "Index": 43,
@@ -704,15 +704,23 @@
       "Index": 19,
       "MorphGroups": [
         {
+          "MorphGroup": "Cheeks",
+          "BlendIntensity": 1.0
+        },
+        {
+          "MorphGroup": "Mouth",
+          "BlendIntensity": 1.0
+        },
+        {
+          "MorphGroup": "Chin",
+          "BlendIntensity": 0.78
+        },
+        {
           "MorphGroup": "Forehead",
           "BlendIntensity": 0.74
         },
         {
           "MorphGroup": "Neck",
-          "BlendIntensity": 1.0
-        },
-        {
-          "MorphGroup": "Ears",
           "BlendIntensity": 1.0
         },
         {
@@ -724,19 +732,11 @@
           "BlendIntensity": 1.0
         },
         {
-          "MorphGroup": "Mouth",
-          "BlendIntensity": 1.0
-        },
-        {
           "MorphGroup": "Nose",
           "BlendIntensity": 0.81
         },
         {
-          "MorphGroup": "Chin",
-          "BlendIntensity": 0.78
-        },
-        {
-          "MorphGroup": "Cheeks",
+          "MorphGroup": "Ears",
           "BlendIntensity": 1.0
         }
       ]
@@ -749,100 +749,100 @@
           "BlendIntensity": 0.61
         },
         {
+          "MorphGroup": "Nose",
+          "BlendIntensity": 0.19
+        },
+        {
           "MorphGroup": "Chin",
           "BlendIntensity": 0.22
         },
         {
           "MorphGroup": "Forehead",
           "BlendIntensity": 0.18
-        },
-        {
-          "MorphGroup": "Nose",
-          "BlendIntensity": 0.19
         }
       ]
     }
   ],
   "MorphBlends": [
     {
-      "BlendName": "female_as_yo1_Ears",
-      "Intensity": 1.0
-    },
-    {
-      "BlendName": "female_as_yo1_Jaw",
-      "Intensity": 0.32
-    },
-    {
       "BlendName": "male_eu_yo1_Neck",
       "Intensity": 0.05
-    },
-    {
-      "BlendName": "female_as_yo1_Mouth",
-      "Intensity": 0.25613636
-    },
-    {
-      "BlendName": "female_af_ol1_Nose",
-      "Intensity": 0.08142857
     },
     {
       "BlendName": "female_as_yo1_Chin",
       "Intensity": 0.71
     },
     {
-      "BlendName": "female_af_yo1_Cheeks",
-      "Intensity": 0.115903616
-    },
-    {
-      "BlendName": "female_af_yo1_Mouth",
-      "Intensity": 0.38
-    },
-    {
-      "BlendName": "female_as_yo1_Forehead",
-      "Intensity": 0.74
-    },
-    {
-      "BlendName": "female_af_yo1_Nose",
-      "Intensity": 0.010178572
-    },
-    {
-      "BlendName": "female_as_yo1_Eyes",
-      "Intensity": 0.39
-    },
-    {
-      "BlendName": "female_eu_md2_Forehead",
-      "Intensity": 0.18
-    },
-    {
-      "BlendName": "female_as_yo1_Neck",
-      "Intensity": 1.0
-    },
-    {
-      "BlendName": "female_eu_md2_Chin",
-      "Intensity": 0.2338463
-    },
-    {
-      "BlendName": "female_as_md1_Cheeks",
-      "Intensity": 0.14409639
+      "BlendName": "female_eu_yo1_Nose",
+      "Intensity": 0.033928573
     },
     {
       "BlendName": "female_as_yo1_Nose",
       "Intensity": 0.81
     },
     {
-      "BlendName": "female_eu_md2_Eyes",
-      "Intensity": 0.61
-    },
-    {
       "BlendName": "female_as_md1_Chin",
       "Intensity": 0.0061537004
     },
     {
-      "BlendName": "female_eu_yo1_Nose",
-      "Intensity": 0.033928573
+      "BlendName": "female_as_yo1_Jaw",
+      "Intensity": 0.32
     },
     {
       "BlendName": "female_eu_md2_Nose",
       "Intensity": 0.064464286
+    },
+    {
+      "BlendName": "female_as_yo1_Ears",
+      "Intensity": 1.0
+    },
+    {
+      "BlendName": "female_af_yo1_Mouth",
+      "Intensity": 0.38
+    },
+    {
+      "BlendName": "female_eu_md2_Chin",
+      "Intensity": 0.2338463
+    },
+    {
+      "BlendName": "female_as_yo1_Neck",
+      "Intensity": 1.0
+    },
+    {
+      "BlendName": "female_eu_md2_Forehead",
+      "Intensity": 0.18
+    },
+    {
+      "BlendName": "female_as_yo1_Eyes",
+      "Intensity": 0.39
+    },
+    {
+      "BlendName": "female_af_yo1_Nose",
+      "Intensity": 0.010178572
+    },
+    {
+      "BlendName": "female_as_yo1_Forehead",
+      "Intensity": 0.74
+    },
+    {
+      "BlendName": "female_as_yo1_Mouth",
+      "Intensity": 0.25613636
+    },
+    {
+      "BlendName": "female_af_yo1_Cheeks",
+      "Intensity": 0.115903616
+    },
+    {
+      "BlendName": "female_as_md1_Cheeks",
+      "Intensity": 0.14409639
+    },
+    {
+      "BlendName": "female_af_ol1_Nose",
+      "Intensity": 0.08142857
+    },
+    {
+      "BlendName": "female_eu_md2_Eyes",
+      "Intensity": 0.61
     }
   ],
   "SkinToneIndex": 3,
