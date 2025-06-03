@@ -1,39 +1,36 @@
 {
   "FormKey": "000026:HTG-Regenesys-Constellation.esp",
   "EditorID": "LegendaryWeapons_Constellation_Sarah",
-  "FormVersion": 576,
   "ObjectBounds": {},
-  "ODTY": 0.0,
   "Model": {
-    "FLLD": "0x01000000"
+    "LightLayer": 1
   },
-  "DATA": "[]",
-  "ApplicableItemList": "00000B:HTG-Regenesys-Constellation.esp",
-  "LegendaryTemplateList": "15E76A:Starfield.esm",
+  "BaseObjectList": "00000B:HTG-Regenesys-Constellation.esp",
+  "RankTemplate": "15E76A:Starfield.esm",
   "LegendaryMods": [
     {
-      "LegendaryModifier": "1336C1:Starfield.esm"
+      "ObjectMod": "1336C1:Starfield.esm"
     },
     {
-      "LegendaryModifier": "1336C6:Starfield.esm"
+      "ObjectMod": "1336C6:Starfield.esm"
     },
     {
-      "LegendaryModifier": "13369E:Starfield.esm"
+      "ObjectMod": "13369E:Starfield.esm"
     },
     {
-      "LegendaryModifier": "1336BD:Starfield.esm"
+      "ObjectMod": "1336BD:Starfield.esm"
     },
     {
-      "LegendaryModifier": "13369C:Starfield.esm"
+      "ObjectMod": "13369C:Starfield.esm"
     },
     {
-      "LegendaryModifier": "1336BE:Starfield.esm"
+      "ObjectMod": "1336BE:Starfield.esm"
     },
     {
-      "LegendaryModifier": "133699:Starfield.esm"
+      "ObjectMod": "133699:Starfield.esm"
     },
     {
-      "LegendaryModifier": "1336BC:Starfield.esm"
+      "ObjectMod": "1336BC:Starfield.esm"
     }
   ]
 }

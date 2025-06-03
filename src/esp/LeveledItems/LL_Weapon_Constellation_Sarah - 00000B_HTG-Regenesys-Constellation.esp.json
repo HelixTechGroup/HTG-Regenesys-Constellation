@@ -2,11 +2,9 @@
   "FormKey": "00000B:HTG-Regenesys-Constellation.esp",
   "MajorRecordFlagsRaw": 32768,
   "EditorID": "LL_Weapon_Constellation_Sarah",
-  "FormVersion": 576,
   "StarfieldMajorRecordFlags": [
     "VisibleWhenDistant"
   ],
-  "ODTY": 0.0,
   "MaxCount": 0,
   "Flags": [
     "UseAll"
@@ -14,12 +12,15 @@
   "Entries": [
     {
       "Level": 1,
-      "Unused": 19924,
+      "Unused": 19927,
       "Reference": "0D0F71:Starfield.esm",
       "Count": 1
     }
   ],
   "Model": {
-    "FLLD": "0x01000000"
-  }
+    "LightLayer": 1
+  },
+  "MajorFlags": [
+    "UseAll"
+  ]
 }

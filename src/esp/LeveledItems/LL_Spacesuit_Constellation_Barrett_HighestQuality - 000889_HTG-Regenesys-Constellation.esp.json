@@ -1,8 +1,6 @@
 {
   "FormKey": "000889:HTG-Regenesys-Constellation.esp",
   "EditorID": "LL_Spacesuit_Constellation_Barrett_HighestQuality",
-  "FormVersion": 576,
-  "ODTY": 0.0,
   "MaxCount": 0,
   "Flags": [
     "CalculateForEachItemInCount"
@@ -10,36 +8,36 @@
   "Entries": [
     {
       "Level": 1,
-      "Unused": 19924,
+      "Unused": 19927,
       "Reference": "00088A:HTG-Regenesys-Constellation.esp",
       "Count": 1
     },
     {
       "Level": 10,
-      "Unused": 19924,
+      "Unused": 19927,
       "Reference": "00088B:HTG-Regenesys-Constellation.esp",
       "Count": 1
     },
     {
       "Level": 16,
-      "Unused": 19924,
+      "Unused": 19927,
       "Reference": "00088C:HTG-Regenesys-Constellation.esp",
       "Count": 1
     },
     {
       "Level": 22,
-      "Unused": 19924,
+      "Unused": 19927,
       "Reference": "00088D:HTG-Regenesys-Constellation.esp",
       "Count": 1
     },
     {
       "Level": 28,
-      "Unused": 19924,
+      "Unused": 19927,
       "Reference": "000890:HTG-Regenesys-Constellation.esp",
       "Count": 1
     }
   ],
   "Model": {
-    "FLLD": "0x01000000"
+    "LightLayer": 1
   }
 }

@@ -1,9 +1,7 @@
 {
   "FormKey": "1C8E0A:Starfield.esm",
   "EditorID": "Clothes_Colonist_Adventurous_Hat_SamCoe_NOTPLAYABLE",
-  "FormVersion": 576,
   "Version2": 2,
-  "ODTY": 0.0,
   "Transforms": {
     "InventoryIcon": "0E7EAE:Starfield.esm"
   },
@@ -17,14 +15,16 @@
       "MaterialSwaps": [
         "3FEBE7:Starfield.esm"
       ],
-      "FLLD": "0x01000000",
-      "XFLG": "0x02",
+      "LightLayer": 1,
       "Flags": [
+        "HasFirstPersonModel"
+      ],
+      "FlagsVestigial": [
         "HasFirstPersonModel"
       ]
     },
     "Female": {
-      "FLLD": "0x01000000"
+      "LightLayer": 1
     }
   },
   "FirstPersonFlags": "Hat",
@@ -41,7 +41,7 @@
   },
   "Armatures": [
     {
-      "AddonModel": "25DEEB:Starfield.esm"
+      "ArmorAddon": "25DEEB:Starfield.esm"
     }
   ],
   "Value": 38,

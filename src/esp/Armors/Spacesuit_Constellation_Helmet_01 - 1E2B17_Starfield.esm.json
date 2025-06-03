@@ -2,7 +2,6 @@
   "FormKey": "1E2B17:Starfield.esm",
   "MajorRecordFlagsRaw": 64,
   "EditorID": "Spacesuit_Constellation_Helmet_01",
-  "FormVersion": 576,
   "Version2": 9,
   "StarfieldMajorRecordFlags": [
     "0x40"
@@ -11,7 +10,6 @@
     "First": "-0.123046875, -0.14782715, 0.0018615723",
     "Second": "0.120910645, 0.16564941, 0.2849121"
   },
-  "ODTY": 0.0,
   "Transforms": {
     "InventoryIcon": "0E7EA9:Starfield.esm",
     "Preview": "02C03C:Starfield.esm",
@@ -24,10 +22,10 @@
   "WorldModel": {
     "Male": {
       "File": "Clothes\\Spacesuit_Constellation\\SpaceSuit_Constellation_Helmet_GO.nif",
-      "FLLD": "0x01000000"
+      "LightLayer": 1
     },
     "Female": {
-      "FLLD": "0x01000000"
+      "LightLayer": 1
     }
   },
   "FirstPersonFlags": "68719477760",
@@ -50,13 +48,13 @@
   },
   "Armatures": [
     {
-      "AddonModel": "1E2B14:Starfield.esm"
+      "ArmorAddon": "1E2B14:Starfield.esm"
     },
     {
-      "AddonModel": "1E7E74:Starfield.esm"
+      "ArmorAddon": "1E7E74:Starfield.esm"
     },
     {
-      "AddonModel": "3CCFB1:Starfield.esm"
+      "ArmorAddon": "3CCFB1:Starfield.esm"
     }
   ],
   "Value": 2150,
@@ -194,7 +192,7 @@
   ],
   "Voice": {
     "Category": "f828402d-35bb-87db-b72d-890dbded3599",
-    "Value": "d3f34434-7fbc-6fab-88b2-02a1e5dfa290"
+    "Variant": "d3f34434-7fbc-6fab-88b2-02a1e5dfa290"
   },
   "MajorFlags": [
     "Shield"

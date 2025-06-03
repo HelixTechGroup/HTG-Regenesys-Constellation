@@ -1,12 +1,11 @@
 {
   "SpriggitSource": {
-    "PackageName": "0.36.14",
-    "Version": ""
+    "PackageName": "Spriggit.Json.Starfield",
+    "Version": "0.38.4"
   },
   "ModKey": "HTG-Regenesys-Constellation.esp",
   "GameRelease": "Starfield",
   "ModHeader": {
-    "FormVersion": 576,
     "Author": "HelixTechGroup",
     "Description": "This is a part of Project Regenesys, A Vanilla++ take on additional features  and rebalances.\r\nAll additions will try to feel natural to the game and add to its replay.\r\n\r\nThis module is a show of love for constellation",
     "MasterReferences": [
@@ -20,6 +19,6 @@
         "Master": "HTG-Regenesys-Core.esm"
       }
     ],
-    "BNAM": "0x4D61696E00"
+    "Branch": "Main"
   }
 }

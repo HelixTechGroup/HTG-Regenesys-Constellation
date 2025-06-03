@@ -1,13 +1,11 @@
 {
   "FormKey": "055905:Starfield.esm",
   "EditorID": "Clothes_Sarah",
-  "FormVersion": 576,
   "Version2": 7,
   "ObjectBounds": {
     "First": "-0.26464844, -0.20669045, 0.0009460449",
     "Second": "0.26416016, 0.20712791, 0.23083496"
   },
-  "ODTY": 0.0,
   "Transforms": {
     "InventoryIcon": "0E7EB9:Starfield.esm"
   },
@@ -18,11 +16,11 @@
   "WorldModel": {
     "Male": {
       "File": "SetDressing\\OutfitContainer01.nif",
-      "FLLD": "0x01000000"
+      "LightLayer": 1
     },
     "Female": {
       "File": "SetDressing\\OutfitContainer01.nif",
-      "FLLD": "0x01000000"
+      "LightLayer": 1
     }
   },
   "FirstPersonFlags": "40",
@@ -39,16 +37,16 @@
   },
   "Armatures": [
     {
-      "AddonModel": "055906:Starfield.esm"
+      "ArmorAddon": "055906:Starfield.esm"
     },
     {
-      "AddonModel": "3809DB:Starfield.esm"
+      "ArmorAddon": "3809DB:Starfield.esm"
     },
     {
-      "AddonModel": "014DF9:Starfield.esm"
+      "ArmorAddon": "014DF9:Starfield.esm"
     },
     {
-      "AddonModel": "014DE6:Starfield.esm"
+      "ArmorAddon": "014DE6:Starfield.esm"
     }
   ],
   "Value": 525,

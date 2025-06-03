@@ -2,7 +2,6 @@
   "FormKey": "0D0F71:Starfield.esm",
   "MajorRecordFlagsRaw": 1073741824,
   "EditorID": "Companion_Solstice",
-  "FormVersion": 576,
   "Version2": 2,
   "StarfieldMajorRecordFlags": [
     "0x40000000"
@@ -11,7 +10,6 @@
     "First": "-0.030559564, -0.035704195, -0.054352134",
     "Second": "0.032306686, 0.10284441, 0.090697974"
   },
-  "ODTY": 0.0,
   "Transforms": {
     "InventoryIcon": "225AF9:Starfield.esm",
     "Inventory": "04A705:Starfield.esm",
@@ -38,7 +36,7 @@
   },
   "Model": {
     "File": "Weapons\\Bullpup\\BullpupDummyReceiver.nif",
-    "FLLD": "0x01000000"
+    "LightLayer": 1
   },
   "EquipmentType": "04334D:Starfield.esm",
   "BlockBashImpactDataSet": "0116F1:Starfield.esm",
@@ -193,7 +191,7 @@
   "ReloadSpeed": 1.05,
   "FirstPersonModel": {
     "File": "Weapons\\Bullpup\\BullpupDummyReceiver.nif",
-    "FLLD": "0x01000000"
+    "LightLayer": 1
   },
   "ImpactDataSet": "1F5DA1:Starfield.esm",
   "ColorRemappingIndex": 3.4028235E+38,

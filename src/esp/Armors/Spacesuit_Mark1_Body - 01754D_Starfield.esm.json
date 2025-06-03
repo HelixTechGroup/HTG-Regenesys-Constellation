@@ -2,7 +2,6 @@
   "FormKey": "01754D:Starfield.esm",
   "MajorRecordFlagsRaw": 64,
   "EditorID": "Spacesuit_Mark1_Body",
-  "FormVersion": 576,
   "Version2": 5,
   "StarfieldMajorRecordFlags": [
     "0x40"
@@ -11,7 +10,6 @@
     "First": "-0.37475586, -0.27148438, -0.0026855469",
     "Second": "0.37475586, 0.28295898, 0.27197266"
   },
-  "ODTY": 0.0,
   "Transforms": {
     "InventoryIcon": "0E7EB9:Starfield.esm",
     "Workbench": "276B9B:Starfield.esm"
@@ -23,11 +21,11 @@
   "WorldModel": {
     "Male": {
       "File": "SetDressing\\SpaceSuitContainer01.nif",
-      "FLLD": "0x01000000"
+      "LightLayer": 1
     },
     "Female": {
       "File": "SetDressing\\SpaceSuitContainer01.nif",
-      "FLLD": "0x01000000"
+      "LightLayer": 1
     }
   },
   "FirstPersonFlags": "SSBODY",
@@ -51,19 +49,19 @@
   },
   "Armatures": [
     {
-      "AddonModel": "01726F:Starfield.esm"
+      "ArmorAddon": "01726F:Starfield.esm"
     },
     {
-      "AddonModel": "05954D:Starfield.esm"
+      "ArmorAddon": "05954D:Starfield.esm"
     },
     {
-      "AddonModel": "20BB32:Starfield.esm"
+      "ArmorAddon": "20BB32:Starfield.esm"
     },
     {
-      "AddonModel": "1C9BC2:Starfield.esm"
+      "ArmorAddon": "1C9BC2:Starfield.esm"
     },
     {
-      "AddonModel": "24FD3C:Starfield.esm"
+      "ArmorAddon": "24FD3C:Starfield.esm"
     }
   ],
   "Value": 35410,
@@ -188,9 +186,9 @@
       ]
     }
   ],
-  "Footstep": {
+  "Foley": {
     "Category": "b8164525-fc08-5327-a25f-c16a7b3878a8",
-    "Value": "1c904579-7883-d9f9-a82c-befbe65318a8"
+    "Variant": "1c904579-7883-d9f9-a82c-befbe65318a8"
   },
   "MajorFlags": [
     "Shield"

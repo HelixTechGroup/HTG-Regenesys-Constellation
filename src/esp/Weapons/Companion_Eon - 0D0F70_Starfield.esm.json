@@ -2,12 +2,10 @@
   "FormKey": "0D0F70:Starfield.esm",
   "MajorRecordFlagsRaw": 1073741824,
   "EditorID": "Companion_Eon",
-  "FormVersion": 576,
   "Version2": 15,
   "StarfieldMajorRecordFlags": [
     "0x40000000"
   ],
-  "ODTY": 0.0,
   "Transforms": {
     "Inventory": "04A705:Starfield.esm",
     "MainGameUI": "1E2C21:Starfield.esm"
@@ -33,7 +31,7 @@
   },
   "Model": {
     "File": "Weapons\\Bullpup\\BullpupDummyReceiver.nif",
-    "FLLD": "0x01000000"
+    "LightLayer": 1
   },
   "EquipmentType": "04334D:Starfield.esm",
   "BlockBashImpactDataSet": "0116F1:Starfield.esm",
@@ -188,7 +186,7 @@
   "ReloadSpeed": 1.0,
   "FirstPersonModel": {
     "File": "Weapons\\Bullpup\\BullpupDummyReceiver.nif",
-    "FLLD": "0x01000000"
+    "LightLayer": 1
   },
   "ImpactDataSet": "00D02C:Starfield.esm",
   "ColorRemappingIndex": 3.4028235E+38,

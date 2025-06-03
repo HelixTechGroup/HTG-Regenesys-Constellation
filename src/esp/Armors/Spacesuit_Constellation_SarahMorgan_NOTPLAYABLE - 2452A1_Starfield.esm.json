@@ -2,11 +2,9 @@
   "FormKey": "2452A1:Starfield.esm",
   "MajorRecordFlagsRaw": 64,
   "EditorID": "Spacesuit_Constellation_SarahMorgan_NOTPLAYABLE",
-  "FormVersion": 576,
   "StarfieldMajorRecordFlags": [
     "0x40"
   ],
-  "ODTY": 0.0,
   "Transforms": {
     "InventoryIcon": "0E7EB9:Starfield.esm"
   },
@@ -17,11 +15,11 @@
   "WorldModel": {
     "Male": {
       "File": "SetDressing\\SpaceSuitContainer01.nif",
-      "FLLD": "0x01000000"
+      "LightLayer": 1
     },
     "Female": {
       "File": "SetDressing\\SpaceSuitContainer01.nif",
-      "FLLD": "0x01000000"
+      "LightLayer": 1
     }
   },
   "FirstPersonFlags": "SSBODY",
@@ -45,28 +43,28 @@
   },
   "Armatures": [
     {
-      "AddonModel": "1E2B15:Starfield.esm"
+      "ArmorAddon": "1E2B15:Starfield.esm"
     },
     {
-      "AddonModel": "05954D:Starfield.esm"
+      "ArmorAddon": "05954D:Starfield.esm"
     },
     {
-      "AddonModel": "313B83:Starfield.esm"
+      "ArmorAddon": "313B83:Starfield.esm"
     },
     {
-      "AddonModel": "313B84:Starfield.esm"
+      "ArmorAddon": "313B84:Starfield.esm"
     },
     {
-      "AddonModel": "313B86:Starfield.esm"
+      "ArmorAddon": "313B86:Starfield.esm"
     },
     {
-      "AddonModel": "313B85:Starfield.esm"
+      "ArmorAddon": "313B85:Starfield.esm"
     },
     {
-      "AddonModel": "24529D:Starfield.esm"
+      "ArmorAddon": "24529D:Starfield.esm"
     },
     {
-      "AddonModel": "3A8DE7:Starfield.esm"
+      "ArmorAddon": "3A8DE7:Starfield.esm"
     }
   ],
   "Value": 8455,
@@ -213,9 +211,9 @@
       ]
     }
   ],
-  "Footstep": {
+  "Foley": {
     "Category": "b8164525-fc08-5327-a25f-c16a7b3878a8",
-    "Value": "1c904579-7883-d9f9-a82c-befbe65318a8"
+    "Variant": "1c904579-7883-d9f9-a82c-befbe65318a8"
   },
   "MajorFlags": [
     "Shield"

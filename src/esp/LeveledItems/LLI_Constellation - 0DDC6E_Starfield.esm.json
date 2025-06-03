@@ -2,12 +2,10 @@
   "FormKey": "0DDC6E:Starfield.esm",
   "MajorRecordFlagsRaw": 32768,
   "EditorID": "LLI_Constellation",
-  "FormVersion": 576,
   "Version2": 1,
   "StarfieldMajorRecordFlags": [
     "VisibleWhenDistant"
   ],
-  "ODTY": 0.0,
   "MaxCount": 0,
   "Flags": [
     "UseAll"
@@ -15,12 +13,15 @@
   "Entries": [
     {
       "Level": 1,
-      "Unused": 19924,
+      "Unused": 19927,
       "Reference": "21975B:Starfield.esm",
       "Count": 1
     }
   ],
   "Model": {
-    "FLLD": "0x01000000"
-  }
+    "LightLayer": 1
+  },
+  "MajorFlags": [
+    "UseAll"
+  ]
 }

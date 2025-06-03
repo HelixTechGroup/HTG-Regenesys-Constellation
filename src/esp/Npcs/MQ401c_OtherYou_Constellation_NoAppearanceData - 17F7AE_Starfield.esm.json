@@ -3,7 +3,6 @@
   "IsCompressed": true,
   "MajorRecordFlagsRaw": 262144,
   "EditorID": "MQ401c_OtherYou_Constellation_NoAppearanceData",
-  "FormVersion": 576,
   "Version2": 7,
   "StarfieldMajorRecordFlags": [
     "Compressed"
@@ -15,13 +14,8 @@
         "Properties": [
           {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "NPCMOtherPlayer",
-            "Object": "1A93A7:Starfield.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "NPCXOtherPlayer",
-            "Object": "1A93A4:Starfield.esm"
+            "Name": "NPCXOtherPlayer_2",
+            "Object": "2592CE:Starfield.esm"
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
@@ -30,8 +24,13 @@
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "NPCXOtherPlayer_2",
-            "Object": "2592CE:Starfield.esm"
+            "Name": "NPCMOtherPlayer",
+            "Object": "1A93A7:Starfield.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "NPCXOtherPlayer",
+            "Object": "1A93A4:Starfield.esm"
           }
         ]
       }
@@ -41,7 +40,6 @@
     "First": "-0.591797, -0.3623047, 0",
     "Second": "0.59179676, 1.0341797, 1.2373047"
   },
-  "ODTY": 0.0,
   "Flags": [
     "Essential",
     "DoesntAffectStealthMeter"
@@ -186,15 +184,15 @@
       "Index": 12,
       "MorphGroups": [
         {
-          "MorphGroup": "Cheeks",
-          "BlendIntensity": 1.0
-        },
-        {
           "MorphGroup": "Mouth",
           "BlendIntensity": 1.0
         },
         {
-          "MorphGroup": "Chin",
+          "MorphGroup": "Cheeks",
+          "BlendIntensity": 1.0
+        },
+        {
+          "MorphGroup": "Nose",
           "BlendIntensity": 1.0
         },
         {
@@ -206,19 +204,19 @@
           "BlendIntensity": 1.0
         },
         {
+          "MorphGroup": "Chin",
+          "BlendIntensity": 1.0
+        },
+        {
+          "MorphGroup": "Ears",
+          "BlendIntensity": 1.0
+        },
+        {
           "MorphGroup": "Eyes",
           "BlendIntensity": 1.0
         },
         {
           "MorphGroup": "Jaw",
-          "BlendIntensity": 1.0
-        },
-        {
-          "MorphGroup": "Nose",
-          "BlendIntensity": 1.0
-        },
-        {
-          "MorphGroup": "Ears",
           "BlendIntensity": 1.0
         }
       ]
@@ -227,6 +225,18 @@
   "MorphBlends": [
     {
       "BlendName": "male_eu_md2_Jaw",
+      "Intensity": 1.0
+    },
+    {
+      "BlendName": "male_eu_md2_Neck",
+      "Intensity": 1.0
+    },
+    {
+      "BlendName": "male_eu_md2_Forehead",
+      "Intensity": 1.0
+    },
+    {
+      "BlendName": "male_eu_md2_Chin",
       "Intensity": 1.0
     },
     {
@@ -246,19 +256,7 @@
       "Intensity": 1.0
     },
     {
-      "BlendName": "male_eu_md2_Forehead",
-      "Intensity": 1.0
-    },
-    {
       "BlendName": "male_eu_md2_Ears",
-      "Intensity": 1.0
-    },
-    {
-      "BlendName": "male_eu_md2_Neck",
-      "Intensity": 1.0
-    },
-    {
-      "BlendName": "male_eu_md2_Chin",
       "Intensity": 1.0
     }
   ],

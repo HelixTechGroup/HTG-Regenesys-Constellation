@@ -2,7 +2,6 @@
   "FormKey": "1E2B19:Starfield.esm",
   "MajorRecordFlagsRaw": 64,
   "EditorID": "Spacesuit_Constellation_Backpack_01",
-  "FormVersion": 576,
   "Version2": 8,
   "StarfieldMajorRecordFlags": [
     "0x40"
@@ -11,7 +10,6 @@
     "First": "-0.14807129, -0.24389648, -0.006866455",
     "Second": "0.1463623, 0.23449707, 0.17224121"
   },
-  "ODTY": 0.0,
   "Transforms": {
     "Preview": "1BF566:Starfield.esm",
     "Workbench": "0060B3:Starfield.esm"
@@ -23,10 +21,10 @@
   "WorldModel": {
     "Male": {
       "File": "Clothes\\Spacesuit_Constellation\\SpaceSuit_Constellation_Backpack_GO.nif",
-      "FLLD": "0x01000000"
+      "LightLayer": 1
     },
     "Female": {
-      "FLLD": "0x01000000"
+      "LightLayer": 1
     }
   },
   "FirstPersonFlags": "SSBackpack",
@@ -50,7 +48,7 @@
   },
   "Armatures": [
     {
-      "AddonModel": "1E2B16:Starfield.esm"
+      "ArmorAddon": "1E2B16:Starfield.esm"
     }
   ],
   "Value": 2680,

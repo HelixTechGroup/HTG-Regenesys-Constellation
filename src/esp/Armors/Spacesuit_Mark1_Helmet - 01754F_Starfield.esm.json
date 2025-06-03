@@ -2,11 +2,9 @@
   "FormKey": "01754F:Starfield.esm",
   "MajorRecordFlagsRaw": 64,
   "EditorID": "Spacesuit_Mark1_Helmet",
-  "FormVersion": 576,
   "StarfieldMajorRecordFlags": [
     "0x40"
   ],
-  "ODTY": 0.0,
   "Transforms": {
     "InventoryIcon": "0E7EA9:Starfield.esm",
     "Preview": "02C03C:Starfield.esm",
@@ -19,10 +17,10 @@
   "WorldModel": {
     "Male": {
       "File": "Clothes\\spacesuit_suitzero\\SpaceSuit_SuitZero_Helmet_GO.nif",
-      "FLLD": "0x01000000"
+      "LightLayer": 1
     },
     "Female": {
-      "FLLD": "0x01000000"
+      "LightLayer": 1
     }
   },
   "FirstPersonFlags": "SSHelmet",
@@ -45,13 +43,13 @@
   },
   "Armatures": [
     {
-      "AddonModel": "017271:Starfield.esm"
+      "ArmorAddon": "017271:Starfield.esm"
     },
     {
-      "AddonModel": "1E7E74:Starfield.esm"
+      "ArmorAddon": "1E7E74:Starfield.esm"
     },
     {
-      "AddonModel": "046048:Starfield.esm"
+      "ArmorAddon": "046048:Starfield.esm"
     }
   ],
   "Value": 9255,
@@ -174,7 +172,7 @@
   ],
   "Voice": {
     "Category": "f828402d-35bb-87db-b72d-890dbded3599",
-    "Value": "d3f34434-7fbc-6fab-88b2-02a1e5dfa290"
+    "Variant": "d3f34434-7fbc-6fab-88b2-02a1e5dfa290"
   },
   "MajorFlags": [
     "Shield"

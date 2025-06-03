@@ -3,7 +3,6 @@
   "IsCompressed": true,
   "MajorRecordFlagsRaw": 262144,
   "EditorID": "CityNewAtlantisLodgeInt",
-  "FormVersion": 576,
   "Version2": 14,
   "StarfieldMajorRecordFlags": [
     "Compressed"
@@ -3757,7 +3756,6 @@
       "MutagenObjectType": "PlacedNpc",
       "FormKey": "080AC0:Starfield.esm",
       "MajorRecordFlagsRaw": 1024,
-      "FormVersion": 576,
       "Version2": 2,
       "StarfieldMajorRecordFlags": [
         "0x400"

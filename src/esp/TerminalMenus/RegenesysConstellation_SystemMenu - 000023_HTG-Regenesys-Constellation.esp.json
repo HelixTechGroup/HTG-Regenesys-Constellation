@@ -1,7 +1,6 @@
 {
   "FormKey": "000023:HTG-Regenesys-Constellation.esp",
   "EditorID": "RegenesysConstellation_SystemMenu",
-  "FormVersion": 576,
   "Name": {
     "TargetLanguage": "English",
     "Value": "Regenesys:Constellation->System"

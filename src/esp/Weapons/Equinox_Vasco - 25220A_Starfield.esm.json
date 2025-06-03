@@ -2,12 +2,10 @@
   "FormKey": "25220A:Starfield.esm",
   "MajorRecordFlagsRaw": 1073741824,
   "EditorID": "Equinox_Vasco",
-  "FormVersion": 576,
   "Version2": 7,
   "StarfieldMajorRecordFlags": [
     "0x40000000"
   ],
-  "ODTY": 0.0,
   "Transforms": {
     "Inventory": "04A705:Starfield.esm"
   },
@@ -24,7 +22,7 @@
   },
   "Model": {
     "File": "Weapons\\Bullpup\\BullpupDummyReceiver.nif",
-    "FLLD": "0x01000000"
+    "LightLayer": 1
   },
   "EquipmentType": "01A02F:Starfield.esm",
   "BlockBashImpactDataSet": "0116F2:Starfield.esm",
@@ -115,7 +113,7 @@
   "ReloadSpeed": 1.15,
   "FirstPersonModel": {
     "File": "Weapons\\Bullpup\\BullpupDummyReceiver.nif",
-    "FLLD": "0x01000000"
+    "LightLayer": 1
   },
   "ImpactDataSet": "1F5DA1:Starfield.esm",
   "ColorRemappingIndex": 3.4028235E+38,
