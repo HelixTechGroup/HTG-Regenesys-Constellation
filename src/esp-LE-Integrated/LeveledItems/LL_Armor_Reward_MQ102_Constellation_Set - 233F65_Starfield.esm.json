@@ -1,0 +1,33 @@
+{
+  "FormKey": "233F65:Starfield.esm",
+  "MajorRecordFlagsRaw": 32768,
+  "EditorID": "LL_Armor_Reward_MQ102_Constellation_Set",
+  "Version2": 2,
+  "StarfieldMajorRecordFlags": [
+    "VisibleWhenDistant"
+  ],
+  "MaxCount": 0,
+  "Flags": [
+    "UseAll"
+  ],
+  "Entries": [
+    {
+      "Level": 1,
+      "Unused": 19927,
+      "Reference": "000036:HTG-Regenesys-Constellation-LE-Integrated.esp",
+      "Count": 1
+    },
+    {
+      "Level": 1,
+      "Unused": 19927,
+      "Reference": "000056:HTG-Regenesys-Constellation-LE-Integrated.esp",
+      "Count": 1
+    }
+  ],
+  "Model": {
+    "LightLayer": 1
+  },
+  "MajorFlags": [
+    "UseAll"
+  ]
+}

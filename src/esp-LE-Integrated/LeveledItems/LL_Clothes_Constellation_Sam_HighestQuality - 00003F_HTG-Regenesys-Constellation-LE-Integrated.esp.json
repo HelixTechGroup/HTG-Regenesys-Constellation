@@ -1,0 +1,43 @@
+{
+  "FormKey": "00003F:HTG-Regenesys-Constellation-LE-Integrated.esp",
+  "EditorID": "LL_Clothes_Constellation_Sam_HighestQuality",
+  "MaxCount": 0,
+  "Flags": [
+    "CalculateForEachItemInCount"
+  ],
+  "Entries": [
+    {
+      "Level": 1,
+      "Unused": 19927,
+      "Reference": "00005C:HTG-Regenesys-Constellation-LE-Integrated.esp",
+      "Count": 1
+    },
+    {
+      "Level": 10,
+      "Unused": 19927,
+      "Reference": "00003E:HTG-Regenesys-Constellation-LE-Integrated.esp",
+      "Count": 1
+    },
+    {
+      "Level": 16,
+      "Unused": 19927,
+      "Reference": "000025:HTG-Regenesys-Constellation-LE-Integrated.esp",
+      "Count": 1
+    },
+    {
+      "Level": 22,
+      "Unused": 19927,
+      "Reference": "000043:HTG-Regenesys-Constellation-LE-Integrated.esp",
+      "Count": 1
+    },
+    {
+      "Level": 28,
+      "Unused": 19927,
+      "Reference": "000017:HTG-Regenesys-Constellation-LE-Integrated.esp",
+      "Count": 1
+    }
+  ],
+  "Model": {
+    "LightLayer": 1
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "FormKey": "2452A1:Starfield.esm",
+  "MajorRecordFlagsRaw": 64,
+  "EditorID": "Spacesuit_Constellation_SarahMorgan_NOTPLAYABLE",
+  "StarfieldMajorRecordFlags": [
+    "0x40"
+  ],
+  "Transforms": {
+    "InventoryIcon": "0E7EB9:Starfield.esm"
+  },
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Sarah's Spacesuit"
+  },
+  "WorldModel": {
+    "Male": {
+      "File": "SetDressing\\SpaceSuitContainer01.nif",
+      "LightLayer": 1
+    },
+    "Female": {
+      "File": "SetDressing\\SpaceSuitContainer01.nif",
+      "LightLayer": 1
+    }
+  },
+  "FirstPersonFlags": "SSBODY",
+  "PickupSound": {
+    "Start": "de17433a-89a8-16f1-86d6-7114a3b197bb"
+  },
+  "DropdownSound": {
+    "Start": "c02d4adb-7d05-caf3-0f67-b157fe214496"
+  },
+  "Race": "00347D:Starfield.esm",
+  "Keywords": [
+    "03ED74:Starfield.esm",
+    "23C7C0:Starfield.esm",
+    "0E8D7B:Starfield.esm",
+    "11A479:Starfield.esm",
+    "157D42:Starfield.esm"
+  ],
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": ""
+  },
+  "Armatures": [
+    {
+      "ArmorAddon": "1E2B15:Starfield.esm"
+    },
+    {
+      "ArmorAddon": "05954D:Starfield.esm"
+    },
+    {
+      "ArmorAddon": "313B83:Starfield.esm"
+    },
+    {
+      "ArmorAddon": "313B84:Starfield.esm"
+    },
+    {
+      "ArmorAddon": "313B86:Starfield.esm"
+    },
+    {
+      "ArmorAddon": "313B85:Starfield.esm"
+    },
+    {
+      "ArmorAddon": "24529D:Starfield.esm"
+    },
+    {
+      "ArmorAddon": "3A8DE7:Starfield.esm"
+    }
+  ],
+  "Value": 8455,
+  "Weight": 8.3,
+  "ArmorRating": 126,
+  "Unused": "0x000000",
+  "Resistances": [
+    {
+      "DamageType": "023190:Starfield.esm",
+      "Value": 126
+    },
+    {
+      "DamageType": "060A81:Starfield.esm",
+      "Value": 126
+    }
+  ],
+  "AttachParentSlots": [
+    "11E2C1:Starfield.esm",
+    "088C9C:Starfield.esm",
+    "0B2642:Starfield.esm",
+    "0B2646:Starfield.esm",
+    "0B2649:Starfield.esm",
+    "1E32C8:Starfield.esm",
+    "329ABC:Starfield.esm",
+    "329ABD:Starfield.esm",
+    "1AEB52:Starfield.esm",
+    "157D41:Starfield.esm"
+  ],
+  "ObjectTemplates": [
+    {
+      "IsEditorOnly": true,
+      "Name": {
+        "TargetLanguage": "English",
+        "Value": "Default"
+      },
+      "Default": true,
+      "Includes": [
+        {
+          "Mod": "245B68:Starfield.esm",
+          "DontUseAll": true
+        },
+        {
+          "Mod": "245B67:Starfield.esm",
+          "DontUseAll": true
+        },
+        {
+          "Mod": "245B66:Starfield.esm",
+          "DontUseAll": true
+        },
+        {
+          "Mod": "246C64:Starfield.esm",
+          "DontUseAll": true
+        },
+        {
+          "Mod": "11E2BB:Starfield.esm",
+          "DontUseAll": true
+        },
+        {
+          "Mod": "1CFA0B:Starfield.esm",
+          "DontUseAll": true
+        }
+      ],
+      "Properties": [
+        {
+          "MutagenObjectType": "ObjectModFormLinkIntProperty<Armor+Property>",
+          "Property": "14",
+          "Record": "2452A5:Starfield.esm"
+        }
+      ]
+    },
+    {
+      "IsEditorOnly": true,
+      "AddonIndex": 0,
+      "Keywords": [
+        "11E2BF:Starfield.esm"
+      ],
+      "Includes": [
+        {
+          "Mod": "11E2B6:Starfield.esm",
+          "DontUseAll": true
+        },
+        {
+          "Mod": "1CFA0B:Starfield.esm",
+          "DontUseAll": true
+        },
+        {
+          "Mod": "380C54:Starfield.esm",
+          "DontUseAll": true
+        }
+      ]
+    },
+    {
+      "IsEditorOnly": true,
+      "AddonIndex": 0,
+      "Keywords": [
+        "11E2BE:Starfield.esm"
+      ],
+      "Includes": [
+        {
+          "Mod": "11E2BA:Starfield.esm",
+          "DontUseAll": true
+        },
+        {
+          "Mod": "1CFA0B:Starfield.esm",
+          "DontUseAll": true
+        },
+        {
+          "Mod": "380C54:Starfield.esm",
+          "DontUseAll": true
+        },
+        {
+          "Mod": "380C55:Starfield.esm",
+          "DontUseAll": true
+        }
+      ]
+    },
+    {
+      "IsEditorOnly": true,
+      "AddonIndex": 0,
+      "Keywords": [
+        "11E2BD:Starfield.esm"
+      ],
+      "Includes": [
+        {
+          "Mod": "11E2B9:Starfield.esm",
+          "DontUseAll": true
+        },
+        {
+          "Mod": "1CFA0B:Starfield.esm",
+          "DontUseAll": true
+        },
+        {
+          "Mod": "380C54:Starfield.esm",
+          "DontUseAll": true
+        },
+        {
+          "Mod": "380C55:Starfield.esm",
+          "DontUseAll": true
+        },
+        {
+          "Mod": "380C56:Starfield.esm",
+          "DontUseAll": true
+        }
+      ]
+    }
+  ],
+  "Foley": {
+    "Category": "b8164525-fc08-5327-a25f-c16a7b3878a8",
+    "Variant": "1c904579-7883-d9f9-a82c-befbe65318a8"
+  },
+  "MajorFlags": [
+    "Shield"
+  ]
+}

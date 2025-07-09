@@ -21,7 +21,7 @@ Struct ConstellationMember
 
     ; LeveledItem SpacesuitLeveled
 
-    ; Weapon MemberWeapon
+    Weapon MemberWeapon
 
     ; LeveledItem WeaponLeveled
 EndStruct

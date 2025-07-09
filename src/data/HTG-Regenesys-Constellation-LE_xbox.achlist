@@ -1,0 +1,6 @@
+[
+	"Data\\SCRIPTS\\HTG\\Constellation\\Collections\\ConstellationMemberList.pex",
+	"Data\\SCRIPTS\\HTG\\Constellation\\Quests\\SQ_ConstellationController.pex",
+	"Data\\SCRIPTS\\HTG\\Constellation\\Structs.pex",
+	"Data\\scripts\\HTG\\Constellation\\Quests\\ActiveConstellationMembers.pex"
+]

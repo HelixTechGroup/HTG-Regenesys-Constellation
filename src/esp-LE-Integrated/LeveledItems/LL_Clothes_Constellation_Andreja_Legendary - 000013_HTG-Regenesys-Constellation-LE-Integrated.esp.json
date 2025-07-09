@@ -1,0 +1,27 @@
+{
+  "FormKey": "000013:HTG-Regenesys-Constellation-LE-Integrated.esp",
+  "MajorRecordFlagsRaw": 32768,
+  "EditorID": "LL_Clothes_Constellation_Andreja_Legendary",
+  "StarfieldMajorRecordFlags": [
+    "VisibleWhenDistant"
+  ],
+  "MaxCount": 0,
+  "Flags": [
+    "UseAll"
+  ],
+  "Entries": [
+    {
+      "Level": 1,
+      "Unused": 19927,
+      "Reference": "000066:HTG-Regenesys-Constellation-LE-Integrated.esp",
+      "Count": 1
+    }
+  ],
+  "LegendaryItemDefaultListRank": 3,
+  "Model": {
+    "LightLayer": 1
+  },
+  "MajorFlags": [
+    "UseAll"
+  ]
+}

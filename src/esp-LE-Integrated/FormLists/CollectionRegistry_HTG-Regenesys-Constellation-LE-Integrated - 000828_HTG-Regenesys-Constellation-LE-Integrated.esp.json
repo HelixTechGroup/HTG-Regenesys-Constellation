@@ -1,0 +1,17 @@
+{
+  "FormKey": "000828:HTG-Regenesys-Constellation-LE-Integrated.esp",
+  "EditorID": "CollectionRegistry_HTG-Regenesys-Constellation-LE-Integrated",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Collection Registry"
+  },
+  "Items": [
+    "000076:HTG-Regenesys-Constellation-LE-Integrated.esp",
+    "000834:HTG-Regenesys-Constellation-LE-Integrated.esp",
+    "00080E:HTG-Regenesys-Constellation-LE-Integrated.esp",
+    "000835:HTG-Regenesys-Constellation-LE-Integrated.esp",
+    "000825:HTG-Regenesys-Constellation-LE-Integrated.esp",
+    "000817:HTG-Regenesys-Constellation-LE-Integrated.esp"
+  ],
+  "AddToList": "Null"
+}

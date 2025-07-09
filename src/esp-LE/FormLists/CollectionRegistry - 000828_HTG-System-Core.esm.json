@@ -1,0 +1,17 @@
+{
+  "FormKey": "000828:HTG-System-Core.esm",
+  "EditorID": "CollectionRegistry",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Collection Registry"
+  },
+  "Items": [
+    "000076:HTG-Regenesys-Constellation-LE.esp",
+    "000834:HTG-System-Core.esm",
+    "00080E:HTG-System-Core.esm",
+    "000835:HTG-System-Core.esm",
+    "000825:HTG-System-Core.esm",
+    "000817:HTG-System-Core.esm"
+  ],
+  "AddToList": "Null"
+}

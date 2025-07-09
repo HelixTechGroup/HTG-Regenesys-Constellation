@@ -1,0 +1,15 @@
+{
+  "FormKey": "000007:HTG-System-Core.esm",
+  "EditorID": "RegenesysRootOptionsGroup",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Regenesis Options"
+  },
+  "Options": {
+    "MutagenObjectType": "GameplayOptionsGroupRoot",
+    "GameplayOptionGroups": [
+      "000008:HTG-System-Core.esm",
+      "000075:HTG-Regenesys-Constellation-LE.esp"
+    ]
+  }
+}

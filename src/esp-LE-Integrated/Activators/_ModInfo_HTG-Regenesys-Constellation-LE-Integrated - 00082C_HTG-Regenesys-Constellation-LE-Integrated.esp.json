@@ -1,0 +1,90 @@
+{
+  "FormKey": "00082C:HTG-Regenesys-Constellation-LE-Integrated.esp",
+  "MajorRecordFlagsRaw": 9437696,
+  "EditorID": "_ModInfo_HTG-Regenesys-Constellation-LE-Integrated",
+  "StarfieldMajorRecordFlags": [
+    "0x200",
+    "0x100000",
+    "0x800000"
+  ],
+  "VirtualMachineAdapter": {
+    "Scripts": [
+      {
+        "Name": "HTG:ModInformation",
+        "Properties": [
+          {
+            "MutagenObjectType": "ScriptStructProperty",
+            "Name": "Version",
+            "Members": [
+              {
+                "Name": "",
+                "Properties": [
+                  {
+                    "MutagenObjectType": "ScriptIntProperty",
+                    "Name": "Patch",
+                    "Data": 152160
+                  },
+                  {
+                    "MutagenObjectType": "ScriptIntProperty",
+                    "Name": "Minor"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptIntProperty",
+                    "Name": "Major"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptIntProperty",
+                    "Name": "Revision",
+                    "Data": 3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "MutagenObjectType": "ScriptStringProperty",
+            "Name": "description",
+            "Data": "temp"
+          },
+          {
+            "MutagenObjectType": "ScriptStringProperty",
+            "Name": "FileName",
+            "Data": "HTG-Regenesys-Constellation-LE-Integrated"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "CollectionRegistry",
+            "Object": "000828:HTG-Regenesys-Constellation-LE-Integrated.esp"
+          },
+          {
+            "MutagenObjectType": "ScriptStringProperty",
+            "Name": "Name",
+            "Data": "HTG-Regenesys-Constellation-LE-Integrated"
+          },
+          {
+            "MutagenObjectType": "ScriptBoolProperty",
+            "Name": "IsCoreIntegrated",
+            "Data": true
+          }
+        ]
+      }
+    ]
+  },
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Mod Information Template"
+  },
+  "Model": {
+    "LightLayer": 1
+  },
+  "MarkerColor": "#00CC4C33",
+  "Flags": [
+    "IgnoredBySandbox"
+  ],
+  "ActivationAngle": 360,
+  "MajorFlags": [
+    "HiddenFromLocalMap",
+    "IgnoreObjectInteraction",
+    "IsMarker"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "FormKey": "0DDC6E:Starfield.esm",
+  "MajorRecordFlagsRaw": 32768,
+  "EditorID": "LLI_Constellation",
+  "Version2": 1,
+  "StarfieldMajorRecordFlags": [
+    "VisibleWhenDistant"
+  ],
+  "MaxCount": 0,
+  "Flags": [
+    "UseAll"
+  ],
+  "Entries": [
+    {
+      "Level": 1,
+      "Unused": 19927,
+      "Reference": "21975B:Starfield.esm",
+      "Count": 1
+    }
+  ],
+  "Model": {
+    "LightLayer": 1
+  },
+  "MajorFlags": [
+    "UseAll"
+  ]
+}

@@ -10,16 +10,19 @@ Event OnInit()
     ArrayType = "ConstellationMember"
 EndEvent
 
-ConstellationMemberList Function ConstellationMemberList(Int aiSize = 4) Global
-    Int iFormId = 0x0000002
-    String aModName = "HTG-Regenesys-Constellation"
+ConstellationMemberList Function ConstellationMemberList(Int aiSize = 0) Global
+    Int iFormId = 0x0000076
+    String aModName = "HTG-Regenesys-Constellation-LE"
     ConstellationMemberList res =  HTG:Collections:List._CreateList(iFormId, aModName, aiSize) as ConstellationMemberList
+    If HTG:UtilityExt.IsNone(res)
+        res =  HTG:Collections:List._CreateList(iFormId, aModName + "-Integrated", aiSize) as ConstellationMemberList
+    EndIf
     LogObjectGlobal(res, "HTG:Constellation:Collections:ConstellationMemberList.ConstellationMemberList(" + aiSize  + "): " + res)
     return res
 EndFunction
 
 ConstellationMember Function GetAt(Int index)
-    return _Array[index] as ConstellationMember
+    return GetVarAt(index) as ConstellationMember
 EndFunction
 
 Bool Function IsNone(Var akItem)

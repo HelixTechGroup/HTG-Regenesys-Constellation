@@ -1,0 +1,27 @@
+{
+  "FormKey": "000047:HTG-Regenesys-Constellation-LE.esp",
+  "MajorRecordFlagsRaw": 32768,
+  "EditorID": "LL_Spacesuit_Mark1_Helmet_Legendary",
+  "StarfieldMajorRecordFlags": [
+    "VisibleWhenDistant"
+  ],
+  "MaxCount": 0,
+  "Flags": [
+    "UseAll"
+  ],
+  "Entries": [
+    {
+      "Level": 1,
+      "Unused": 19927,
+      "Reference": "00006F:HTG-Regenesys-Constellation-LE.esp",
+      "Count": 1
+    }
+  ],
+  "LegendaryItemDefaultListRank": 3,
+  "Model": {
+    "LightLayer": 1
+  },
+  "MajorFlags": [
+    "UseAll"
+  ]
+}

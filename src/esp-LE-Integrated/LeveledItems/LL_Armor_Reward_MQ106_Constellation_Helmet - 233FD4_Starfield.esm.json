@@ -1,0 +1,17 @@
+{
+  "FormKey": "233FD4:Starfield.esm",
+  "EditorID": "LL_Armor_Reward_MQ106_Constellation_Helmet",
+  "Version2": 2,
+  "MaxCount": 0,
+  "Entries": [
+    {
+      "Level": 1,
+      "Unused": 19927,
+      "Reference": "000056:HTG-Regenesys-Constellation-LE-Integrated.esp",
+      "Count": 1
+    }
+  ],
+  "Model": {
+    "LightLayer": 1
+  }
+}

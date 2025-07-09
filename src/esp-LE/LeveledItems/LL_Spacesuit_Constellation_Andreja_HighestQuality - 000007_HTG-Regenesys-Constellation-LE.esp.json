@@ -1,0 +1,43 @@
+{
+  "FormKey": "000007:HTG-Regenesys-Constellation-LE.esp",
+  "EditorID": "LL_Spacesuit_Constellation_Andreja_HighestQuality",
+  "MaxCount": 0,
+  "Flags": [
+    "CalculateForEachItemInCount"
+  ],
+  "Entries": [
+    {
+      "Level": 1,
+      "Unused": 19927,
+      "Reference": "00001A:HTG-Regenesys-Constellation-LE.esp",
+      "Count": 1
+    },
+    {
+      "Level": 10,
+      "Unused": 19927,
+      "Reference": "000014:HTG-Regenesys-Constellation-LE.esp",
+      "Count": 1
+    },
+    {
+      "Level": 16,
+      "Unused": 19927,
+      "Reference": "00004C:HTG-Regenesys-Constellation-LE.esp",
+      "Count": 1
+    },
+    {
+      "Level": 22,
+      "Unused": 19927,
+      "Reference": "000057:HTG-Regenesys-Constellation-LE.esp",
+      "Count": 1
+    },
+    {
+      "Level": 28,
+      "Unused": 19927,
+      "Reference": "000016:HTG-Regenesys-Constellation-LE.esp",
+      "Count": 1
+    }
+  ],
+  "Model": {
+    "LightLayer": 1
+  }
+}

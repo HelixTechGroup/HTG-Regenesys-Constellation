@@ -1,0 +1,31 @@
+{
+  "FormKey": "00003E:HTG-Regenesys-Constellation-LE.esp",
+  "EditorID": "LL_Clothes_Constellation_Sam_Quality_02",
+  "MaxCount": 0,
+  "Flags": [
+    "CalculateForEachItemInCount"
+  ],
+  "Entries": [
+    {
+      "Level": 1,
+      "Unused": 19927,
+      "Reference": "01D1DE:Starfield.esm",
+      "Count": 1
+    },
+    {
+      "Level": 1,
+      "Unused": 19927,
+      "Reference": "3FC344:Starfield.esm",
+      "Count": 1
+    }
+  ],
+  "FilterKeywordChances": [
+    {
+      "Keyword": "11E2BF:Starfield.esm",
+      "Chance": 2.3283064370807974E-08
+    }
+  ],
+  "Model": {
+    "LightLayer": 1
+  }
+}

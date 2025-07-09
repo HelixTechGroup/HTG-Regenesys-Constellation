@@ -110,7 +110,7 @@ EndEvent
 ; EndEvent
 
 ; Function CheckActiveConstellationMembers()
-;     Utility.Wait(0.25)
+;     WaitExt(0.25)
 ;     If MemberData && ActiveConstellationMembers
 
 ;         Logger.Log("Found ActiveConstellationMembers: " + ActiveConstellationMembers.GetCount())
@@ -194,16 +194,16 @@ Function AddArmorSetToMember(Actor actr, ArmorSet armorSet, LeveledItem aArmorLi
     If !AddLeveledItemToActor(actr, aArmorList, 1, True, False)
         Logger.Log("Failed to add ArmorSet: " + armorSet + " to Actor: " + actr)
     Else
-        Utility.Wait(0.666)
+        WaitExt(0.666)
         If autoEquip
             If !EquipItemToActor(actr, armorSet.Spacesuit)
                 Logger.Log("Failed to equip Spacesuit: " + armorSet.Spacesuit + " to Actor: " + actr)
             EndIf
-            Utility.Wait(0.25)
+            WaitExt(0.25)
             If !EquipItemToActor(actr, armorSet.Helmet)
                 Logger.Log("Failed to equip Helmet: " + armorSet.Helmet + " to Actor: " + actr)
             EndIf
-            Utility.Wait(0.25)
+            WaitExt(0.25)
             If !EquipItemToActor(actr, armorSet.Backpack)
                 Logger.Log("Failed to equip Backpack: " + armorSet.Backpack + " to Actor: " + actr)
             EndIf
@@ -216,12 +216,12 @@ Function AddConstellationEquipmentToActiveMembers(bool addArmor = true, bool add
         return
     EndIf
 
-    If !MemberData
+    If IsNone(MemberData)
         _SyncMemberData()
     EndIf
 
     If MemberData && ActiveConstellationMembers
-        Utility.Wait(0.25)
+        WaitExt(0.25)
         Logger.Log("Found ActiveConstellationMembers: " + ActiveConstellationMembers.GetCount())
         Logger.Log("Found Constellation MemberData: " + MemberData.Count)
         int i = MemberData.Count
@@ -232,25 +232,25 @@ Function AddConstellationEquipmentToActiveMembers(bool addArmor = true, bool add
                 Actor memberActor = member.MemberRef as Actor
                 AddEquipmentToMemberActor(memberActor)
 
-                ; Utility.Wait(0.25)
+                ; WaitExt(0.25)
                 ; If !AddItemToActor(memberActor, member.Spacesuit, LL_Spacesuit_Constellation_Legendary, 1, True, True)
                 ;     Logger.Log("Failed to add Legendary Constellation Spacesuit to member: " + member.MemberName)
                 ; Else
-                ;     Utility.Wait(0.666)
+                ;     WaitExt(0.666)
                 ;     If !EquipItemToActor(memberActor, ConstellationArmorSet.Helmet)
                 ;         Logger.Log("Failed to add Legendary Constellation Helmet to member: " + member.MemberName)
                 ;     EndIf
-                ;     Utility.Wait(0.25)
+                ;     WaitExt(0.25)
                 ;     If !EquipItemToActor(memberActor, ConstellationArmorSet.Backpack)
                 ;         Logger.Log("Failed to add Legendary Constellation Backpack to member: " + member.MemberName)
                 ;     EndIf
                 ; EndIf
 
-                ; Utility.Wait(0.25)
+                ; WaitExt(0.25)
                 ; If !AddItemToActor(memberActor, ConstellationArmorSet.Helmet, ConstellationArmorSetLeveled.Helmet, 1, True, True)
                 ;     Logger.Log("Failed to add Legendary Constellation Helmet to member: " + member.MemberName)
                 ; EndIf
-                ; Utility.Wait(0.25)
+                ; WaitExt(0.25)
                 ; If !AddItemToActor(memberActor, ConstellationArmorSet.Backpack, ConstellationArmorSetLeveled.Backpack, 1, True, True)
                 ;     Logger.Log("Failed to add Legendary Constellation Backpack to member: " + member.MemberName)
                 ; EndIf
@@ -274,16 +274,16 @@ Function CheckMark1Armor()
         equip = false
     EndIf
 
-    Utility.Wait(0.25)
+    WaitExt(0.25)
     AddLeveledItemToActor(addto, LL_Spacesuit_Mark1_FullSet_Legendary)
     ; If !AddItemToActor(addTo, Mark1ArmorSet.Spacesuit, Mark1LeveledArmorSet.Spacesuit, 1, True, equip)
     ;     Logger.Log("Failed to add Legendary Mark 1 Spacesuit to player")
     ; EndIf
-    ; Utility.Wait(0.25)
+    ; WaitExt(0.25)
     ; If !AddItemToActor(addTo, Mark1ArmorSet.Helmet, Mark1LeveledArmorSet.Helmet, 1, True, equip)
     ;     Logger.Log("Failed to add Legendary Mark 1 Helmet to player")
     ; EndIf
-    ; Utility.Wait(0.25)
+    ; WaitExt(0.25)
     ; If !AddItemToActor(addTo, Mark1ArmorSet.Backpack, Mark1LeveledArmorSet.Backpack, 1, True, equip)
     ;     Logger.Log("Failed to add Legendary Mark 1 Backpack to player")
     ; EndIf
@@ -321,33 +321,34 @@ Function AddEquipmentToMemberActor(Actor akMemberActor, bool abAddArmor = true, 
     If !akMemberActor.HasKeyword(ShowWornItemsKeyword)
         akMemberActor.AddKeyword(ShowWornItemsKeyword)
     EndIf
-    ; Utility.Wait(0.25)
+    ; WaitExt(0.25)
     ; memberActor.SetOutfit(member.MemberOutfit)
-    ; Utility.Wait(0.666)
+    ; WaitExt(0.666)
     ; memberActor.SetOutfit(member.MemberSpacesuitOutfit, True)
-    ; Utility.Wait(0.5)
+    ; WaitExt(0.5)
 
     If abAddWeapon
         AddWeaponToMember(akMemberActor, LL_Weapon_Constellation_Legendary)
     EndIf
-    Utility.Wait(0.333)
+    WaitExt(0.333)
     If abAddArmor
         AddLeveledItemToActor(akMemberActor, LL_Spacesuit_Constellation_Legendary, 1, True, False)
         ; AddArmorSetToMember(memberActor, ConstellationArmorSet, LL_Spacesuit_Constellation_Legendary)
     EndIf
-    Utility.Wait(0.333)
+    WaitExt(0.333)
     If abAddClothes
         AddClothesToMember(akMemberActor, LL_Clothes_Constellation_Legendary)
     EndIf
 EndFunction
 
 Bool Function _Init()
-    return Parent._Init() && _InitializeMemberData()
+    return Parent._Init() \
+            && _InitializeMemberData()
 EndFunction
 
 Bool Function _InitializeMemberData()
     If InitializedMembers == None
-        InitializedMembers = HTG:Collections:ObjectReferenceList.ObjectReferenceList()
+        InitializedMembers = HTG:Collections:ObjectReferenceList.ObjectReferenceListIntegrated(SystemUtilities.ModInfo)
     EndIf
 
     If MemberData == None
@@ -355,7 +356,8 @@ Bool Function _InitializeMemberData()
         _SyncMemberData()
     EndIf
 
-    return InitializedMembers && MemberData
+    return InitializedMembers.IsInitialized \
+            && MemberData.IsInitialized
 EndFunction
 
 Function _SyncMemberData()

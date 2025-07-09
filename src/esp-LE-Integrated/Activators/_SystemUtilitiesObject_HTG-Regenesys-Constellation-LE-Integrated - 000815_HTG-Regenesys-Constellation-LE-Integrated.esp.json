@@ -1,0 +1,27 @@
+{
+  "FormKey": "000815:HTG-Regenesys-Constellation-LE-Integrated.esp",
+  "MajorRecordFlagsRaw": 9437696,
+  "EditorID": "_SystemUtilitiesObject_HTG-Regenesys-Constellation-LE-Integrated",
+  "StarfieldMajorRecordFlags": [
+    "0x200",
+    "0x100000",
+    "0x800000"
+  ],
+  "ObjectBounds": {
+    "First": "-1, -1, -1",
+    "Second": "1, 1, 1"
+  },
+  "Model": {
+    "LightLayer": 1
+  },
+  "MarkerColor": "#00CC4C33",
+  "Flags": [
+    "IgnoredBySandbox"
+  ],
+  "ActivationAngle": 360,
+  "MajorFlags": [
+    "HiddenFromLocalMap",
+    "IgnoreObjectInteraction",
+    "IsMarker"
+  ]
+}

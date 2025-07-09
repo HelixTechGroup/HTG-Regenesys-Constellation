@@ -1,0 +1,43 @@
+{
+  "FormKey": "00002B:HTG-Regenesys-Constellation-LE-Integrated.esp",
+  "EditorID": "LL_Clothes_Constellation_Sarah_HighestQuality",
+  "MaxCount": 0,
+  "Flags": [
+    "CalculateForEachItemInCount"
+  ],
+  "Entries": [
+    {
+      "Level": 1,
+      "Unused": 19927,
+      "Reference": "000010:HTG-Regenesys-Constellation-LE-Integrated.esp",
+      "Count": 1
+    },
+    {
+      "Level": 10,
+      "Unused": 19927,
+      "Reference": "000058:HTG-Regenesys-Constellation-LE-Integrated.esp",
+      "Count": 1
+    },
+    {
+      "Level": 16,
+      "Unused": 19927,
+      "Reference": "000045:HTG-Regenesys-Constellation-LE-Integrated.esp",
+      "Count": 1
+    },
+    {
+      "Level": 22,
+      "Unused": 19927,
+      "Reference": "00002D:HTG-Regenesys-Constellation-LE-Integrated.esp",
+      "Count": 1
+    },
+    {
+      "Level": 28,
+      "Unused": 19927,
+      "Reference": "00000C:HTG-Regenesys-Constellation-LE-Integrated.esp",
+      "Count": 1
+    }
+  ],
+  "Model": {
+    "LightLayer": 1
+  }
+}

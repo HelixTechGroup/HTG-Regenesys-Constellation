@@ -1,0 +1,11 @@
+{
+  "FormKey": "000075:HTG-Regenesys-Constellation-LE.esp",
+  "EditorID": "RegenesysConstellationOptions",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Regenesys Constellation Settings"
+  },
+  "Options": {
+    "MutagenObjectType": "GameplayOptionsGroupLeaf"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "FormKey": "000021:HTG-Regenesys-Constellation-LE.esp",
+  "MajorRecordFlagsRaw": 32768,
+  "EditorID": "LL_Spacesuit_Constellation_Sarah_Quality_02",
+  "StarfieldMajorRecordFlags": [
+    "VisibleWhenDistant"
+  ],
+  "MaxCount": 0,
+  "Flags": [
+    "UseAll"
+  ],
+  "Entries": [
+    {
+      "Level": 1,
+      "Unused": 19927,
+      "Reference": "2452A1:Starfield.esm",
+      "Count": 1
+    }
+  ],
+  "FilterKeywordChances": [
+    {
+      "Keyword": "11E2BF:Starfield.esm",
+      "Chance": 2.3283064370807974E-08
+    }
+  ],
+  "Model": {
+    "LightLayer": 1
+  },
+  "MajorFlags": [
+    "UseAll"
+  ]
+}

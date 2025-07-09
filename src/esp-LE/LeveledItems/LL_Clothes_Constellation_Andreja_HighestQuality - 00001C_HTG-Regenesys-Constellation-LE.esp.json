@@ -1,0 +1,43 @@
+{
+  "FormKey": "00001C:HTG-Regenesys-Constellation-LE.esp",
+  "EditorID": "LL_Clothes_Constellation_Andreja_HighestQuality",
+  "MaxCount": 0,
+  "Flags": [
+    "CalculateForEachItemInCount"
+  ],
+  "Entries": [
+    {
+      "Level": 1,
+      "Unused": 19927,
+      "Reference": "000049:HTG-Regenesys-Constellation-LE.esp",
+      "Count": 1
+    },
+    {
+      "Level": 10,
+      "Unused": 19927,
+      "Reference": "00000B:HTG-Regenesys-Constellation-LE.esp",
+      "Count": 1
+    },
+    {
+      "Level": 16,
+      "Unused": 19927,
+      "Reference": "00001B:HTG-Regenesys-Constellation-LE.esp",
+      "Count": 1
+    },
+    {
+      "Level": 22,
+      "Unused": 19927,
+      "Reference": "000009:HTG-Regenesys-Constellation-LE.esp",
+      "Count": 1
+    },
+    {
+      "Level": 28,
+      "Unused": 19927,
+      "Reference": "00002C:HTG-Regenesys-Constellation-LE.esp",
+      "Count": 1
+    }
+  ],
+  "Model": {
+    "LightLayer": 1
+  }
+}

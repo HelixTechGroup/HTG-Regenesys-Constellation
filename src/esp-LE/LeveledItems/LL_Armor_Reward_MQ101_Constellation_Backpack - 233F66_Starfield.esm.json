@@ -1,0 +1,17 @@
+{
+  "FormKey": "233F66:Starfield.esm",
+  "EditorID": "LL_Armor_Reward_MQ101_Constellation_Backpack",
+  "Version2": 3,
+  "MaxCount": 0,
+  "Entries": [
+    {
+      "Level": 1,
+      "Unused": 19927,
+      "Reference": "000024:HTG-Regenesys-Constellation-LE.esp",
+      "Count": 1
+    }
+  ],
+  "Model": {
+    "LightLayer": 1
+  }
+}

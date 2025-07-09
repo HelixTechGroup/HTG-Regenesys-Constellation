@@ -1,0 +1,34 @@
+{
+  "FormKey": "00005F:HTG-Regenesys-Constellation-LE.esp",
+  "EditorID": "RegenesysConstellation_SystemMenu",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Regenesys:Constellation->System"
+  },
+  "ShowBodyText": "Document",
+  "MenuButtonStyle": [],
+  "Style": "Kiosk",
+  "INAM": {
+    "TargetLanguage": "English",
+    "Value": "Regenesys:Constellation"
+  },
+  "BodyTexts": [],
+  "MenuItems": [
+    {
+      "Text": {
+        "TargetLanguage": "English",
+        "Value": "[Go Back]"
+      },
+      "ShortText": {
+        "TargetLanguage": "English",
+        "Value": ""
+      },
+      "UnusedISET": 19532,
+      "UnusedISET2": "0x000000",
+      "ID": 1000,
+      "Target": {
+        "MutagenObjectType": "TerminalMenuItemReturnToPrevious"
+      }
+    }
+  ]
+}

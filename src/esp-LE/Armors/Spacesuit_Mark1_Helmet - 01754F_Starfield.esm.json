@@ -1,0 +1,180 @@
+{
+  "FormKey": "01754F:Starfield.esm",
+  "MajorRecordFlagsRaw": 64,
+  "EditorID": "Spacesuit_Mark1_Helmet",
+  "StarfieldMajorRecordFlags": [
+    "0x40"
+  ],
+  "Transforms": {
+    "InventoryIcon": "0E7EA9:Starfield.esm",
+    "Preview": "02C03C:Starfield.esm",
+    "Workbench": "266E22:Starfield.esm"
+  },
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Mark I Space Helmet"
+  },
+  "WorldModel": {
+    "Male": {
+      "File": "Clothes\\spacesuit_suitzero\\SpaceSuit_SuitZero_Helmet_GO.nif",
+      "LightLayer": 1
+    },
+    "Female": {
+      "LightLayer": 1
+    }
+  },
+  "FirstPersonFlags": "SSHelmet",
+  "PickupSound": {
+    "Start": "fa884ae4-018b-627c-f720-9608e364b48c"
+  },
+  "DropdownSound": {
+    "Start": "26dc428f-8c56-8cdf-e6b2-17917d731a95"
+  },
+  "Race": "00347D:Starfield.esm",
+  "Keywords": [
+    "12EEE9:Starfield.esm",
+    "23C7C1:Starfield.esm",
+    "3A0B3B:Starfield.esm",
+    "30C1B6:Starfield.esm"
+  ],
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": ""
+  },
+  "Armatures": [
+    {
+      "ArmorAddon": "017271:Starfield.esm"
+    },
+    {
+      "ArmorAddon": "1E7E74:Starfield.esm"
+    },
+    {
+      "ArmorAddon": "046048:Starfield.esm"
+    }
+  ],
+  "Value": 9255,
+  "Weight": 2.3,
+  "ArmorRating": 77,
+  "Unused": "0x000000",
+  "Resistances": [
+    {
+      "DamageType": "023190:Starfield.esm",
+      "Value": 77
+    },
+    {
+      "DamageType": "060A81:Starfield.esm",
+      "Value": 77
+    }
+  ],
+  "AttachParentSlots": [
+    "11E2C1:Starfield.esm",
+    "088C9C:Starfield.esm",
+    "0B2642:Starfield.esm",
+    "0B2646:Starfield.esm",
+    "0B2649:Starfield.esm",
+    "1E32C8:Starfield.esm",
+    "329ABC:Starfield.esm",
+    "329ABD:Starfield.esm",
+    "1AEB52:Starfield.esm",
+    "157D41:Starfield.esm"
+  ],
+  "ObjectTemplates": [
+    {
+      "IsEditorOnly": true,
+      "Default": true,
+      "Includes": [
+        {
+          "Mod": "11E2B5:Starfield.esm",
+          "DontUseAll": true
+        },
+        {
+          "Mod": "3A0B3C:Starfield.esm",
+          "DontUseAll": true
+        },
+        {
+          "Mod": "3A0B3D:Starfield.esm",
+          "DontUseAll": true
+        },
+        {
+          "Mod": "3A0B3E:Starfield.esm",
+          "DontUseAll": true
+        },
+        {
+          "Mod": "3A0B3F:Starfield.esm",
+          "DontUseAll": true
+        },
+        {
+          "Mod": "2AE36B:Starfield.esm",
+          "DontUseAll": true
+        },
+        {
+          "Mod": "11B747:Starfield.esm",
+          "DontUseAll": true
+        },
+        {
+          "Mod": "157D48:Starfield.esm",
+          "DontUseAll": true
+        }
+      ]
+    },
+    {
+      "IsEditorOnly": true,
+      "AddonIndex": 0,
+      "Keywords": [
+        "11E2BF:Starfield.esm"
+      ],
+      "Includes": [
+        {
+          "Mod": "11E2B6:Starfield.esm",
+          "DontUseAll": true
+        }
+      ]
+    },
+    {
+      "IsEditorOnly": true,
+      "AddonIndex": 0,
+      "Keywords": [
+        "11E2BE:Starfield.esm"
+      ],
+      "Includes": [
+        {
+          "Mod": "11E2B7:Starfield.esm",
+          "DontUseAll": true
+        }
+      ]
+    },
+    {
+      "IsEditorOnly": true,
+      "AddonIndex": 0,
+      "Keywords": [
+        "11E2BD:Starfield.esm"
+      ],
+      "Includes": [
+        {
+          "Mod": "11E2B8:Starfield.esm",
+          "DontUseAll": true
+        }
+      ]
+    },
+    {
+      "IsEditorOnly": true,
+      "AddonIndex": 0,
+      "Keywords": [
+        "00BF54:Starfield.esm"
+      ],
+      "Includes": [
+        {
+          "Mod": "03AF80:Starfield.esm",
+          "DontUseAll": true
+        }
+      ]
+    }
+  ],
+  "Voice": {
+    "Category": "f828402d-35bb-87db-b72d-890dbded3599",
+    "Variant": "d3f34434-7fbc-6fab-88b2-02a1e5dfa290"
+  },
+  "MajorFlags": [
+    "Shield"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "FormKey": "000050:HTG-Regenesys-Constellation-LE.esp",
+  "MajorRecordFlagsRaw": 32768,
+  "EditorID": "LL_Weapon_Constellation_Barrett",
+  "StarfieldMajorRecordFlags": [
+    "VisibleWhenDistant"
+  ],
+  "MaxCount": 0,
+  "Flags": [
+    "UseAll"
+  ],
+  "Entries": [
+    {
+      "Level": 1,
+      "Unused": 19927,
+      "Reference": "0D0F70:Starfield.esm",
+      "Count": 1
+    }
+  ],
+  "Model": {
+    "LightLayer": 1
+  },
+  "MajorFlags": [
+    "UseAll"
+  ]
+}

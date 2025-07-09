@@ -1,52 +1,63 @@
 Scriptname HTG:Constellation:Quests:ActiveConstellationMembers extends HTG:RefCollectionAliasExt
 import HTG:Constellation:Structs
 
-SQ_ConstellationController _controller = None
-
-
 Event OnAliasChanged(ObjectReference akObject, bool abRemove)
     Parent.OnAliasChanged(akObject, abRemove)
 
-    If !_controller
-        _controller = GetOwningQuest() as SQ_ConstellationController
-    EndIf
-
-    ;SQ_ConstellationController kParentQuest = GetOwningQuest() as SQ_ConstellationController
+    SQ_ConstellationController kController = GetOwningQuest() as SQ_ConstellationController
     Logger.Log("Current ActiveConstellationMembers: " + GetCount())
-    If abRemove        
-        Logger.Log("Found Constellation MemberData: " + _controller.MemberData.Count)
-        int i = _controller.MemberData.Count - 1
-        While i >= 0
-            ConstellationMember member = _controller.MemberData.GetAt(i)
-            Actor memberActor = member.MemberRef as Actor
-            If _controller.InitializedMembers.Find(memberActor) < 0
-                ;&& member.CompanionQuest.IsRunning(); member.CompanionQuest.GetStageDone(0) ;member.CompanionQuest.IsRunning || member.CompanionQuest.IsCompleted())
-                    Logger.Log("member.MemberName: " + member.MemberName)
-                    ;Logger.Log("member.CompanionQuest.IsRunning(): " + member.CompanionQuest.IsRunning())
-                    ;Logger.Log("member.CompanionQuest.IsCompleted(): " + member.CompanionQuest.IsCompleted())
-                    ;Logger.Log("member.CompanionQuest.GetStageDone(0): " + member.CompanionQuest.GetStageDone(0))
+    If !abRemove        
+        Logger.Log("Found Constellation MemberData: " + kController.MemberData.Count)
+        int i
+        ; If !kController.Membe rData \
+        ;     || kController.MemberData.Count == 0
+        ;     kController._InitializeMemberData()
+        ; EndIf
 
-                    If memberActor.IsPlayerTeammate()
-                        Debug.Notification("Found Active Constellation Member: " + member.MemberName)
-                        _controller.AddEquipmentToMemberActor(memberActor)
-                        ;member.MemberActor = member.MemberRef as Actor                        
-                        ;member.HasBeenFound = True
+        While i < kController.MemberData.Count
+            ConstellationMember kMember = kController.MemberData.GetAt(i)
+            Actor kActorToAdd = akObject as Actor
+            Actor kActor = kMember.MemberRef as Actor
+            If kActorToAdd == kMember.MemberRef
+                Int kCount = kActor.GetItemCount(kMember.MemberWeapon)
+                If kCount > 1
+                    kActor.RemoveItem(kMember.MemberWeapon)
+                    If !kActor.IsEquipped(kMember.MemberWeapon)
+                        kActor.EquipItem(kMember.MemberWeapon)
                     EndIf
-                ; Else
-                ;     If !member.MemberActor
-                ;         member.MemberActor = member.MemberRef as Actor                        
-                ;     EndIf
-                ;     member.HasBeenFound = True
-                ; EndIf
-            Else
-                ; RemoveRef(member.MemberRef)
-                Logger.Log("Removed MemberRef to ActiveConstellationMembers: " + member.MemberName)
-                ;member.HasBeenFound = False
+                EndIf
             EndIf
-            i -= 1
+        ;     If kController.InitializedMembers.Find(memberActor) < 0
+        ;         ;&& member.CompanionQuest.IsRunning(); member.CompanionQuest.GetStageDone(0) ;member.CompanionQuest.IsRunning || member.CompanionQuest.IsCompleted())
+        ;             Logger.Log("member.MemberName: " + member.MemberName)
+        ;             ;Logger.Log("member.CompanionQuest.IsRunning(): " + member.CompanionQuest.IsRunning())
+        ;             ;Logger.Log("member.CompanionQuest.IsCompleted(): " + member.CompanionQuest.IsCompleted())
+        ;             ;Logger.Log("member.CompanionQuest.GetStageDone(0): " + member.CompanionQuest.GetStageDone(0))
+
+        ;             If memberActor.IsPlayerTeammate()
+        ;                 Debug.Notification("Found Active Constellation Member: " + member.MemberName)
+        ;                 kController.AddEquipmentToMemberActor(memberActor)
+        ;                 ;member.MemberActor = member.MemberRef as Actor                        
+        ;                 ;member.HasBeenFound = True
+        ;             EndIf
+        ;         ; Else
+        ;         ;     If !member.MemberActor
+        ;         ;         member.MemberActor = member.MemberRef as Actor                        
+        ;         ;     EndIf
+        ;         ;     member.HasBeenFound = True
+        ;         ; EndIf
+        ;     Else
+        ;         ; RemoveRef(member.MemberRef)
+        ;         Logger.Log("Removed MemberRef to ActiveConstellationMembers: " + member.MemberName)
+        ;         ;member.HasBeenFound = False
+        ;     EndIf
+            i += 1
         EndWhile
         Logger.Log("Total found ActiveConstellationMembers: " + GetCount())
-        Debug.Notification("Total active Constellation members found: " + GetCount())
+
+        If SystemUtilities.IsDebugging
+            Debug.Notification("Total active Constellation members found: " + GetCount())
+        EndIf
     EndIf
 EndEvent
 
@@ -78,7 +89,3 @@ EndEvent
 ;         EndWhile
 ;     EndIf
 ; EndFunction
-
-Function _InitialRun()
-    _controller = GetOwningQuest() as SQ_ConstellationController
-EndFunction

@@ -1,0 +1,26 @@
+{
+  "FormKey": "000055:HTG-Regenesys-Constellation-LE-Integrated.esp",
+  "MajorRecordFlagsRaw": 32768,
+  "EditorID": "LL_Weapon_Constellation_Andreja",
+  "StarfieldMajorRecordFlags": [
+    "VisibleWhenDistant"
+  ],
+  "MaxCount": 0,
+  "Flags": [
+    "UseAll"
+  ],
+  "Entries": [
+    {
+      "Level": 1,
+      "Unused": 19927,
+      "Reference": "0D0F72:Starfield.esm",
+      "Count": 1
+    }
+  ],
+  "Model": {
+    "LightLayer": 1
+  },
+  "MajorFlags": [
+    "UseAll"
+  ]
+}

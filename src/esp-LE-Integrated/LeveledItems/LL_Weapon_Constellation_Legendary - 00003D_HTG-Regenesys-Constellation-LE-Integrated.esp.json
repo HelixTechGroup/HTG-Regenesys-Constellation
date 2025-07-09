@@ -1,0 +1,21 @@
+{
+  "FormKey": "00003D:HTG-Regenesys-Constellation-LE-Integrated.esp",
+  "EditorID": "LL_Weapon_Constellation_Legendary",
+  "MaxCount": 0,
+  "Flags": [
+    "CalculateFromAllLevelsLessThanOrEqualPlayer",
+    "CalculateForEachItemInCount"
+  ],
+  "Entries": [
+    {
+      "Level": 1,
+      "Unused": 19927,
+      "Reference": "000061:HTG-Regenesys-Constellation-LE-Integrated.esp",
+      "Count": 1
+    }
+  ],
+  "LegendaryItemDefaultListRank": 3,
+  "Model": {
+    "LightLayer": 1
+  }
+}

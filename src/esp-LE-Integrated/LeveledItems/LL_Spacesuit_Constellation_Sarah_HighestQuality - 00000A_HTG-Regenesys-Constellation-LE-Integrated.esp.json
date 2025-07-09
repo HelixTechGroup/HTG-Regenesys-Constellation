@@ -1,0 +1,43 @@
+{
+  "FormKey": "00000A:HTG-Regenesys-Constellation-LE-Integrated.esp",
+  "EditorID": "LL_Spacesuit_Constellation_Sarah_HighestQuality",
+  "MaxCount": 0,
+  "Flags": [
+    "CalculateForEachItemInCount"
+  ],
+  "Entries": [
+    {
+      "Level": 1,
+      "Unused": 19927,
+      "Reference": "000028:HTG-Regenesys-Constellation-LE-Integrated.esp",
+      "Count": 1
+    },
+    {
+      "Level": 10,
+      "Unused": 19927,
+      "Reference": "000021:HTG-Regenesys-Constellation-LE-Integrated.esp",
+      "Count": 1
+    },
+    {
+      "Level": 16,
+      "Unused": 19927,
+      "Reference": "000022:HTG-Regenesys-Constellation-LE-Integrated.esp",
+      "Count": 1
+    },
+    {
+      "Level": 22,
+      "Unused": 19927,
+      "Reference": "000011:HTG-Regenesys-Constellation-LE-Integrated.esp",
+      "Count": 1
+    },
+    {
+      "Level": 28,
+      "Unused": 19927,
+      "Reference": "000018:HTG-Regenesys-Constellation-LE-Integrated.esp",
+      "Count": 1
+    }
+  ],
+  "Model": {
+    "LightLayer": 1
+  }
+}
