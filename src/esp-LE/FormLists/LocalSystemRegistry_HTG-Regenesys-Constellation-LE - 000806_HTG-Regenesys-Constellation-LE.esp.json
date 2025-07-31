@@ -1,0 +1,12 @@
+{
+  "FormKey": "000806:HTG-Regenesys-Constellation-LE.esp",
+  "EditorID": "LocalSystemRegistry_HTG-Regenesys-Constellation-LE",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Local System Registry"
+  },
+  "Items": [
+    "00005E:HTG-Regenesys-Constellation-LE.esp"
+  ],
+  "AddToList": "000809:HTG-Regenesys-Core.esm"
+}

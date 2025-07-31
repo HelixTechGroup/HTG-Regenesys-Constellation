@@ -3,6 +3,9 @@
   "EditorID": "LL_Armor_Reward_MQ101_Constellation_Backpack",
   "Version2": 3,
   "MaxCount": 0,
+  "Flags": [
+    "CalculateForEachItemInCount"
+  ],
   "Entries": [
     {
       "Level": 1,

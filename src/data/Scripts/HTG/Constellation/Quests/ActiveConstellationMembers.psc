@@ -55,7 +55,7 @@ Event OnAliasChanged(ObjectReference akObject, bool abRemove)
         EndWhile
         Logger.Log("Total found ActiveConstellationMembers: " + GetCount())
 
-        If SystemUtilities.IsDebugging
+        If Utilities.IsDebugging
             Debug.Notification("Total active Constellation members found: " + GetCount())
         EndIf
     EndIf

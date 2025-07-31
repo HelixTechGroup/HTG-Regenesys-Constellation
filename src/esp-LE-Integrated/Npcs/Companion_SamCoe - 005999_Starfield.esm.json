@@ -14,6 +14,11 @@
         "Properties": [
           {
             "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "COM_CREW_CND_GiveItemAvailable",
+            "Object": "17AD8D:Starfield.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
             "Name": "SQ_Crew",
             "Object": "2A567D:Starfield.esm"
           },
@@ -21,11 +26,6 @@
             "MutagenObjectType": "ScriptObjectProperty",
             "Name": "COM_CREW_GiveItemReminder",
             "Object": "17AD8B:Starfield.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "COM_CREW_CND_GiveItemAvailable",
-            "Object": "17AD8D:Starfield.esm"
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
@@ -39,13 +39,13 @@
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "COM_CREW_GiveItemAvailableCooldownDays",
-            "Object": "17AD92:Starfield.esm"
+            "Name": "COM_CREW_GiveItem_HasItems",
+            "Object": "3371F0:Starfield.esm"
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "COM_CREW_GiveItem_HasItems",
-            "Object": "3371F0:Starfield.esm"
+            "Name": "COM_CREW_GiveItemAvailableCooldownDays",
+            "Object": "17AD92:Starfield.esm"
           }
         ]
       },
@@ -54,13 +54,13 @@
         "Properties": [
           {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "SQ_Companions",
-            "Object": "2A567C:Starfield.esm"
+            "Name": "COM_PQ_TxtReplace_QuestName",
+            "Object": "0963E0:Starfield.esm"
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "COM_PQ_TxtReplace_QuestName",
-            "Object": "0963E0:Starfield.esm"
+            "Name": "SQ_Companions",
+            "Object": "2A567C:Starfield.esm"
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
@@ -74,24 +74,19 @@
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "COM_PreventStoryGateScenes",
-            "Object": "28A168:Starfield.esm"
+            "Name": "COM_CompanionID",
+            "Object": "2BE2D7:Starfield.esm"
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "COM_CompanionID",
-            "Object": "2BE2D7:Starfield.esm"
+            "Name": "COM_PreventStoryGateScenes",
+            "Object": "28A168:Starfield.esm"
           }
         ]
       },
       {
         "Name": "CompanionAffinityScript",
         "Properties": [
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "SQ_Companions",
-            "Object": "2A567C:Starfield.esm"
-          },
           {
             "MutagenObjectType": "ScriptStructListProperty",
             "Name": "AngerEventData",
@@ -130,6 +125,11 @@
                 ]
               }
             ]
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "SQ_Companions",
+            "Object": "2A567C:Starfield.esm"
           }
         ]
       },
@@ -630,12 +630,24 @@
       "Index": 16,
       "MorphGroups": [
         {
+          "MorphGroup": "Eyes",
+          "BlendIntensity": 0.59
+        },
+        {
           "MorphGroup": "Cheeks",
           "BlendIntensity": 0.71
         },
         {
-          "MorphGroup": "Jaw",
-          "BlendIntensity": 0.41
+          "MorphGroup": "Neck",
+          "BlendIntensity": 0.52
+        },
+        {
+          "MorphGroup": "Forehead",
+          "BlendIntensity": 0.52
+        },
+        {
+          "MorphGroup": "Ears",
+          "BlendIntensity": 0.69
         },
         {
           "MorphGroup": "Mouth",
@@ -646,60 +658,48 @@
           "BlendIntensity": 0.45
         },
         {
-          "MorphGroup": "Neck",
-          "BlendIntensity": 0.52
-        },
-        {
-          "MorphGroup": "Eyes",
-          "BlendIntensity": 0.59
-        },
-        {
-          "MorphGroup": "Ears",
-          "BlendIntensity": 0.69
-        },
-        {
           "MorphGroup": "Chin",
           "BlendIntensity": 0.72
         },
         {
-          "MorphGroup": "Forehead",
-          "BlendIntensity": 0.52
+          "MorphGroup": "Jaw",
+          "BlendIntensity": 0.41
         }
       ]
     }
   ],
   "MorphBlends": [
     {
+      "BlendName": "male_eu_md2_Cheeks",
+      "Intensity": 0.29
+    },
+    {
+      "BlendName": "male_eu_yo1_Eyes",
+      "Intensity": 0.59
+    },
+    {
       "BlendName": "male_eu_ol1_Nose",
       "Intensity": 0.34
-    },
-    {
-      "BlendName": "male_as_yo1_Mouth",
-      "Intensity": 0.32
-    },
-    {
-      "BlendName": "male_eu_yo1_Chin",
-      "Intensity": 0.72
     },
     {
       "BlendName": "male_eu_yo1_Jaw",
       "Intensity": 0.41
     },
     {
+      "BlendName": "male_af_yo1_Chin",
+      "Intensity": 0.26
+    },
+    {
+      "BlendName": "male_eu_yo1_Chin",
+      "Intensity": 0.72
+    },
+    {
+      "BlendName": "male_as_yo1_Mouth",
+      "Intensity": 0.32
+    },
+    {
       "BlendName": "male_eu_ol1_Jaw",
       "Intensity": 0.2
-    },
-    {
-      "BlendName": "male_eu_yo1_Ears",
-      "Intensity": 0.69
-    },
-    {
-      "BlendName": "male_eu_yo1_Forehead",
-      "Intensity": 0.4056
-    },
-    {
-      "BlendName": "male_eu_ol1_Forehead",
-      "Intensity": 0.22
     },
     {
       "BlendName": "male_eu_md2_Ears",
@@ -734,24 +734,24 @@
       "Intensity": 0.27
     },
     {
-      "BlendName": "male_eu_md2_Cheeks",
-      "Intensity": 0.29
-    },
-    {
-      "BlendName": "male_eu_yo1_Eyes",
-      "Intensity": 0.59
+      "BlendName": "male_eu_ol1_Forehead",
+      "Intensity": 0.22
     },
     {
       "BlendName": "male_eu_yo1_Mouth",
       "Intensity": 0.31
     },
     {
-      "BlendName": "male_af_yo1_Chin",
-      "Intensity": 0.26
-    },
-    {
       "BlendName": "male_eu_md2_Neck",
       "Intensity": 0.48
+    },
+    {
+      "BlendName": "male_eu_yo1_Ears",
+      "Intensity": 0.69
+    },
+    {
+      "BlendName": "male_eu_yo1_Forehead",
+      "Intensity": 0.4056
     }
   ],
   "SkinToneIndex": 1,

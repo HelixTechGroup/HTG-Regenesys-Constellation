@@ -1,6 +1,6 @@
 {
-  "FormKey": "00005E:HTG-Regenesys-Constellation-LE.esp",
-  "EditorID": "SQ_ConstellationController",
+  "FormKey": "00005E:HTG-Regenesys-Constellation-LE-Integrated.esp",
+  "EditorID": "SQ_ConstellationController_LE_HTG-Regenesys-Constellation-LE-Integrated",
   "VirtualMachineAdapter": {
     "Scripts": [
       {
@@ -8,145 +8,91 @@
         "Properties": [
           {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "KnownConstellationMembers",
-            "Object": "00005E:HTG-Regenesys-Constellation-LE.esp",
-            "Alias": 6
+            "Name": "LL_Weapon_Constellation_Legendary",
+            "Object": "00003D:HTG-Regenesys-Constellation-LE-Integrated.esp"
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "LL_Clothes_Constellation_Legendary",
-            "Object": "00004A:HTG-Regenesys-Constellation-LE.esp"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "ShowWornItemsKeyword",
-            "Object": "12DFF1:Starfield.esm"
+            "Name": "PlayerRef",
+            "Object": "000014:Starfield.esm"
           },
           {
             "MutagenObjectType": "ScriptStructListProperty",
-            "Name": "RewardQuests",
+            "Name": "DefaultMemberData",
             "Structs": [
               {
                 "Members": [
                   {
-                    "MutagenObjectType": "ScriptIntProperty",
-                    "Name": "stage",
-                    "Data": 1800
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "MemberRef",
+                    "Object": "0059A9:Starfield.esm"
                   },
                   {
-                    "MutagenObjectType": "ScriptIntProperty",
-                    "Name": "UnityCheckTimes"
+                    "MutagenObjectType": "ScriptStringProperty",
+                    "Name": "MemberName",
+                    "Data": "Andreja"
                   },
                   {
                     "MutagenObjectType": "ScriptObjectProperty",
-                    "Name": "QuestObject",
-                    "Object": "003448:Starfield.esm"
-                  },
-                  {
-                    "MutagenObjectType": "ScriptBoolProperty",
-                    "Name": "CompletionCheck",
-                    "Data": true
-                  },
-                  {
-                    "MutagenObjectType": "ScriptObjectProperty",
-                    "Name": "RewardItem",
-                    "Object": "000024:HTG-Regenesys-Constellation-LE.esp"
-                  },
-                  {
-                    "MutagenObjectType": "ScriptBoolProperty",
-                    "Name": "UnityCheck",
-                    "Data": true
+                    "Name": "MemberWeapon",
+                    "Object": "0D0F72:Starfield.esm"
                   }
                 ]
               },
               {
                 "Members": [
                   {
-                    "MutagenObjectType": "ScriptIntProperty",
-                    "Name": "stage",
-                    "Data": 1005
+                    "MutagenObjectType": "ScriptStringProperty",
+                    "Name": "MemberName",
+                    "Data": "Barrett"
                   },
                   {
                     "MutagenObjectType": "ScriptObjectProperty",
-                    "Name": "QuestObject",
-                    "Object": "0114CD:Starfield.esm"
+                    "Name": "MemberRef",
+                    "Object": "005788:Starfield.esm"
                   },
                   {
                     "MutagenObjectType": "ScriptObjectProperty",
-                    "Name": "RewardItem",
-                    "Object": "000008:HTG-Regenesys-Constellation-LE.esp"
+                    "Name": "MemberWeapon",
+                    "Object": "0D0F70:Starfield.esm"
                   }
                 ]
               },
               {
                 "Members": [
                   {
-                    "MutagenObjectType": "ScriptIntProperty",
-                    "Name": "stage",
-                    "Data": 1000
+                    "MutagenObjectType": "ScriptStringProperty",
+                    "Name": "MemberName",
+                    "Data": "Sam"
                   },
                   {
                     "MutagenObjectType": "ScriptObjectProperty",
-                    "Name": "RewardItem",
-                    "Object": "000056:HTG-Regenesys-Constellation-LE.esp"
-                  },
-                  {
-                    "MutagenObjectType": "ScriptBoolProperty",
-                    "Name": "CompletionCheck",
-                    "Data": true
+                    "Name": "MemberRef",
+                    "Object": "29D488:Starfield.esm"
                   },
                   {
                     "MutagenObjectType": "ScriptObjectProperty",
-                    "Name": "QuestObject",
-                    "Object": "021BEF:Starfield.esm"
+                    "Name": "MemberWeapon",
+                    "Object": "0D0F73:Starfield.esm"
                   }
                 ]
               },
               {
                 "Members": [
                   {
-                    "MutagenObjectType": "ScriptIntProperty",
-                    "Name": "stage",
-                    "Data": 1000
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "MemberRef",
+                    "Object": "005986:Starfield.esm"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptStringProperty",
+                    "Name": "MemberName",
+                    "Data": "Sarah"
                   },
                   {
                     "MutagenObjectType": "ScriptObjectProperty",
-                    "Name": "RewardItem",
-                    "Object": "000024:HTG-Regenesys-Constellation-LE.esp"
-                  },
-                  {
-                    "MutagenObjectType": "ScriptBoolProperty",
-                    "Name": "CompletionCheck",
-                    "Data": true
-                  },
-                  {
-                    "MutagenObjectType": "ScriptObjectProperty",
-                    "Name": "QuestObject",
-                    "Object": "2C6D74:Starfield.esm"
-                  }
-                ]
-              },
-              {
-                "Members": [
-                  {
-                    "MutagenObjectType": "ScriptIntProperty",
-                    "Name": "stage",
-                    "Data": 1000
-                  },
-                  {
-                    "MutagenObjectType": "ScriptBoolProperty",
-                    "Name": "CompletionCheck",
-                    "Data": true
-                  },
-                  {
-                    "MutagenObjectType": "ScriptObjectProperty",
-                    "Name": "QuestObject",
-                    "Object": "256B02:Starfield.esm"
-                  },
-                  {
-                    "MutagenObjectType": "ScriptObjectProperty",
-                    "Name": "RewardItem",
-                    "Object": "000036:HTG-Regenesys-Constellation-LE.esp"
+                    "Name": "MemberWeapon",
+                    "Object": "0D0F71:Starfield.esm"
                   }
                 ]
               }
@@ -159,106 +105,14 @@
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "ActiveConstellationMembers",
-            "Object": "00005E:HTG-Regenesys-Constellation-LE.esp",
-            "Alias": 9
+            "Name": "PlayerUnityTimesEntered",
+            "Object": "219529:Starfield.esm"
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "LL_Spacesuit_Constellation_Legendary",
-            "Object": "000051:HTG-Regenesys-Constellation-LE.esp"
-          },
-          {
-            "MutagenObjectType": "ScriptStructListProperty",
-            "Name": "DefaultMemberData",
-            "Structs": [
-              {
-                "Members": [
-                  {
-                    "MutagenObjectType": "ScriptStringProperty",
-                    "Name": "MemberName",
-                    "Data": "Andreja"
-                  },
-                  {
-                    "MutagenObjectType": "ScriptObjectProperty",
-                    "Name": "MemberWeapon",
-                    "Object": "0D0F72:Starfield.esm"
-                  },
-                  {
-                    "MutagenObjectType": "ScriptObjectProperty",
-                    "Name": "MemberRef",
-                    "Object": "0059A9:Starfield.esm"
-                  }
-                ]
-              },
-              {
-                "Members": [
-                  {
-                    "MutagenObjectType": "ScriptObjectProperty",
-                    "Name": "MemberRef",
-                    "Object": "005788:Starfield.esm"
-                  },
-                  {
-                    "MutagenObjectType": "ScriptObjectProperty",
-                    "Name": "MemberWeapon",
-                    "Object": "0D0F70:Starfield.esm"
-                  },
-                  {
-                    "MutagenObjectType": "ScriptStringProperty",
-                    "Name": "MemberName",
-                    "Data": "Barrett"
-                  }
-                ]
-              },
-              {
-                "Members": [
-                  {
-                    "MutagenObjectType": "ScriptObjectProperty",
-                    "Name": "MemberRef",
-                    "Object": "29D488:Starfield.esm"
-                  },
-                  {
-                    "MutagenObjectType": "ScriptObjectProperty",
-                    "Name": "MemberWeapon",
-                    "Object": "0D0F73:Starfield.esm"
-                  },
-                  {
-                    "MutagenObjectType": "ScriptStringProperty",
-                    "Name": "MemberName",
-                    "Data": "Sam"
-                  }
-                ]
-              },
-              {
-                "Members": [
-                  {
-                    "MutagenObjectType": "ScriptStringProperty",
-                    "Name": "MemberName",
-                    "Data": "Sarah"
-                  },
-                  {
-                    "MutagenObjectType": "ScriptObjectProperty",
-                    "Name": "MemberWeapon",
-                    "Object": "0D0F71:Starfield.esm"
-                  },
-                  {
-                    "MutagenObjectType": "ScriptObjectProperty",
-                    "Name": "MemberRef",
-                    "Object": "005986:Starfield.esm"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "PlayerRef",
-            "Object": "000014:Starfield.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "LL_Spacesuit_Mark1_FullSet_Legendary",
-            "Object": "00002E:HTG-Regenesys-Constellation-LE.esp"
+            "Name": "KnownConstellationMembers",
+            "Object": "00005E:HTG-Regenesys-Constellation-LE-Integrated.esp",
+            "Alias": 6
           },
           {
             "MutagenObjectType": "ScriptStructProperty",
@@ -288,18 +142,189 @@
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "LL_Spacesuit_Mark1_FullSet_Legendary",
+            "Object": "00002E:HTG-Regenesys-Constellation-LE-Integrated.esp"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "LL_Spacesuit_Constellation_Legendary",
+            "Object": "000051:HTG-Regenesys-Constellation-LE-Integrated.esp"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
             "Name": "FirstActivation",
-            "Object": "000001:HTG-Regenesys-Constellation-LE.esp"
+            "Object": "000001:HTG-Regenesys-Constellation-LE-Integrated.esp"
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "LL_Weapon_Constellation_Legendary",
-            "Object": "00003D:HTG-Regenesys-Constellation-LE.esp"
+            "Name": "LL_Clothes_Constellation_Legendary",
+            "Object": "00004A:HTG-Regenesys-Constellation-LE-Integrated.esp"
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "PlayerUnityTimesEntered",
-            "Object": "219529:Starfield.esm"
+            "Name": "ShowWornItemsKeyword",
+            "Object": "12DFF1:Starfield.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptStructListProperty",
+            "Name": "RewardQuests",
+            "Structs": [
+              {
+                "Members": [
+                  {
+                    "MutagenObjectType": "ScriptBoolProperty",
+                    "Name": "UnityCheck",
+                    "Data": true
+                  },
+                  {
+                    "MutagenObjectType": "ScriptStringProperty",
+                    "Name": "QuestName",
+                    "Data": "MQ101"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "QuestObject",
+                    "Object": "003448:Starfield.esm"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptBoolProperty",
+                    "Name": "CompletionCheck",
+                    "Data": true
+                  },
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "RewardItem",
+                    "Object": "000024:HTG-Regenesys-Constellation-LE-Integrated.esp"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptIntProperty",
+                    "Name": "UnityCheckTimes"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptIntProperty",
+                    "Name": "stage",
+                    "Data": 1800
+                  }
+                ]
+              },
+              {
+                "Members": [
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "RewardItem",
+                    "Object": "000008:HTG-Regenesys-Constellation-LE-Integrated.esp"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "QuestObject",
+                    "Object": "0114CD:Starfield.esm"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptStringProperty",
+                    "Name": "QuestName",
+                    "Data": "MQ102"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptIntProperty",
+                    "Name": "stage",
+                    "Data": 1005
+                  }
+                ]
+              },
+              {
+                "Members": [
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "RewardItem",
+                    "Object": "000056:HTG-Regenesys-Constellation-LE-Integrated.esp"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptBoolProperty",
+                    "Name": "CompletionCheck",
+                    "Data": true
+                  },
+                  {
+                    "MutagenObjectType": "ScriptStringProperty",
+                    "Name": "QuestName",
+                    "Data": "MQ106"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "QuestObject",
+                    "Object": "021BEF:Starfield.esm"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptIntProperty",
+                    "Name": "stage",
+                    "Data": 1000
+                  }
+                ]
+              },
+              {
+                "Members": [
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "RewardItem",
+                    "Object": "000024:HTG-Regenesys-Constellation-LE-Integrated.esp"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptBoolProperty",
+                    "Name": "CompletionCheck",
+                    "Data": true
+                  },
+                  {
+                    "MutagenObjectType": "ScriptStringProperty",
+                    "Name": "QuestName",
+                    "Data": "MQ204"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "QuestObject",
+                    "Object": "2C6D74:Starfield.esm"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptIntProperty",
+                    "Name": "stage",
+                    "Data": 1000
+                  }
+                ]
+              },
+              {
+                "Members": [
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "RewardItem",
+                    "Object": "000036:HTG-Regenesys-Constellation-LE-Integrated.esp"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptBoolProperty",
+                    "Name": "CompletionCheck",
+                    "Data": true
+                  },
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "QuestObject",
+                    "Object": "256B02:Starfield.esm"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptStringProperty",
+                    "Name": "QuestName",
+                    "Data": "MQ207B"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptIntProperty",
+                    "Name": "stage",
+                    "Data": 1000
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "ActiveConstellationMembers",
+            "Object": "00005E:HTG-Regenesys-Constellation-LE-Integrated.esp",
+            "Alias": 9
           }
         ]
       }
@@ -311,7 +336,26 @@
       {
         "Property": {
           "Name": "",
-          "Object": "00005E:HTG-Regenesys-Constellation-LE.esp",
+          "Object": "00005E:HTG-Regenesys-Constellation-LE-Integrated.esp",
+          "Alias": 13
+        },
+        "Scripts": [
+          {
+            "Name": "HTG:Quests:ModuleInformation",
+            "Properties": [
+              {
+                "MutagenObjectType": "ScriptObjectProperty",
+                "Name": "ModInfoForm",
+                "Object": "00082C:HTG-Regenesys-Constellation-LE-Integrated.esp"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Property": {
+          "Name": "",
+          "Object": "00005E:HTG-Regenesys-Constellation-LE-Integrated.esp",
           "Alias": 12
         },
         "Scripts": [
@@ -353,7 +397,7 @@
               {
                 "MutagenObjectType": "ScriptObjectProperty",
                 "Name": "ArmorTypes",
-                "Object": "000819:HTG-System-Core.esm"
+                "Object": "000819:HTG-Regenesys-Constellation-LE-Integrated.esp"
               },
               {
                 "MutagenObjectType": "ScriptObjectProperty",
@@ -387,11 +431,6 @@
                 "MutagenObjectType": "ScriptObjectProperty",
                 "Name": "DebugGlobal",
                 "Object": "0A7D31:Starfield.esm"
-              },
-              {
-                "MutagenObjectType": "ScriptObjectProperty",
-                "Name": "ModInfoForm",
-                "Object": "00080A:HTG-Regenesys-Constellation-LE.esp"
               }
             ]
           }
@@ -400,7 +439,7 @@
       {
         "Property": {
           "Name": "",
-          "Object": "00005E:HTG-Regenesys-Constellation-LE.esp",
+          "Object": "00005E:HTG-Regenesys-Constellation-LE-Integrated.esp",
           "Alias": 9
         },
         "Scripts": [
@@ -418,13 +457,11 @@
   "Data": {
     "Flags": [
       "StartGameEnabled",
-      "AllowRepeatedStages",
       "StartsEnabled"
     ],
     "Priority": 100,
     "Unused": "0x000000"
   },
-  "QuestType": "00080F:HTG-System-Core.esm",
   "Filter": "Regenesys\\",
   "UnusedConditions": [],
   "Stages": [
@@ -540,33 +577,29 @@
   "Aliases": [
     {
       "MutagenObjectType": "QuestReferenceAlias",
-      "ID": 12,
-      "Name": "SystemUtilities",
+      "ID": 13,
+      "Name": "ModuleInformation",
       "Flags": [
+        "ReservesLocationOrReference",
+        "Optional",
         "AllowReuseInQuest",
-        "AllowReserved",
-        "ExternalAliasLinked"
+        "StoresText",
+        "AllowReserved"
       ],
       "ALFG": 0,
-      "External": {
-        "Quest": "000004:HTG-System-Core.esm",
-        "AliasID": 7
-      },
       "VoiceTypes": "Null"
     },
     {
       "MutagenObjectType": "QuestReferenceAlias",
-      "ID": 10,
-      "Name": "DataslateTerminal",
+      "ID": 12,
+      "Name": "SystemUtilities",
       "Flags": [
+        "ReservesLocationOrReference",
         "AllowReuseInQuest",
-        "ExternalAliasLinked"
+        "AllowReserved"
       ],
       "ALFG": 0,
-      "External": {
-        "Quest": "000004:HTG-System-Core.esm",
-        "AliasID": 11
-      },
+      "ForcedReference": "000812:HTG-Regenesys-Constellation-LE-Integrated.esp",
       "VoiceTypes": "Null"
     },
     {
@@ -588,6 +621,7 @@
             "Conditions": [
               {
                 "MutagenObjectType": "ConditionFloat",
+                "Unknown2": 16504,
                 "Data": {
                   "MutagenObjectType": "GetInFactionConditionData",
                   "FirstParameter": "0191DC:Starfield.esm"
@@ -622,6 +656,7 @@
             "Conditions": [
               {
                 "MutagenObjectType": "ConditionFloat",
+                "Unknown2": 16504,
                 "Data": {
                   "MutagenObjectType": "GetInFactionConditionData",
                   "FirstParameter": "0191DC:Starfield.esm"
@@ -656,6 +691,7 @@
             "Conditions": [
               {
                 "MutagenObjectType": "ConditionFloat",
+                "Unknown2": 16504,
                 "Data": {
                   "MutagenObjectType": "GetInFactionConditionData",
                   "FirstParameter": "0191DC:Starfield.esm"
