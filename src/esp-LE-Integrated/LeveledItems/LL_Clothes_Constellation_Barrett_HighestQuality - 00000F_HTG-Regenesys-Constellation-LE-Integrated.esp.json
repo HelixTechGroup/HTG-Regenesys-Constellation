@@ -8,31 +8,31 @@
   "Entries": [
     {
       "Level": 1,
-      "Unused": 19927,
+      "Unused": 95,
       "Reference": "00001F:HTG-Regenesys-Constellation-LE-Integrated.esp",
       "Count": 1
     },
     {
       "Level": 10,
-      "Unused": 19927,
+      "Unused": 95,
       "Reference": "000029:HTG-Regenesys-Constellation-LE-Integrated.esp",
       "Count": 1
     },
     {
       "Level": 16,
-      "Unused": 19927,
+      "Unused": 95,
       "Reference": "000041:HTG-Regenesys-Constellation-LE-Integrated.esp",
       "Count": 1
     },
     {
       "Level": 22,
-      "Unused": 19927,
+      "Unused": 95,
       "Reference": "000003:HTG-Regenesys-Constellation-LE-Integrated.esp",
       "Count": 1
     },
     {
       "Level": 28,
-      "Unused": 19927,
+      "Unused": 95,
       "Reference": "00002F:HTG-Regenesys-Constellation-LE-Integrated.esp",
       "Count": 1
     }

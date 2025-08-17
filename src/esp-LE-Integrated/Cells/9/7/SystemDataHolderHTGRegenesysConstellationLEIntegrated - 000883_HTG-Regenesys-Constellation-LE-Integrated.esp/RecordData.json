@@ -35,6 +35,7 @@
   "WaterHeight": 3.4028235E+38,
   "XILS": 1.0,
   "UnknownGroupData": 1,
+  "PersistentUnknownGroupData": 1,
   "Persistent": [
     {
       "MutagenObjectType": "PlacedObject",

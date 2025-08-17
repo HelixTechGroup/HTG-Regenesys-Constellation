@@ -1,0 +1,2 @@
+Numeric ID	Editor ID	Description: Description <<TESDescription_Component>>	Form: Child Can Use	Form: Has Currents	Form: NavMesh Import Collision	Form: On Local Map	Form: Playable	Form: Used As Platform	Full Name: Full Name <<TESFullName_Component>>
+(01000807)	SQ_ConstellationController_LE_ServiceEnabled	Legendary Constellation Equipment has been Enabled.	false	false	Collision Geometry	true	true	false	

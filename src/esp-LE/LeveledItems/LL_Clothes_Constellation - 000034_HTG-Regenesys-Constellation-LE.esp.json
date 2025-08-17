@@ -12,13 +12,13 @@
   "Entries": [
     {
       "Level": 1,
-      "Unused": 19927,
+      "Unused": 95,
       "Reference": "1341E4:Starfield.esm",
       "Count": 1,
       "Conditions": [
         {
           "MutagenObjectType": "ConditionFloat",
-          "Unknown2": 16628,
+          "Unknown2": 60640,
           "Data": {
             "MutagenObjectType": "GetIsIDConditionData",
             "FirstParameter": "0059A7:Starfield.esm"
@@ -29,13 +29,13 @@
     },
     {
       "Level": 1,
-      "Unused": 19927,
+      "Unused": 95,
       "Reference": "01D1DB:Starfield.esm",
       "Count": 1,
       "Conditions": [
         {
           "MutagenObjectType": "ConditionFloat",
-          "Unknown2": 16628,
+          "Unknown2": 60640,
           "Data": {
             "MutagenObjectType": "GetIsIDConditionData",
             "FirstParameter": "005787:Starfield.esm"
@@ -46,13 +46,13 @@
     },
     {
       "Level": 1,
-      "Unused": 19927,
+      "Unused": 95,
       "Reference": "3FC344:Starfield.esm",
       "Count": 1,
       "Conditions": [
         {
           "MutagenObjectType": "ConditionFloat",
-          "Unknown2": 16628,
+          "Unknown2": 60640,
           "Data": {
             "MutagenObjectType": "GetIsIDConditionData",
             "FirstParameter": "005999:Starfield.esm"
@@ -63,13 +63,13 @@
     },
     {
       "Level": 1,
-      "Unused": 19927,
+      "Unused": 95,
       "Reference": "01D1DE:Starfield.esm",
       "Count": 1,
       "Conditions": [
         {
           "MutagenObjectType": "ConditionFloat",
-          "Unknown2": 16628,
+          "Unknown2": 60640,
           "Data": {
             "MutagenObjectType": "GetIsIDConditionData",
             "FirstParameter": "005999:Starfield.esm"
@@ -80,13 +80,13 @@
     },
     {
       "Level": 1,
-      "Unused": 19927,
+      "Unused": 95,
       "Reference": "055905:Starfield.esm",
       "Count": 1,
       "Conditions": [
         {
           "MutagenObjectType": "ConditionFloat",
-          "Unknown2": 16628,
+          "Unknown2": 60640,
           "Data": {
             "MutagenObjectType": "GetIsIDConditionData",
             "FirstParameter": "005983:Starfield.esm"
@@ -97,14 +97,14 @@
     },
     {
       "Level": 1,
-      "Unused": 19927,
+      "Unused": 95,
       "Reference": "21C781:Starfield.esm",
       "Count": 1,
       "Conditions": [
         {
           "MutagenObjectType": "ConditionFloat",
           "CompareOperator": "NotEqualTo",
-          "Unknown2": 16628,
+          "Unknown2": 60640,
           "Data": {
             "MutagenObjectType": "GetIsIDConditionData",
             "FirstParameter": "005787:Starfield.esm"
@@ -114,7 +114,7 @@
         {
           "MutagenObjectType": "ConditionFloat",
           "CompareOperator": "NotEqualTo",
-          "Unknown2": 16628,
+          "Unknown2": 60640,
           "Data": {
             "MutagenObjectType": "GetIsIDConditionData",
             "FirstParameter": "0059A7:Starfield.esm"
@@ -124,7 +124,7 @@
         {
           "MutagenObjectType": "ConditionFloat",
           "CompareOperator": "NotEqualTo",
-          "Unknown2": 16628,
+          "Unknown2": 60640,
           "Data": {
             "MutagenObjectType": "GetIsIDConditionData",
             "FirstParameter": "005999:Starfield.esm"
@@ -134,7 +134,7 @@
         {
           "MutagenObjectType": "ConditionFloat",
           "CompareOperator": "NotEqualTo",
-          "Unknown2": 16628,
+          "Unknown2": 60640,
           "Data": {
             "MutagenObjectType": "GetIsIDConditionData",
             "FirstParameter": "005983:Starfield.esm"
@@ -145,14 +145,14 @@
     },
     {
       "Level": 1,
-      "Unused": 19927,
+      "Unused": 95,
       "Reference": "16E0B9:Starfield.esm",
       "Count": 1,
       "Conditions": [
         {
           "MutagenObjectType": "ConditionFloat",
           "CompareOperator": "NotEqualTo",
-          "Unknown2": 16628,
+          "Unknown2": 60640,
           "Data": {
             "MutagenObjectType": "GetIsIDConditionData",
             "FirstParameter": "005787:Starfield.esm"
@@ -162,7 +162,7 @@
         {
           "MutagenObjectType": "ConditionFloat",
           "CompareOperator": "NotEqualTo",
-          "Unknown2": 16628,
+          "Unknown2": 60640,
           "Data": {
             "MutagenObjectType": "GetIsIDConditionData",
             "FirstParameter": "0059A7:Starfield.esm"
@@ -172,7 +172,7 @@
         {
           "MutagenObjectType": "ConditionFloat",
           "CompareOperator": "NotEqualTo",
-          "Unknown2": 16628,
+          "Unknown2": 60640,
           "Data": {
             "MutagenObjectType": "GetIsIDConditionData",
             "FirstParameter": "005999:Starfield.esm"
@@ -182,7 +182,7 @@
         {
           "MutagenObjectType": "ConditionFloat",
           "CompareOperator": "NotEqualTo",
-          "Unknown2": 16628,
+          "Unknown2": 60640,
           "Data": {
             "MutagenObjectType": "GetIsIDConditionData",
             "FirstParameter": "005983:Starfield.esm"

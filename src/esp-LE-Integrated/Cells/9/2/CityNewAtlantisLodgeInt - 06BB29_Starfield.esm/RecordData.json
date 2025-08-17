@@ -3751,6 +3751,8 @@
     }
   ],
   "NumTraversalFluffBytes": 2112,
+  "UnknownGroupData": 1,
+  "PersistentUnknownGroupData": 1,
   "Persistent": [
     {
       "MutagenObjectType": "PlacedNpc",

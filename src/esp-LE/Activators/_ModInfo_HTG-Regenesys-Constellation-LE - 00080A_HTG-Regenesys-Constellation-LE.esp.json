@@ -10,8 +10,33 @@
   "VirtualMachineAdapter": {
     "Scripts": [
       {
-        "Name": "HTG:ModInformation",
+        "Name": "HTG:Core:RegenesysModuleInformation",
         "Properties": [
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "ModuleRegistry",
+            "Object": "000832:HTG-System-Core.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptStringProperty",
+            "Name": "Name",
+            "Data": "Project Regenesys: Constellation - Legendary Equipment"
+          },
+          {
+            "MutagenObjectType": "ScriptStringProperty",
+            "Name": "FileName",
+            "Data": "HTG-Regenesys-Constellation-LE"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "CollectionRegistry",
+            "Object": "000828:HTG-System-Core.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptStringProperty",
+            "Name": "description",
+            "Data": ""
+          },
           {
             "MutagenObjectType": "ScriptStructProperty",
             "Name": "Version",
@@ -21,21 +46,8 @@
                 "Properties": [
                   {
                     "MutagenObjectType": "ScriptIntProperty",
-                    "Name": "Patch",
-                    "Data": 152160
-                  },
-                  {
-                    "MutagenObjectType": "ScriptIntProperty",
-                    "Name": "Minor"
-                  },
-                  {
-                    "MutagenObjectType": "ScriptIntProperty",
                     "Name": "Revision",
-                    "Data": 3
-                  },
-                  {
-                    "MutagenObjectType": "ScriptIntProperty",
-                    "Name": "Major"
+                    "Data": 5
                   }
                 ]
               }
@@ -43,18 +55,23 @@
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "CollectionRegistry",
-            "Object": "000828:HTG-System-Core.esm"
+            "Name": "RegenesysSystemRegistry",
+            "Object": "000809:HTG-Regenesys-Core.esm"
           },
           {
-            "MutagenObjectType": "ScriptStringProperty",
-            "Name": "Name",
-            "Data": "HTG-Regenesys-Constellation-LE"
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "RegenesysModuleRegistry",
+            "Object": "00080A:HTG-Regenesys-Core.esm"
           },
           {
-            "MutagenObjectType": "ScriptStringProperty",
-            "Name": "description",
-            "Data": "temp"
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "LocalSystemRegistry",
+            "Object": "000806:HTG-Regenesys-Constellation-LE.esp"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "SystemRegistry",
+            "Object": "000837:HTG-System-Core.esm"
           }
         ]
       }
@@ -62,11 +79,14 @@
   },
   "Name": {
     "TargetLanguage": "English",
-    "Value": "Mod Information Template"
+    "Value": "Mod Information: HTG-Regenesys-Constellation-LE"
   },
   "Model": {
     "LightLayer": 1
   },
+  "Keywords": [
+    "000839:HTG-System-Core.esm"
+  ],
   "MarkerColor": "#00CC4C33",
   "Flags": [
     "IgnoredBySandbox"

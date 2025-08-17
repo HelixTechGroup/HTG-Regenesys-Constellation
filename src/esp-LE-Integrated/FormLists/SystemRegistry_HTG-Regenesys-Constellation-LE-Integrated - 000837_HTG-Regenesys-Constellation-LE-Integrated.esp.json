@@ -1,0 +1,12 @@
+{
+  "FormKey": "000837:HTG-Regenesys-Constellation-LE-Integrated.esp",
+  "EditorID": "SystemRegistry_HTG-Regenesys-Constellation-LE-Integrated",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Global System Registry"
+  },
+  "Items": [
+    "00005E:HTG-Regenesys-Constellation-LE-Integrated.esp"
+  ],
+  "AddToList": "Null"
+}
