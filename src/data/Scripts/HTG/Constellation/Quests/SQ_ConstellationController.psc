@@ -33,6 +33,8 @@ Group LegendaryLeveledItems
     LeveledItem Property LL_Spacesuit_Mark1_FullSet_Legendary Mandatory Const Auto
 EndGroup
 
+Message Property ServiceEnabled Mandatory Const Auto
+
 ; Group NewMemberListInjectors
 ;     LeveledItemInjectionSet Property ArmorInjectorSet Mandatory Const Auto
 ;     LeveledItemInjectionSet Property WeaponInjectorSet Mandatory Const Auto
@@ -58,11 +60,13 @@ Int _giveClothesId = 13
 Int _checkRewardsId = 14
 Int _checkMark1Id = 15
 
-Event OnQuestInit()
-    Parent.OnQuestInit()
+Event OnQuestStarted()
+    Parent.OnQuestStarted()
 
     If FirstActivation.GetValueInt() == 1
-        RegisterForRemoteEvent(Game.GetPlayer(), "OnPlayerLoadGame")
+        Logger.Log("First Activation Started.")
+        SetStage(_initId)
+        ; RegisterForRemoteEvent(Game.GetPlayer(), "OnPlayerLoadGame")
     EndIf
 
     Int i = RewardQuests.FindStruct("QuestName", "MQ101")
@@ -72,12 +76,9 @@ Event OnQuestInit()
             RegisterForRemoteEvent(kQuestInfo.QuestObject, "OnStageSet")
         EndIf
     EndIf
-EndEvent
 
-Event OnQuestStarted()
-    Parent.OnQuestStarted()
-
-    Debug.Notification("Legendary Constellation Equipment has been Enabled")
+    ServiceEnabled.Show()
+    ; Debug.Notification("Legendary Constellation Equipment has been Enabled")
 EndEvent
 
 Event OnStageSet(int auiStageID, int auiItemID)
@@ -102,8 +103,11 @@ Event OnStageSet(int auiStageID, int auiItemID)
         CheckMark1Armor()
         _checkedMark1 = True
     ElseIf auiStageID == _initId && auiItemID == 0
-        If FirstActivation.GetValue() == 1.0 && Game.GetPlayer().GetLevel() > 1
-            SetStage(_giveAllEquipmentId)
+        If FirstActivation.GetValue() == 1.0
+            If ActiveConstellationMembers.GetCount() > 0
+                SetStage(_giveAllEquipmentId)
+            EndIf
+
             SetStage(_checkRewardsId)
             SetStage(_checkMark1Id)
             Logger.Log("Regenesys:Constellation First Activation Completed.")
@@ -113,7 +117,7 @@ EndEvent
 
 Event Actor.OnPlayerLoadGame(Actor akSender)
 	If FirstActivation.GetValueInt() == 1
-        If Game.GetPlayer().GetLevel() > 1
+        If ActiveConstellationMembers.GetCount() > 0 || Game.GetPlayer().GetLevel() > 1
             Logger.Log("First Activation Started.")
             SetStage(_initId)
             ; RegisterForRemoteEvent(Game.GetPlayer(), "OnPlayerLoadGame")
@@ -269,17 +273,17 @@ Function AddConstellationEquipmentToActiveMembers(bool addArmor = true, bool add
         return
     EndIf
 
-    If MemberData && ActiveConstellationMembers
-        WaitExt(0.25)
+    If !IsNone(MemberData) && !IsNone(ActiveConstellationMembers)
+        ; WaitExt(0.25)
         Logger.Log("Found ActiveConstellationMembers: " + ActiveConstellationMembers.GetCount())
         Logger.Log("Found Constellation MemberData: " + MemberData.Count)
-        int i = MemberData.Count
-        While i >= 0
+        int i
+        While i < MemberData.Count
             ConstellationMember member = MemberData.GetAt(i)
             If (InitializedMembers.Find(member.MemberRef) < 0 \
                 && ActiveConstellationMembers.Find(member.MemberRef) >= 0)
                 Actor memberActor = member.MemberRef as Actor
-                AddEquipmentToMemberActor(memberActor)
+                AddEquipmentToMember(member)
 
                 ; WaitExt(0.25)
                 ; If !AddItemToActor(memberActor, member.Spacesuit, LL_Spacesuit_Constellation_Legendary, 1, True, True)
@@ -308,7 +312,8 @@ Function AddConstellationEquipmentToActiveMembers(bool addArmor = true, bool add
             Else
                 Logger.Log("Member is not currently active: " + member.MemberName)
             EndIf
-            i -= 1
+
+            i += 1
         EndWhile
     Else
         Logger.Log("No Constellation MemberData Found.")
@@ -316,6 +321,8 @@ Function AddConstellationEquipmentToActiveMembers(bool addArmor = true, bool add
 EndFunction
 
 Function CheckMark1Armor()
+    WaitForInitialized()
+
     bool equip = true
     Actor addTo = Loot_Mannequin_Spacesuit_Female_Mark1_Lodge as Actor
     If addTo.GetItemCount(Mark1ArmorSet.Spacesuit) == 0
@@ -342,6 +349,8 @@ Function CheckMark1Armor()
 EndFunction
 
 Function CheckConstellationRewardQuests()
+    WaitForInitialized()
+
     If RewardQuests
         bool passed = true
         int i
@@ -366,9 +375,10 @@ Function CheckConstellationRewardQuests()
     EndIf
 EndFunction
 
-Function AddEquipmentToMemberActor(Actor akMemberActor, bool abAddArmor = true, bool abAddWeapon = true, bool abAddClothes = true)
-    If !akMemberActor.HasKeyword(ShowWornItemsKeyword)
-        akMemberActor.AddKeyword(ShowWornItemsKeyword)
+Function AddEquipmentToMember(ConstellationMember akMember, bool abAddArmor = true, bool abAddWeapon = true, bool abAddClothes = true)
+    Actor kMemberActor = akMember.MemberRef as Actor
+    If !kMemberActor.HasKeyword(ShowWornItemsKeyword)
+        kMemberActor.AddKeyword(ShowWornItemsKeyword)
     EndIf
     ; WaitExt(0.25)
     ; memberActor.SetOutfit(member.MemberOutfit)
@@ -377,26 +387,26 @@ Function AddEquipmentToMemberActor(Actor akMemberActor, bool abAddArmor = true, 
     ; WaitExt(0.5)
 
     If abAddWeapon
-        AddWeaponToMember(akMemberActor, LL_Weapon_Constellation_Legendary)
+        AddWeaponToMember(kMemberActor, LL_Weapon_Constellation_Legendary)
     EndIf
     WaitExt(0.333)
     If abAddArmor
-        AddLeveledItemToActor(akMemberActor, LL_Spacesuit_Constellation_Legendary, 1, True, False)
-        ; AddArmorSetToMember(memberActor, ConstellationArmorSet, LL_Spacesuit_Constellation_Legendary)
+        AddLeveledItemToActor(kMemberActor, LL_Spacesuit_Constellation_Legendary, 1, True, False)
+        ; AddArmorSetToMember(kMemberActor, , LL_Spacesuit_Constellation_Legendary)
     EndIf
     WaitExt(0.333)
     If abAddClothes
-        AddClothesToMember(akMemberActor, LL_Clothes_Constellation_Legendary)
+        AddClothesToMember(kMemberActor, LL_Clothes_Constellation_Legendary)
     EndIf
 EndFunction
 
 Bool Function _CreateCollections()
     If InitializedMembers == None
-        InitializedMembers = HTG:Collections:ObjectReferenceList.ObjectReferenceListIntegrated(Utilities.ModInfo)
+        InitializedMembers = HTG:Collections:ObjectReferenceList.ObjectReferenceList(Utilities.ModInfo)
     EndIf
 
     If MemberData == None
-        MemberData = HTG:Constellation:Collections:ConstellationMemberList.ConstellationMemberList()
+        MemberData = HTG:Constellation:Collections:ConstellationMemberList.ConstellationMemberList(Utilities.ModInfo)
     EndIf
 
     return (!IsNone(InitializedMembers) && InitializedMembers.IsInitialized) \

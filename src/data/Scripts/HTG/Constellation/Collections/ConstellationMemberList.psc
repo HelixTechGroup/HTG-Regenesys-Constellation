@@ -1,4 +1,5 @@
 Scriptname HTG:Constellation:Collections:ConstellationMemberList extends HTG:Collections:List
+import HTG
 import HTG:SystemLogger
 import HTG:FormUtility
 import HTG:IntUtility
@@ -10,13 +11,13 @@ Event OnInit()
     ArrayType = "ConstellationMember"
 EndEvent
 
-ConstellationMemberList Function ConstellationMemberList(Int aiSize = 0) Global
+ConstellationMemberList Function ConstellationMemberList(SystemModuleInformation akMod, Int aiSize = 0) Global
     Int iFormId = 0x0000076
-    String aModName = "HTG-Regenesys-Constellation-LE"
-    ConstellationMemberList res =  HTG:Collections:List._CreateList(iFormId, aModName, aiSize) as ConstellationMemberList
-    If HTG:UtilityExt.IsNone(res)
-        res =  HTG:Collections:List._CreateList(iFormId, aModName + "-Integrated", aiSize) as ConstellationMemberList
-    EndIf
+    String sModName = "HTG-Regenesys-Constellation-LE"
+    ConstellationMemberList res =  HTG:Collections:List._CreateList(akMod, iFormId, sModName, aiSize) as ConstellationMemberList
+    ; If HTG:UtilityExt.IsNone(res)
+    ;     res =  HTG:Collections:List._CreateList(iFormId, aModName + "-Integrated", aiSize) as ConstellationMemberList
+    ; EndIf
     LogObjectGlobal(res, "HTG:Constellation:Collections:ConstellationMemberList.ConstellationMemberList(" + aiSize  + "): " + res)
     return res
 EndFunction
@@ -81,4 +82,26 @@ Int Function FindActor(Actor akActor)
     EndWhile
 
     return -1
+EndFunction
+
+Int Function _FindStruct(String asVarName, Var akElement)
+    ConstellationMember[] kArray = new ConstellationMember[0]
+    Int i
+    Int res = -1
+    While i < Count
+        ConstellationMember kMember = GetAt(i)
+        kArray.Add(kMember)
+        i += 1
+    EndWhile
+
+    If asVarName == "MemberName"
+        res = kArray.FindStruct("MemberName", akElement as String)
+    ElseIf asVarName == "MemberRef"
+        res = kArray.FindStruct("MemberRef", akElement as ObjectReference)
+    ElseIf asVarName == "MemberWeapon"
+        res = kArray.FindStruct("MemberWeapon", akElement as Weapon)
+    EndIf
+
+    kArray = None
+    return res
 EndFunction

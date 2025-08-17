@@ -14,16 +14,6 @@
         "Properties": [
           {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "NPCMOtherPlayer",
-            "Object": "1A93A7:Starfield.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "NPCFOtherPlayer",
-            "Object": "1A93A6:Starfield.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
             "Name": "NPCXOtherPlayer_2",
             "Object": "2592CE:Starfield.esm"
           },
@@ -31,6 +21,16 @@
             "MutagenObjectType": "ScriptObjectProperty",
             "Name": "NPCXOtherPlayer",
             "Object": "1A93A4:Starfield.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "NPCMOtherPlayer",
+            "Object": "1A93A7:Starfield.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "NPCFOtherPlayer",
+            "Object": "1A93A6:Starfield.esm"
           }
         ]
       }
@@ -184,14 +184,6 @@
       "Index": 12,
       "MorphGroups": [
         {
-          "MorphGroup": "Chin",
-          "BlendIntensity": 1.0
-        },
-        {
-          "MorphGroup": "Jaw",
-          "BlendIntensity": 1.0
-        },
-        {
           "MorphGroup": "Ears",
           "BlendIntensity": 1.0
         },
@@ -200,7 +192,15 @@
           "BlendIntensity": 1.0
         },
         {
+          "MorphGroup": "Forehead",
+          "BlendIntensity": 1.0
+        },
+        {
           "MorphGroup": "Mouth",
+          "BlendIntensity": 1.0
+        },
+        {
+          "MorphGroup": "Chin",
           "BlendIntensity": 1.0
         },
         {
@@ -212,7 +212,7 @@
           "BlendIntensity": 1.0
         },
         {
-          "MorphGroup": "Forehead",
+          "MorphGroup": "Jaw",
           "BlendIntensity": 1.0
         },
         {
@@ -224,11 +224,11 @@
   ],
   "MorphBlends": [
     {
-      "BlendName": "male_eu_md2_Cheeks",
+      "BlendName": "male_eu_md2_Neck",
       "Intensity": 1.0
     },
     {
-      "BlendName": "male_eu_md2_Forehead",
+      "BlendName": "male_eu_md2_Eyes",
       "Intensity": 1.0
     },
     {
@@ -236,7 +236,7 @@
       "Intensity": 1.0
     },
     {
-      "BlendName": "male_eu_md2_Eyes",
+      "BlendName": "male_eu_md2_Forehead",
       "Intensity": 1.0
     },
     {
@@ -248,11 +248,11 @@
       "Intensity": 1.0
     },
     {
-      "BlendName": "male_eu_md2_Ears",
+      "BlendName": "male_eu_md2_Cheeks",
       "Intensity": 1.0
     },
     {
-      "BlendName": "male_eu_md2_Neck",
+      "BlendName": "male_eu_md2_Ears",
       "Intensity": 1.0
     },
     {
