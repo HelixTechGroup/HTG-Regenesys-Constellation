@@ -20,8 +20,5 @@
   ],
   "Model": {
     "LightLayer": 1
-  },
-  "MajorFlags": [
-    "UseAll"
-  ]
+  }
 }

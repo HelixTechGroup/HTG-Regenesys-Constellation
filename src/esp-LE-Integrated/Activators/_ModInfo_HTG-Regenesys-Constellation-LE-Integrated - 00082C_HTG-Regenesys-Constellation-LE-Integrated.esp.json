@@ -14,28 +14,23 @@
         "Properties": [
           {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "ModuleRegistry",
-            "Object": "000832:HTG-Regenesys-Constellation-LE-Integrated.esp"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
             "Name": "CollectionRegistry",
             "Object": "000828:HTG-Regenesys-Constellation-LE-Integrated.esp"
           },
           {
-            "MutagenObjectType": "ScriptStringProperty",
-            "Name": "description",
-            "Data": ""
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "SystemRegistry",
+            "Object": "000837:HTG-Regenesys-Constellation-LE-Integrated.esp"
           },
           {
-            "MutagenObjectType": "ScriptStringProperty",
-            "Name": "FileName",
-            "Data": "HTG-Regenesys-Constellation-LE-Integrated"
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "ModuleRegistry",
+            "Object": "000832:HTG-Regenesys-Constellation-LE-Integrated.esp"
           },
           {
-            "MutagenObjectType": "ScriptStringProperty",
-            "Name": "Name",
-            "Data": "Project Regenesys: Constellation - Legendary Equipment"
+            "MutagenObjectType": "ScriptBoolProperty",
+            "Name": "IsCoreIntegrated",
+            "Data": true
           },
           {
             "MutagenObjectType": "ScriptStructProperty",
@@ -54,19 +49,24 @@
             ]
           },
           {
-            "MutagenObjectType": "ScriptBoolProperty",
-            "Name": "IsCoreIntegrated",
-            "Data": true
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "SystemRegistry",
-            "Object": "000837:HTG-Regenesys-Constellation-LE-Integrated.esp"
-          },
-          {
             "MutagenObjectType": "ScriptObjectProperty",
             "Name": "LocalSystemRegistry",
             "Object": "000837:HTG-Regenesys-Constellation-LE-Integrated.esp"
+          },
+          {
+            "MutagenObjectType": "ScriptStringProperty",
+            "Name": "description",
+            "Data": ""
+          },
+          {
+            "MutagenObjectType": "ScriptStringProperty",
+            "Name": "FileName",
+            "Data": "HTG-Regenesys-Constellation-LE-Integrated"
+          },
+          {
+            "MutagenObjectType": "ScriptStringProperty",
+            "Name": "Name",
+            "Data": "Project Regenesys: Constellation - Legendary Equipment"
           }
         ]
       }

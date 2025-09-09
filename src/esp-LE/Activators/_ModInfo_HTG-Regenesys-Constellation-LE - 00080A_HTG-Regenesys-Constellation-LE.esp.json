@@ -13,9 +13,14 @@
         "Name": "HTG:Core:RegenesysModuleInformation",
         "Properties": [
           {
+            "MutagenObjectType": "ScriptStringProperty",
+            "Name": "FileName",
+            "Data": "HTG-Regenesys-Constellation-LE"
+          },
+          {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "ModuleRegistry",
-            "Object": "000832:HTG-System-Core.esm"
+            "Name": "RegenesysSystemRegistry",
+            "Object": "000809:HTG-Regenesys-Core.esm"
           },
           {
             "MutagenObjectType": "ScriptStringProperty",
@@ -23,19 +28,24 @@
             "Data": "Project Regenesys: Constellation - Legendary Equipment"
           },
           {
-            "MutagenObjectType": "ScriptStringProperty",
-            "Name": "FileName",
-            "Data": "HTG-Regenesys-Constellation-LE"
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "LocalSystemRegistry",
+            "Object": "000806:HTG-Regenesys-Constellation-LE.esp"
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "CollectionRegistry",
-            "Object": "000828:HTG-System-Core.esm"
+            "Name": "ModuleRegistry",
+            "Object": "000832:HTG-System-Core.esm"
           },
           {
             "MutagenObjectType": "ScriptStringProperty",
             "Name": "description",
             "Data": ""
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "SystemRegistry",
+            "Object": "000837:HTG-System-Core.esm"
           },
           {
             "MutagenObjectType": "ScriptStructProperty",
@@ -55,23 +65,13 @@
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "RegenesysSystemRegistry",
-            "Object": "000809:HTG-Regenesys-Core.esm"
+            "Name": "CollectionRegistry",
+            "Object": "000828:HTG-System-Core.esm"
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
             "Name": "RegenesysModuleRegistry",
             "Object": "00080A:HTG-Regenesys-Core.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "LocalSystemRegistry",
-            "Object": "000806:HTG-Regenesys-Constellation-LE.esp"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "SystemRegistry",
-            "Object": "000837:HTG-System-Core.esm"
           }
         ]
       }

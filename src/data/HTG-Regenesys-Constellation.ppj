@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<PapyrusProject xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Output="S:\SteamLibrary\steamapps\common\Starfield\Data\Scripts" Flags="S:\SteamLibrary\steamapps\common\Starfield\Data\Scripts\Source\Starfield_Papyrus_Flags.flg" xmlns="PapyrusProject.xsd">
+  <Imports>
+  	<Import>S:\SteamLibrary\steamapps\common\Starfield\Data\Scripts\Source</Import>
+    <Import>D:\Users\Bryan\Documents\Projects\HelixTechGroup\Gaming\CreationKit\Starfield\Source\HTG-System-Core\src\data\Scripts</Import>
+		<Import>D:\Users\Bryan\Documents\Projects\HelixTechGroup\Gaming\CreationKit\Starfield\Source\HTG-Regenesys-Core\src\data\Scripts</Import>
+    <Import>D:\Users\Bryan\Documents\Projects\HelixTechGroup\Gaming\CreationKit\Starfield\Source\HTG-Regenesys-Constellation\src\data\Scripts</Import>
+  </Imports>
+  <Scripts>
+    <Script>HTG:Constellation:Structs</Script>
+    <Script>HTG:Constellation:Collections:ConstellationMemberList</Script>
+    <Script>HTG:Constellation:Quests:ActiveConstellationMembers</Script>
+    <Script>HTG:Constellation:Quests:AvailableConstellationMembers</Script>
+    <Script>HTG:Constellation:Quests:SQ_ConstellationController</Script>
+  </Scripts>
+</PapyrusProject>

@@ -1,8 +1,8 @@
 Scriptname HTG:Constellation:Collections:ConstellationMemberList extends HTG:Collections:List
 import HTG
 import HTG:SystemLogger
-import HTG:FormUtility
-import HTG:IntUtility
+import HTG:SystemFormUtility
+import HTG:SystemIntUtility
 import HTG:Collections
 import HTG:Constellation:Structs
 
