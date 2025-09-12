@@ -5,32 +5,33 @@
   "Model": {
     "LightLayer": 1
   },
-  "BaseObjectList": "00001C:HTG-Regenesys-Constellation-LE.esp",
-  "RankTemplate": "1336C3:Starfield.esm",
+  "DATA": "[]",
+  "ApplicableItemList": "00001C:HTG-Regenesys-Constellation-LE.esp",
+  "LegendaryTemplateList": "1336C3:Starfield.esm",
   "LegendaryMods": [
     {
-      "ObjectMod": "1336C1:Starfield.esm"
+      "LegendaryModifier": "1336C1:Starfield.esm"
     },
     {
-      "ObjectMod": "1336C6:Starfield.esm"
+      "LegendaryModifier": "1336C6:Starfield.esm"
     },
     {
-      "ObjectMod": "13369E:Starfield.esm"
+      "LegendaryModifier": "13369E:Starfield.esm"
     },
     {
-      "ObjectMod": "1336BD:Starfield.esm"
+      "LegendaryModifier": "1336BD:Starfield.esm"
     },
     {
-      "ObjectMod": "13369C:Starfield.esm"
+      "LegendaryModifier": "13369C:Starfield.esm"
     },
     {
-      "ObjectMod": "1336BE:Starfield.esm"
+      "LegendaryModifier": "1336BE:Starfield.esm"
     },
     {
-      "ObjectMod": "133699:Starfield.esm"
+      "LegendaryModifier": "133699:Starfield.esm"
     },
     {
-      "ObjectMod": "1336BC:Starfield.esm"
+      "LegendaryModifier": "1336BC:Starfield.esm"
     }
   ]
 }

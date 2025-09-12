@@ -13,11 +13,17 @@ Struct ConstellationMember
 
     ; Outfit MemberSpacesuitOutfit
 
-    ; Armor Clothes
+    Armor MemberClothes
+
+    Armor MemberHat
+
+    Armor MemberClothesPlayable
+
+    Armor MemberHatPlayable
 
     ; LeveledItem ClothesLeveled
 
-    ; Armor Spacesuit
+    Armor MemberSpacesuit
 
     ; LeveledItem SpacesuitLeveled
 

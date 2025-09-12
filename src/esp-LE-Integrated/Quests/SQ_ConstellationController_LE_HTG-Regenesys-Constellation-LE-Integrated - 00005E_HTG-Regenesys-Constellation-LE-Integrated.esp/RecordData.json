@@ -7,176 +7,6 @@
         "Name": "HTG:Constellation:Quests:SQ_ConstellationController",
         "Properties": [
           {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "KnownConstellationMembers",
-            "Object": "00005E:HTG-Regenesys-Constellation-LE-Integrated.esp",
-            "Alias": 6
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "Loot_Mannequin_Spacesuit_Female_Mark1_Lodge",
-            "Object": "080AC0:Starfield.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "ActiveConstellationMembers",
-            "Object": "00005E:HTG-Regenesys-Constellation-LE-Integrated.esp",
-            "Alias": 9
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "ShowWornItemsKeyword",
-            "Object": "12DFF1:Starfield.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "LL_Clothes_Constellation_Legendary",
-            "Object": "00004A:HTG-Regenesys-Constellation-LE-Integrated.esp"
-          },
-          {
-            "MutagenObjectType": "ScriptStructListProperty",
-            "Name": "DefaultMemberData",
-            "Structs": [
-              {
-                "Members": [
-                  {
-                    "MutagenObjectType": "ScriptObjectProperty",
-                    "Name": "MemberRef",
-                    "Object": "0059A9:Starfield.esm"
-                  },
-                  {
-                    "MutagenObjectType": "ScriptStringProperty",
-                    "Name": "MemberName",
-                    "Data": "Andreja"
-                  },
-                  {
-                    "MutagenObjectType": "ScriptObjectProperty",
-                    "Name": "MemberWeapon",
-                    "Object": "0D0F72:Starfield.esm"
-                  }
-                ]
-              },
-              {
-                "Members": [
-                  {
-                    "MutagenObjectType": "ScriptStringProperty",
-                    "Name": "MemberName",
-                    "Data": "Barrett"
-                  },
-                  {
-                    "MutagenObjectType": "ScriptObjectProperty",
-                    "Name": "MemberRef",
-                    "Object": "005788:Starfield.esm"
-                  },
-                  {
-                    "MutagenObjectType": "ScriptObjectProperty",
-                    "Name": "MemberWeapon",
-                    "Object": "0D0F70:Starfield.esm"
-                  }
-                ]
-              },
-              {
-                "Members": [
-                  {
-                    "MutagenObjectType": "ScriptStringProperty",
-                    "Name": "MemberName",
-                    "Data": "Sam"
-                  },
-                  {
-                    "MutagenObjectType": "ScriptObjectProperty",
-                    "Name": "MemberRef",
-                    "Object": "29D488:Starfield.esm"
-                  },
-                  {
-                    "MutagenObjectType": "ScriptObjectProperty",
-                    "Name": "MemberWeapon",
-                    "Object": "0D0F73:Starfield.esm"
-                  }
-                ]
-              },
-              {
-                "Members": [
-                  {
-                    "MutagenObjectType": "ScriptObjectProperty",
-                    "Name": "MemberRef",
-                    "Object": "005986:Starfield.esm"
-                  },
-                  {
-                    "MutagenObjectType": "ScriptStringProperty",
-                    "Name": "MemberName",
-                    "Data": "Sarah"
-                  },
-                  {
-                    "MutagenObjectType": "ScriptObjectProperty",
-                    "Name": "MemberWeapon",
-                    "Object": "0D0F71:Starfield.esm"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "MutagenObjectType": "ScriptStructProperty",
-            "Name": "Mark1ArmorSet",
-            "Members": [
-              {
-                "Name": "",
-                "Properties": [
-                  {
-                    "MutagenObjectType": "ScriptObjectProperty",
-                    "Name": "Spacesuit",
-                    "Object": "01754D:Starfield.esm"
-                  },
-                  {
-                    "MutagenObjectType": "ScriptObjectProperty",
-                    "Name": "Backpack",
-                    "Object": "01754E:Starfield.esm"
-                  },
-                  {
-                    "MutagenObjectType": "ScriptObjectProperty",
-                    "Name": "Helmet",
-                    "Object": "1D0F94:Starfield.esm"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "PlayerUnityTimesEntered",
-            "Object": "219529:Starfield.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "FirstActivation",
-            "Object": "000001:HTG-Regenesys-Constellation-LE-Integrated.esp"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "LL_Spacesuit_Constellation_Legendary",
-            "Object": "000051:HTG-Regenesys-Constellation-LE-Integrated.esp"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "LL_Weapon_Constellation_Legendary",
-            "Object": "00003D:HTG-Regenesys-Constellation-LE-Integrated.esp"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "PlayerRef",
-            "Object": "000014:Starfield.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "LL_Spacesuit_Mark1_FullSet_Legendary",
-            "Object": "00002E:HTG-Regenesys-Constellation-LE-Integrated.esp"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "ServiceEnabled",
-            "Object": "000806:HTG-Regenesys-Constellation-LE-Integrated.esp"
-          },
-          {
             "MutagenObjectType": "ScriptStructListProperty",
             "Name": "RewardQuests",
             "Structs": [
@@ -330,6 +160,304 @@
                 ]
               }
             ]
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "FirstActivation",
+            "Object": "000001:HTG-Regenesys-Constellation-LE-Integrated.esp"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "ShowWornItemsKeyword",
+            "Object": "12DFF1:Starfield.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "KnownConstellationMembers",
+            "Object": "00005E:HTG-Regenesys-Constellation-LE-Integrated.esp",
+            "Alias": 6
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "PlayerUnityTimesEntered",
+            "Object": "219529:Starfield.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptStructProperty",
+            "Name": "NonPlayableConstellationArmorSet",
+            "Members": [
+              {
+                "Name": "",
+                "Properties": [
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "Helmet",
+                    "Object": "104632:Starfield.esm"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "Backpack",
+                    "Object": "104631:Starfield.esm"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "Spacesuit",
+                    "Object": "1E2B19:Starfield.esm"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "LL_Armor_Constellation_Legendary",
+            "Object": "000037:HTG-Regenesys-Constellation-LE-Integrated.esp"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "AvailableConstellationMembers",
+            "Object": "00005E:HTG-Regenesys-Constellation-LE-Integrated.esp",
+            "Alias": 5
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "LL_Clothes_Constellation_Legendary",
+            "Object": "00004A:HTG-Regenesys-Constellation-LE-Integrated.esp"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "ActiveConstellationMembers",
+            "Object": "00005E:HTG-Regenesys-Constellation-LE-Integrated.esp",
+            "Alias": 9
+          },
+          {
+            "MutagenObjectType": "ScriptStructProperty",
+            "Name": "PlayableConstellationArmorSet",
+            "Members": [
+              {
+                "Name": "",
+                "Properties": [
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "Helmet",
+                    "Object": "1E2B17:Starfield.esm"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "Backpack",
+                    "Object": "1E2B19:Starfield.esm"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "Spacesuit",
+                    "Object": "1E2B18:Starfield.esm"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "LL_Spacesuit_Mark1_FullSet_Legendary",
+            "Object": "00002E:HTG-Regenesys-Constellation-LE-Integrated.esp"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "PlayerRef",
+            "Object": "000014:Starfield.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "ServiceEnabled",
+            "Object": "000806:HTG-Regenesys-Constellation-LE-Integrated.esp"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "LL_Weapon_Constellation_Legendary",
+            "Object": "00003D:HTG-Regenesys-Constellation-LE-Integrated.esp"
+          },
+          {
+            "MutagenObjectType": "ScriptStructProperty",
+            "Name": "Mark1ArmorSet",
+            "Members": [
+              {
+                "Name": "",
+                "Properties": [
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "Spacesuit",
+                    "Object": "01754D:Starfield.esm"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "Backpack",
+                    "Object": "01754E:Starfield.esm"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "Helmet",
+                    "Object": "1D0F94:Starfield.esm"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "MutagenObjectType": "ScriptStructListProperty",
+            "Name": "DefaultMemberData",
+            "Structs": [
+              {
+                "Members": [
+                  {
+                    "MutagenObjectType": "ScriptStringProperty",
+                    "Name": "MemberName",
+                    "Data": "Andreja"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "MemberWeapon",
+                    "Object": "0D0F72:Starfield.esm"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "MemberRef",
+                    "Object": "0059A9:Starfield.esm"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "MemberSpacesuit",
+                    "Object": "24529E:Starfield.esm"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "MemberClothes",
+                    "Object": "1C8E09:Starfield.esm"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "MemberClothesPlayable",
+                    "Object": "1341E4:Starfield.esm"
+                  }
+                ]
+              },
+              {
+                "Members": [
+                  {
+                    "MutagenObjectType": "ScriptStringProperty",
+                    "Name": "MemberName",
+                    "Data": "Barrett"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "MemberWeapon",
+                    "Object": "0D0F70:Starfield.esm"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "MemberClothes",
+                    "Object": "1C8E07:Starfield.esm"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "MemberSpacesuit",
+                    "Object": "24529F:Starfield.esm"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "MemberRef",
+                    "Object": "005788:Starfield.esm"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "MemberClothesPlayable",
+                    "Object": "01D1DB:Starfield.esm"
+                  }
+                ]
+              },
+              {
+                "Members": [
+                  {
+                    "MutagenObjectType": "ScriptStringProperty",
+                    "Name": "MemberName",
+                    "Data": "Sam"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "MemberHatPlayable",
+                    "Object": "3FC344:Starfield.esm"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "MemberWeapon",
+                    "Object": "0D0F73:Starfield.esm"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "MemberClothes",
+                    "Object": "1C8E06:Starfield.esm"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "MemberSpacesuit",
+                    "Object": "2452A0:Starfield.esm"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "MemberRef",
+                    "Object": "29D488:Starfield.esm"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "MemberClothesPlayable",
+                    "Object": "01D1DE:Starfield.esm"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "MemberHat",
+                    "Object": "1C8E0A:Starfield.esm"
+                  }
+                ]
+              },
+              {
+                "Members": [
+                  {
+                    "MutagenObjectType": "ScriptStringProperty",
+                    "Name": "MemberName",
+                    "Data": "Sarah"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "MemberWeapon",
+                    "Object": "0D0F71:Starfield.esm"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "MemberRef",
+                    "Object": "005986:Starfield.esm"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "MemberSpacesuit",
+                    "Object": "2452A1:Starfield.esm"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "MemberClothes",
+                    "Object": "1C8E08:Starfield.esm"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "MemberClothesPlayable",
+                    "Object": "055905:Starfield.esm"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "Loot_Mannequin_Spacesuit_Female_Mark1_Lodge",
+            "Object": "080AC0:Starfield.esm"
           }
         ]
       }
@@ -365,6 +493,17 @@
         },
         "Scripts": [
           {
+            "Name": "HTG:SystemUtilities",
+            "Properties": [
+              {
+                "MutagenObjectType": "ScriptObjectProperty",
+                "Name": "ModInfoAlias",
+                "Object": "00005E:HTG-Regenesys-Constellation-LE-Integrated.esp",
+                "Alias": 13
+              }
+            ]
+          },
+          {
             "Name": "htg:systemlogger",
             "Properties": [
               {
@@ -378,17 +517,18 @@
                 "Data": "Constellation"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "Property": {
+          "Name": "",
+          "Object": "00005E:HTG-Regenesys-Constellation-LE-Integrated.esp",
+          "Alias": 5
+        },
+        "Scripts": [
           {
-            "Name": "HTG:SystemUtilities",
-            "Properties": [
-              {
-                "MutagenObjectType": "ScriptObjectProperty",
-                "Name": "ModInfoAlias",
-                "Object": "00005E:HTG-Regenesys-Constellation-LE-Integrated.esp",
-                "Alias": 13
-              }
-            ]
+            "Name": "HTG:Constellation:Quests:AvailableConstellationMembers"
           }
         ]
       },

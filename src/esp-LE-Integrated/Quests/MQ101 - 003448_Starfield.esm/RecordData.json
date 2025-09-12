@@ -124,216 +124,6 @@
         ]
       },
       {
-        "Name": "mq101script",
-        "Properties": [
-          {
-            "MutagenObjectType": "ScriptObjectListProperty",
-            "Name": "MQ101_013A_FlightScenes",
-            "Objects": [
-              {
-                "Name": "",
-                "Object": "01E76F:Starfield.esm"
-              },
-              {
-                "Name": "",
-                "Object": "24E1CF:Starfield.esm"
-              },
-              {
-                "Name": "",
-                "Object": "24E1D1:Starfield.esm"
-              },
-              {
-                "Name": "",
-                "Object": "24E1D2:Starfield.esm"
-              }
-            ]
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "SQ_PlayerShip",
-            "Object": "0174A2:Starfield.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "BarrettShipSmallItemMarker01",
-            "Object": "003448:Starfield.esm",
-            "Alias": 132
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "MQ101VascoQuestFollower",
-            "Object": "11876D:Starfield.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "BarrettShipCrewMarker",
-            "Object": "003448:Starfield.esm",
-            "Alias": 58
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "MQ101_Scene05_MarkerPlayer",
-            "Object": "052D2E:Starfield.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "Vasco",
-            "Object": "003448:Starfield.esm",
-            "Alias": 5
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "MQ101_LGT_B",
-            "Object": "1ED523:Starfield.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "CharGenFurniture",
-            "Object": "003448:Starfield.esm",
-            "Alias": 63
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "Tutorial_SetCourse01",
-            "Object": "07DB0E:Starfield.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "MQ101SaveOff",
-            "Object": "049420:Starfield.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "Tutorial_FastTravel_02",
-            "Object": "23CA29:Starfield.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "Heller",
-            "Object": "003448:Starfield.esm",
-            "Alias": 1
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "BarrettShipSmallItemMarker03",
-            "Object": "003448:Starfield.esm",
-            "Alias": 134
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "Tutorial_Inventory",
-            "Object": "04FC1F:Starfield.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "PlayerUnityTimesEntered",
-            "Object": "219529:Starfield.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "BarrettShipSmallItemMarker02",
-            "Object": "003448:Starfield.esm",
-            "Alias": 133
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "SQ_Companions",
-            "Object": "2A567C:Starfield.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "MQ101Debug",
-            "Object": "0A7D31:Starfield.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "Alias_BarrettShip",
-            "Object": "003448:Starfield.esm",
-            "Alias": 16
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "Tutorial_SetCourse02",
-            "Object": "07DB10:Starfield.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "Tutorial_Inventory04",
-            "Object": "287920:Starfield.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "Tutorial_SetCourse03",
-            "Object": "07DB0F:Starfield.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "Tutorial_Inventory03",
-            "Object": "210A99:Starfield.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "Tutorial_Inventory02",
-            "Object": "210A98:Starfield.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "Tutorial_FastTravel_03",
-            "Object": "23CA33:Starfield.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "MQPlayerStarbornShipREF",
-            "Object": "180F16:Starfield.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "BarrettShip_InteriorLocation",
-            "Object": "003448:Starfield.esm",
-            "Alias": 75
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "SQ_Crew",
-            "Object": "2A567D:Starfield.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "MQ101_LGT_A",
-            "Object": "1ED524:Starfield.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "BarrettShip_ExteriorLocation",
-            "Object": "003448:Starfield.esm",
-            "Alias": 76
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "BarrettPilotChair",
-            "Object": "003448:Starfield.esm",
-            "Alias": 62
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "Tutorial_FastTravel_01",
-            "Object": "23CA1A:Starfield.esm"
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "BarrettShipDoor",
-            "Object": "003448:Starfield.esm",
-            "Alias": 100
-          },
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "MineBoringMachine",
-            "Object": "003448:Starfield.esm",
-            "Alias": 41
-          }
-        ]
-      },
-      {
         "Name": "defaulttutorialquestscript",
         "Properties": [
           {
@@ -931,6 +721,216 @@
             ]
           }
         ]
+      },
+      {
+        "Name": "mq101script",
+        "Properties": [
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "MineBoringMachine",
+            "Object": "003448:Starfield.esm",
+            "Alias": 41
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "BarrettShip_InteriorLocation",
+            "Object": "003448:Starfield.esm",
+            "Alias": 75
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "BarrettShipSmallItemMarker01",
+            "Object": "003448:Starfield.esm",
+            "Alias": 132
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "MQ101_Scene05_MarkerPlayer",
+            "Object": "052D2E:Starfield.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "BarrettShip_ExteriorLocation",
+            "Object": "003448:Starfield.esm",
+            "Alias": 76
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "MQ101_LGT_B",
+            "Object": "1ED523:Starfield.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "BarrettShipDoor",
+            "Object": "003448:Starfield.esm",
+            "Alias": 100
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "Tutorial_FastTravel_01",
+            "Object": "23CA1A:Starfield.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "BarrettPilotChair",
+            "Object": "003448:Starfield.esm",
+            "Alias": 62
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "Heller",
+            "Object": "003448:Starfield.esm",
+            "Alias": 1
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "SQ_Companions",
+            "Object": "2A567C:Starfield.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "SQ_Crew",
+            "Object": "2A567D:Starfield.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "MQPlayerStarbornShipREF",
+            "Object": "180F16:Starfield.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "Tutorial_FastTravel_03",
+            "Object": "23CA33:Starfield.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "Tutorial_Inventory02",
+            "Object": "210A98:Starfield.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "Tutorial_Inventory03",
+            "Object": "210A99:Starfield.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "Tutorial_SetCourse03",
+            "Object": "07DB0F:Starfield.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "Tutorial_Inventory04",
+            "Object": "287920:Starfield.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "MQ101VascoQuestFollower",
+            "Object": "11876D:Starfield.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "Tutorial_SetCourse02",
+            "Object": "07DB10:Starfield.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "Alias_BarrettShip",
+            "Object": "003448:Starfield.esm",
+            "Alias": 16
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "MQ101Debug",
+            "Object": "0A7D31:Starfield.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "BarrettShipSmallItemMarker02",
+            "Object": "003448:Starfield.esm",
+            "Alias": 133
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "PlayerUnityTimesEntered",
+            "Object": "219529:Starfield.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "Tutorial_Inventory",
+            "Object": "04FC1F:Starfield.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "BarrettShipSmallItemMarker03",
+            "Object": "003448:Starfield.esm",
+            "Alias": 134
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "MQ101_LGT_A",
+            "Object": "1ED524:Starfield.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "Tutorial_FastTravel_02",
+            "Object": "23CA29:Starfield.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "MQ101SaveOff",
+            "Object": "049420:Starfield.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "Tutorial_SetCourse01",
+            "Object": "07DB0E:Starfield.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "CharGenFurniture",
+            "Object": "003448:Starfield.esm",
+            "Alias": 63
+          },
+          {
+            "MutagenObjectType": "ScriptObjectListProperty",
+            "Name": "MQ101_013A_FlightScenes",
+            "Objects": [
+              {
+                "Name": "",
+                "Object": "01E76F:Starfield.esm"
+              },
+              {
+                "Name": "",
+                "Object": "24E1CF:Starfield.esm"
+              },
+              {
+                "Name": "",
+                "Object": "24E1D1:Starfield.esm"
+              },
+              {
+                "Name": "",
+                "Object": "24E1D2:Starfield.esm"
+              }
+            ]
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "SQ_PlayerShip",
+            "Object": "0174A2:Starfield.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "BarrettShipCrewMarker",
+            "Object": "003448:Starfield.esm",
+            "Alias": 58
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "Vasco",
+            "Object": "003448:Starfield.esm",
+            "Alias": 5
+          }
+        ]
       }
     ],
     "Script": {
@@ -938,19 +938,43 @@
       "Properties": [
         {
           "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_VecteraAirlockCollision",
-          "Object": "003448:Starfield.esm",
-          "Alias": 152
+          "Name": "MQ101_006_DiscoveryArrivesScene",
+          "Object": "00575C:Starfield.esm"
         },
         {
           "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Tutorial_Boostpack_MSGBox",
-          "Object": "05E5B6:Starfield.esm"
+          "Name": "Spacesuit_Miner_Helmet_Orange",
+          "Object": "06ABFF:Starfield.esm"
         },
         {
           "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Crew_Elite_Cutter",
-          "Object": "1F9662:Starfield.esm"
+          "Name": "FactionFreestarCollectivePerk",
+          "Object": "1C5153:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_Scene05_MarkerPlayer",
+          "Object": "052D2E:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_BarrettAudioLog02new",
+          "Object": "0753E6:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "VecteraMineStarMarkerLin",
+          "Object": "057F18:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101LaserCutter",
+          "Object": "010E47:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101DrillHellerMarker01",
+          "Object": "013D57:Starfield.esm"
         },
         {
           "MutagenObjectType": "ScriptObjectProperty",
@@ -960,19 +984,92 @@
         },
         {
           "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_SetStageTrigger170",
+          "Name": "Alias_PlayerShip",
           "Object": "003448:Starfield.esm",
-          "Alias": 73
+          "Alias": 38
         },
         {
           "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Eon",
-          "Object": "0476C4:Starfield.esm"
+          "Name": "MQ101_KreetQuickstart_Player",
+          "Object": "114017:Starfield.esm"
         },
         {
           "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ_TutorialQuest_Misc07",
-          "Object": "31C070:Starfield.esm"
+          "Name": "Alias_LodgeArtifact01",
+          "Object": "003448:Starfield.esm",
+          "Alias": 113
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_BarrettShipCaptainsLocker",
+          "Object": "003448:Starfield.esm",
+          "Alias": 158
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_BarrettAudioLog01new",
+          "Object": "0753E5:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101PlayerScene08Marker02",
+          "Object": "05BD0E:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "TraitQuest",
+          "Object": "1687DB:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101VascoScene08Marker02",
+          "Object": "05C5F0:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "IdleStop",
+          "Object": "0A12CC:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_BarrettShipSmallItemMarker01",
+          "Object": "003448:Starfield.esm",
+          "Alias": 132
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "LC003PirateBossFaction",
+          "Object": "234998:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "VS_NewAtlantisVascoStartMarker",
+          "Object": "05E5B4:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_BarrettFinishedLandingEnableMarker",
+          "Object": "05C5EF:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101VascoQuestFollower",
+          "Object": "11876D:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Crew_Elite_Sidestar",
+          "Object": "1F9584:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "FFLodge01",
+          "Object": "1C0F26:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MUSGenesisStingerReveal1Short",
+          "Object": "05E5A3:Starfield.esm"
         },
         {
           "MutagenObjectType": "ScriptObjectProperty",
@@ -981,8 +1078,1297 @@
         },
         {
           "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101ArtifactSpawnMarker",
+          "Object": "1D078F:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Spacesuit_Miner_Backpack",
+          "Object": "029C7A:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101BarrettScene08Marker02",
+          "Object": "05C5F1:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Aid_MedPack",
+          "Object": "00ABF9:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "SQ_PlayerShip",
+          "Object": "0174A2:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Clothes_Miner_Jumpsuit",
+          "Object": "01D1D7:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Tutorial_ShipDamagedSystemMSG",
+          "Object": "1B8996:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "AnimArchetypePlayer",
+          "Object": "06B508:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_001b_MiningWalkScene",
+          "Object": "017F63:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "VecteraElevatorButtonREF",
+          "Object": "0175BC:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Crew_Elite_Cutter",
+          "Object": "1F9662:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_Heller",
+          "Object": "003448:Starfield.esm",
+          "Alias": 1
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Spacesuit_Miner_Helmet_Lin_NOTPLAYABLE",
+          "Object": "27D004:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Tutorial_Boostpack_MSGBox",
+          "Object": "05E5B6:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101VascoScene10Marker01",
+          "Object": "0057BF:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "FrontierShipKey",
+          "Object": "0191DD:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_014A_SecondCombatStarts",
+          "Object": "0011EF:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "PlayerUnityTimesEntered",
+          "Object": "219529:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "LC003_RoofMarker001",
+          "Object": "13D2E3:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
           "Name": "FactionUnitedColoniesPerk",
           "Object": "1C5154:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_PirateLandingShip",
+          "Object": "003448:Starfield.esm",
+          "Alias": 30
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_WalterStroud",
+          "Object": "003448:Starfield.esm",
+          "Alias": 8
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Tutorial_NewGamePlusMSGBox",
+          "Object": "05D1E3:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101BarrettScene08Marker01",
+          "Object": "005789:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_VecteraAirlock02",
+          "Object": "003448:Starfield.esm",
+          "Alias": 150
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "SpaceshipRegistration",
+          "Object": "0C55B1:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "FactionUnitedColoniesSysDefPerk",
+          "Object": "147DBD:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_VecteraAirlock01",
+          "Object": "003448:Starfield.esm",
+          "Alias": 149
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MUSGenesisStingerDread3Long",
+          "Object": "05B523:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "DNMQ101_Kreet",
+          "Object": "051ABA:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_017c_ApproachAliens",
+          "Object": "05F3ED:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "SAlphaCentauri_PJemison_Orbit",
+          "Object": "01AB2C:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "ENV_AllowPlayerSuffocation",
+          "Object": "23AED3:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "NewGameLodgeMarker",
+          "Object": "051F88:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101PostQuest",
+          "Object": "06A960:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_SpaceEncounter01_Ship02",
+          "Object": "003448:Starfield.esm",
+          "Alias": 51
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_Scene05_MarkerHeller",
+          "Object": "24A1F1:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MUSGenesisStingerReveal3Long",
+          "Object": "05B524:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_BoringCollision",
+          "Object": "250EE3:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MUSGenesisCombat_MQ101SpaceBattle",
+          "Object": "25AF25:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Clothes_Argos_Jumpsuit",
+          "Object": "21BBEC:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Tutorial_ShipPower_MSGBox_PC",
+          "Object": "115242:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_008_BarrettScene",
+          "Object": "005786:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_Lin",
+          "Object": "003448:Starfield.esm",
+          "Alias": 0
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_BarrettPilotChair",
+          "Object": "003448:Starfield.esm",
+          "Alias": 62
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQProgress",
+          "Object": "26AE33:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_DataSlate",
+          "Object": "003448:Starfield.esm",
+          "Alias": 110
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_SetStageTrigger170",
+          "Object": "003448:Starfield.esm",
+          "Alias": 73
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "City_NA_Aquilus01",
+          "Object": "07BDBF:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_037_ReactToArtifactScene",
+          "Object": "27C8F3:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ102",
+          "Object": "0114CD:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_ForemanBrock",
+          "Object": "003448:Starfield.esm",
+          "Alias": 0
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_NoelArtifact02",
+          "Object": "003448:Starfield.esm",
+          "Alias": 139
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Tutorial_Light_MKB_MSGBox",
+          "Object": "1B015B:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101LinDefenseMarker01",
+          "Object": "0132AC:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101SaveOff",
+          "Object": "049420:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101HellerScene08Marker02",
+          "Object": "05BD0D:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "DNMQ101",
+          "Object": "02465E:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_012b_VascoAtStationScene",
+          "Object": "012F84:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_035_SarahMorganScene",
+          "Object": "0059AF:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "AnimArchetypeFastWalk",
+          "Object": "12AC06:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_MineWallBreakable",
+          "Object": "003448:Starfield.esm",
+          "Alias": 42
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Tutorial_PlanetMapKreet_MSGBox",
+          "Object": "20E6C6:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "GameHour",
+          "Object": "000038:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_BarrettShip",
+          "Object": "003448:Starfield.esm",
+          "Alias": 16
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Tutorial_City_MSGBox",
+          "Object": "31C071:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_013A_FlightScene",
+          "Object": "01E76F:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Clothes_GenWare_01",
+          "Object": "165722:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_KreetBoss",
+          "Object": "003448:Starfield.esm",
+          "Alias": 145
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "TestMQ101HelperQuest",
+          "Object": "019089:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_Scene05_MarkerLin",
+          "Object": "005745:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Companion_Eon",
+          "Object": "0D0F70:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_SarahMorgan",
+          "Object": "003448:Starfield.esm",
+          "Alias": 6
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_IsabelleHellerFurnitureREF",
+          "Object": "0540E7:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_Armillary",
+          "Object": "003448:Starfield.esm",
+          "Alias": 112
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "FactionCrimsonFleetPerk",
+          "Object": "1C5151:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101LinScene08Marker01",
+          "Object": "00578B:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "FactionUnitedColoniesVanguardPerk",
+          "Object": "19651A:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_BarrettShipDoor",
+          "Object": "003448:Starfield.esm",
+          "Alias": 100
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "SQ_Followers",
+          "Object": "00D773:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "RAD02",
+          "Object": "29EF60:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101LandingEncounter01",
+          "Object": "068EA8:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "LC003_InteriorBaseActorEnableMarker",
+          "Object": "332AFE:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_013_SpaceScene",
+          "Object": "0058C0:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Outfit_Starborn",
+          "Object": "12E186:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Tutorial_PlanetLandingMSGBox",
+          "Object": "07DB0C:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_KreetQuickstart_Vasco",
+          "Object": "114016:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Tutorial_Inventory05",
+          "Object": "287921:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MUSGenesisSpecialCardTitleOpening",
+          "Object": "066316:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101LinScene08Marker02",
+          "Object": "05BD0C:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_ShipServicesNPC",
+          "Object": "003448:Starfield.esm",
+          "Alias": 65
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "SAlphaCentauri_PJemison",
+          "Object": "01AB29:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_Troy",
+          "Object": "003448:Starfield.esm",
+          "Alias": 24
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101Scene004HellerMarker02",
+          "Object": "0642F1:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "SQ_ActorRoles_SuppressMessages",
+          "Object": "2073D9:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101Artifact",
+          "Object": "005790:Starfield.esm",
+          "Alias": 0
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "SpaceshipEnabledLandingLink",
+          "Object": "01448D:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Health",
+          "Object": "0002D4:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "SpaceshipGravJumpFuel",
+          "Object": "00854F:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_002_LinSupervisorScene",
+          "Object": "005646:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_017e_InBaseScene",
+          "Object": "05F3EE:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Tutorial_Inventory_MKB_MSGBox",
+          "Object": "1B0166:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ_TutorialQuest",
+          "Object": "045640:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "LC003_Lab2Marker",
+          "Object": "05C708:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_VecteraExteriorMiners",
+          "Object": "003448:Starfield.esm",
+          "Alias": 121
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "FactionRyujinIndustriesPerk",
+          "Object": "1C5152:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_034_DockedScene",
+          "Object": "005989:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "NewGameShipMarkerREF",
+          "Object": "027306:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101MagicDoortoVectaraExt",
+          "Object": "012EBC:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_017a_LandingScene",
+          "Object": "01923D:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_NoelArtifact01",
+          "Object": "003448:Starfield.esm",
+          "Alias": 138
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_BarrettShipCrewMarker",
+          "Object": "003448:Starfield.esm",
+          "Alias": 58
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101KreetBossTravelMarker",
+          "Object": "20EEDC:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_Bening",
+          "Object": "003448:Starfield.esm",
+          "Alias": 26
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_004_WallDownScene",
+          "Object": "013D4A:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MUSGenesisStingerReveal2Medium",
+          "Object": "06D203:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ_TutorialQuest_Misc01",
+          "Object": "021356:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Outfit_Elite_Heller",
+          "Object": "288975:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101SpaceEncounter02",
+          "Object": "023187:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "VecteraInteriorNPCEnableMarker",
+          "Object": "2B69DA:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_034b_InsideLodgeScene",
+          "Object": "05E5A7:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ00",
+          "Object": "005790:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "BarrettLandingMarkerREF",
+          "Object": "0150D7:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_MQ101Artifact",
+          "Object": "003448:Starfield.esm",
+          "Alias": 4
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_010_BarrettWoundedScene",
+          "Object": "0057B8:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_ArtifactDeposit",
+          "Object": "003448:Starfield.esm",
+          "Alias": 29
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101ShipAlarmKlaxonREF",
+          "Object": "1ED519:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ_TutorialQuest_Misc04",
+          "Object": "021353:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101VascoScene08Marker01",
+          "Object": "0057BD:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "CharGenStartMarker",
+          "Object": "00346B:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Tutorial_LowHealthMSG_PC",
+          "Object": "2FC371:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_Player",
+          "Object": "003448:Starfield.esm",
+          "Alias": 17
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_BarrettShipSmallItemMarker03",
+          "Object": "003448:Starfield.esm",
+          "Alias": 134
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "SQ_Crew",
+          "Object": "2A567D:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "TestBarrettScene",
+          "Object": "1ED1DE:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101MagicDoortoVecteraExt",
+          "Object": "012EBC:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_Barrett",
+          "Object": "003448:Starfield.esm",
+          "Alias": 2
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Tutorial_ShipPower_MSGBox",
+          "Object": "1B017E:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_017d_ApproachOutpostScene02",
+          "Object": "252EE5:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQPlayerStarbornShipREF",
+          "Object": "180F16:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_011b_VascoEscort",
+          "Object": "2CB1C6:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "BarrettShipCaptainsLockerContents",
+          "Object": "0B8728:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "LC003_CafeteriaMarker",
+          "Object": "05C6FD:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Clothes_Chronomark_Mq101",
+          "Object": "0D4893:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ104B_LinSandbox_CenterMarker",
+          "Object": "1ED1BD:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ_TutorialQuest_Misc08",
+          "Object": "31C06F:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_KreetGuardLeft",
+          "Object": "003448:Starfield.esm",
+          "Alias": 155
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Spacesuit_Miner_Helmet_Orange_Heller_NOTPLAYABLE",
+          "Object": "27D005:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Spacesuit_Miner_Outfit",
+          "Object": "25176F:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_VascoMarker01",
+          "Object": "009128:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Clothes_Miner_UtilitySuit",
+          "Object": "01D1E7:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "StarbornSkillCheck",
+          "Object": "1D7053:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Tutorial_LowHealthMSG",
+          "Object": "2FC36E:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_BarrettShip_InteriorLocation",
+          "Object": "003448:Starfield.esm",
+          "Alias": 75
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_039c_ArtifactsTogether03",
+          "Object": "2276BB:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_Calvert",
+          "Object": "003448:Starfield.esm",
+          "Alias": 25
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_VecteraAirlock03",
+          "Object": "003448:Starfield.esm",
+          "Alias": 151
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_LaserDrill",
+          "Object": "003448:Starfield.esm",
+          "Alias": 27
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_BarrettAudioLog03new",
+          "Object": "0753E7:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101ArtifactLinMarker01",
+          "Object": "013D57:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Tutorial_ScannerMSGBox",
+          "Object": "15E0A4:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_010_BarrettScene2",
+          "Object": "00853E:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_013d_ShieldsDownScene",
+          "Object": "0FED06:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "VecteraMineStarMarker",
+          "Object": "057F16:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101SpaceEncounter01",
+          "Object": "0143B4:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_KreetDigipick",
+          "Object": "003448:Starfield.esm",
+          "Alias": 141
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "SNarion_PAnselon_MKreet_Surface",
+          "Object": "01B1D4:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_012_VascoShipScene",
+          "Object": "0058BD:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_BarrettShipSmallItemMarker02",
+          "Object": "003448:Starfield.esm",
+          "Alias": 133
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_034_OutsideLodgeScene",
+          "Object": "005989:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_017f_Helium3Scene",
+          "Object": "05F3EF:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Tutorial_ShipLowHealthMSG",
+          "Object": "1B8760:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "StarbornTempleQuest",
+          "Object": "214707:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_013c_ShipDamageTutorialScene",
+          "Object": "068F48:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_VectaraLocation",
+          "Object": "003448:Starfield.esm",
+          "Alias": 14
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_030b_ArriveAtJemisonScene",
+          "Object": "05ED74:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "TraitKidStuff",
+          "Object": "10C2FA:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_MedBench",
+          "Object": "003448:Starfield.esm",
+          "Alias": 71
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_018_CFCaptainScene",
+          "Object": "20EED9:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "idletakewatch",
+          "Object": "00155B:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Spacesuit_Miner_Backpack_NoBoostPack",
+          "Object": "029C7A:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "PlayerShipQuest",
+          "Object": "0174A2:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Tutorial_Light_Gamepad_MSGBox",
+          "Object": "1B015A:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "City_NA_Landing_ShipTechs",
+          "Object": "252335:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101Scene10PlayerMarker01",
+          "Object": "0057B9:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "LC003RoofFaction",
+          "Object": "221151:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101KreetShipLandingMarkerREF",
+          "Object": "13D12D:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101MagicDoortoVectaraMine",
+          "Object": "1ED51E:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "TraitStarterHome",
+          "Object": "0A47B8:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "GameDay",
+          "Object": "000037:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MUSGenesisSpecialChargenComplete",
+          "Object": "251F4B:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_034c_Stage1600Scene",
+          "Object": "1D078E:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_019_EnoughFuelScene",
+          "Object": "019241:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101ArtifactLinMarker02",
+          "Object": "068E68:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "TestVSWeapons",
+          "Object": "24AA02:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "VascoEliteCrewQuest",
+          "Object": "256F51:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Spacesuit_Miner_Helmet",
+          "Object": "052792:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_006b_SandwhichScene",
+          "Object": "253970:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101KreetBossTravelMarkerRight",
+          "Object": "22114E:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "idleexaminewatch",
+          "Object": "0C154F:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101TakeWatchMSG",
+          "Object": "098EB4:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Tutorial_ShipCombatMSG",
+          "Object": "1B9050:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "ConstellationFaction",
+          "Object": "0191DC:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MUSGenesisStingerFlightStart",
+          "Object": "05B862:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101Scene004LinMarker01",
+          "Object": "01403B:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "WEF_MQ101_Exit_Airlock_Music_UnMute",
+          "Object": "00A1B3:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_Stage35Trigger",
+          "Object": "003448:Starfield.esm",
+          "Alias": 37
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "SAlphaCentauri_PJemison_Surface",
+          "Object": "01AB2B:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101Medstims",
+          "Object": "2C02FE:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_014_SpaceCombatOverScene",
+          "Object": "0058C2:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "TestMQ101Drill",
+          "Object": "016758:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_017c_ApproachOutpostScene",
+          "Object": "05CB18:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_Vasco",
+          "Object": "003448:Starfield.esm",
+          "Alias": 5
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101BerrettScene10Marker01",
+          "Object": "0057BA:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Tutorial_StarMapKreet_MSGBox",
+          "Object": "20C2BF:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_VecteraAirlockCollision",
+          "Object": "003448:Starfield.esm",
+          "Alias": 152
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ401",
+          "Object": "1DC45E:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "PlayerFaction",
+          "Object": "01C21C:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "SBarnardsStar_PFrost_Orbit",
+          "Object": "060904:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_BarrettShip_LandDeck_RobotBay",
+          "Object": "003448:Starfield.esm",
+          "Alias": 111
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Outfit_Elite_Lin",
+          "Object": "288976:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_001_MiningScene",
+          "Object": "005636:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "SNarion_PAnselon_MKreet",
+          "Object": "01B1D3:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_030_JumpAgainScene",
+          "Object": "0058C6:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101KreetBossTravelMarkerLeft",
+          "Object": "22114F:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "PERK_StarterHome",
+          "Object": "227FDF:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_SamCoe",
+          "Object": "003448:Starfield.esm",
+          "Alias": 10
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_MineBoringMachine",
+          "Object": "003448:Starfield.esm",
+          "Alias": 41
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "LodgeKey",
+          "Object": "293A7D:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101BarrettScene10Marker01",
+          "Object": "0057BA:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Tutorial_Inventory_MSGBox",
+          "Object": "1B0164:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_017b_ExitRampScene",
+          "Object": "05CB17:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_Scene08_HellerLean",
+          "Object": "069987:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_LGT_B",
+          "Object": "1ED523:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MUSGenesisSpecialChargenWakeUp",
+          "Object": "00A1B5:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "WwiseEvent_AMBArtifactVisionA",
+          "Object": "1E2ADC:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_008C_BarrettPiratesArrive",
+          "Object": "069986:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "SNarion_PAnselon_MVectera_Surface",
+          "Object": "01BC44:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_KreetGuardRight",
+          "Object": "003448:Starfield.esm",
+          "Alias": 156
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_013B_SpaceCombatScene",
+          "Object": "0058C0:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MUSGenesisStingerReveal4PlayerExitsHab",
+          "Object": "04565E:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_LodgeTableActivator",
+          "Object": "003448:Starfield.esm",
+          "Alias": 107
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_BarrettShip_ExteriorLocation",
+          "Object": "003448:Starfield.esm",
+          "Alias": 76
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101_PlayerQuickstart9Marker",
+          "Object": "01403A:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ101DebugMSG01",
+          "Object": "0243E1:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "MQ_TutorialQuest_Misc07",
+          "Object": "31C070:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Eon",
+          "Object": "0476C4:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "idleartifacttouch",
+          "Object": "34C6E6:Starfield.esm"
+        },
+        {
+          "MutagenObjectType": "ScriptObjectProperty",
+          "Name": "Alias_VecteraMapMarker",
+          "Object": "003448:Starfield.esm",
+          "Alias": 117
         },
         {
           "MutagenObjectType": "ScriptObjectProperty",
@@ -996,44 +2382,8 @@
         },
         {
           "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Spacesuit_Miner_Helmet_Orange",
-          "Object": "06ABFF:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Tutorial_NewGamePlusMSGBox",
-          "Object": "05D1E3:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101MagicDoortoVecteraExt",
-          "Object": "012EBC:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_PirateLandingShip",
-          "Object": "003448:Starfield.esm",
-          "Alias": 30
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_KreetQuickstart_Player",
-          "Object": "114017:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101VascoQuestFollower",
-          "Object": "11876D:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
           "Name": "SNarion_PAnselon_MKreet_Orbit",
           "Object": "01B1D5:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "FrontierShipKey",
-          "Object": "0191DD:Starfield.esm"
         },
         {
           "MutagenObjectType": "ScriptObjectProperty",
@@ -1042,48 +2392,8 @@
         },
         {
           "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "IdleStop",
-          "Object": "0A12CC:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "idleexaminewatch",
-          "Object": "0C154F:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "TraitQuest",
-          "Object": "1687DB:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "FFLodge01",
-          "Object": "1C0F26:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "VecteraElevatorButtonREF",
-          "Object": "0175BC:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ104B_LinSandbox_CenterMarker",
-          "Object": "1ED1BD:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101Medstims",
-          "Object": "2C02FE:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
           "Name": "MQ101_016_KreetOrbitScene",
           "Object": "063800:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Aid_MedPack",
-          "Object": "00ABF9:Starfield.esm"
         },
         {
           "MutagenObjectType": "ScriptObjectProperty",
@@ -1093,192 +2403,8 @@
         },
         {
           "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "SQ_PlayerShip",
-          "Object": "0174A2:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_BarrettShipCaptainsLocker",
-          "Object": "003448:Starfield.esm",
-          "Alias": 158
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "idleartifacttouch",
-          "Object": "34C6E6:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_BarrettShip_ExteriorLocation",
-          "Object": "003448:Starfield.esm",
-          "Alias": 76
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "NewAtlantisShipLandingMarker",
-          "Object": "023605:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_012_VascoShipScene",
-          "Object": "0058BD:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "VecteraInteriorNPCEnableMarker",
-          "Object": "2B69DA:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "StarbornSkillCheck",
-          "Object": "1D7053:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101SaveOff",
-          "Object": "049420:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_006c_SlateScene",
-          "Object": "2CF3DE:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
           "Name": "ArtifactNotYetTakenEnableMarker",
           "Object": "1E8756:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101Scene10PlayerMarker01",
-          "Object": "0057B9:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_017g_SafeScene",
-          "Object": "03220E:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "VS_NewAtlantisVascoStartMarker",
-          "Object": "05E5B4:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_005B_FaceGenComplete",
-          "Object": "05B22C:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Companion_Eon",
-          "Object": "0D0F70:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_BarrettShipSmallItemMarker01",
-          "Object": "003448:Starfield.esm",
-          "Alias": 132
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_017b_ExitRampScene",
-          "Object": "05CB17:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "AnimArchetypePlayer",
-          "Object": "06B508:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101ArtifactLinMarker01",
-          "Object": "013D57:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101DrillHellerMarker01",
-          "Object": "013D57:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_Scene08_HellerLean",
-          "Object": "069987:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "PlayerUnityTimesEntered",
-          "Object": "219529:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_006_DiscoveryArrivesScene",
-          "Object": "00575C:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MUSGenesisStingerReveal1Short",
-          "Object": "05E5A3:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "LC003_Lab2Marker",
-          "Object": "05C708:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_VecteraMapMarker",
-          "Object": "003448:Starfield.esm",
-          "Alias": 117
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "SQ_Followers",
-          "Object": "00D773:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "FactionFreestarCollectivePerk",
-          "Object": "1C5153:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "VS_NewAtlantisStartMarker",
-          "Object": "00B7F7:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MUSGenesisCombat_MQ101SpaceBattle",
-          "Object": "25AF25:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "VecteraMineStarMarkerHeller",
-          "Object": "057F17:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_013B_SpaceCombatScene",
-          "Object": "0058C0:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Cutter",
-          "Object": "016758:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "GameHour",
-          "Object": "000038:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101DebugMSG01",
-          "Object": "0243E1:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_PlayerQuickstart9Marker",
-          "Object": "01403A:Starfield.esm"
         },
         {
           "MutagenObjectType": "ScriptObjectProperty",
@@ -1288,1164 +2414,38 @@
         },
         {
           "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_LodgeTableActivator",
-          "Object": "003448:Starfield.esm",
-          "Alias": 107
+          "Name": "NewAtlantisShipLandingMarker",
+          "Object": "023605:Starfield.esm"
         },
         {
           "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101ArtifactSpawnMarker",
-          "Object": "1D078F:Starfield.esm"
+          "Name": "MQ101_006c_SlateScene",
+          "Object": "2CF3DE:Starfield.esm"
         },
         {
           "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MUSGenesisStingerReveal4PlayerExitsHab",
-          "Object": "04565E:Starfield.esm"
+          "Name": "MQ101_017g_SafeScene",
+          "Object": "03220E:Starfield.esm"
         },
         {
           "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_KreetGuardRight",
-          "Object": "003448:Starfield.esm",
-          "Alias": 156
+          "Name": "MQ101_005B_FaceGenComplete",
+          "Object": "05B22C:Starfield.esm"
         },
         {
           "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_030_JumpAgainScene",
-          "Object": "0058C6:Starfield.esm"
+          "Name": "VS_NewAtlantisStartMarker",
+          "Object": "00B7F7:Starfield.esm"
         },
         {
           "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "VecteraMineStarMarkerLin",
-          "Object": "057F18:Starfield.esm"
+          "Name": "VecteraMineStarMarkerHeller",
+          "Object": "057F17:Starfield.esm"
         },
         {
           "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "SNarion_PAnselon_MVectera_Surface",
-          "Object": "01BC44:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_008C_BarrettPiratesArrive",
-          "Object": "069986:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_VecteraAirlock02",
-          "Object": "003448:Starfield.esm",
-          "Alias": 150
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_Scene05_MarkerPlayer",
-          "Object": "052D2E:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101VascoScene08Marker02",
-          "Object": "05C5F0:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "WwiseEvent_AMBArtifactVisionA",
-          "Object": "1E2ADC:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MUSGenesisSpecialChargenWakeUp",
-          "Object": "00A1B5:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_LGT_B",
-          "Object": "1ED523:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Spacesuit_Miner_Backpack",
-          "Object": "029C7A:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Tutorial_Inventory_MSGBox",
-          "Object": "1B0164:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_001b_MiningWalkScene",
-          "Object": "017F63:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101BarrettScene10Marker01",
-          "Object": "0057BA:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101LaserCutter",
-          "Object": "010E47:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_SarahMorgan",
-          "Object": "003448:Starfield.esm",
-          "Alias": 6
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "SAlphaCentauri_PJemison_Surface",
-          "Object": "01AB2B:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "LodgeKey",
-          "Object": "293A7D:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_MineBoringMachine",
-          "Object": "003448:Starfield.esm",
-          "Alias": 41
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_Heller",
-          "Object": "003448:Starfield.esm",
-          "Alias": 1
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_SamCoe",
-          "Object": "003448:Starfield.esm",
-          "Alias": 10
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Spacesuit_Miner_Helmet_Lin_NOTPLAYABLE",
-          "Object": "27D004:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "PERK_StarterHome",
-          "Object": "227FDF:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_013c_ShipDamageTutorialScene",
-          "Object": "068F48:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "SNarion_PAnselon_MKreet",
-          "Object": "01B1D3:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101BarrettScene08Marker02",
-          "Object": "05C5F1:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_LodgeArtifact01",
-          "Object": "003448:Starfield.esm",
-          "Alias": 113
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_001_MiningScene",
-          "Object": "005636:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "City_NA_Landing_ShipTechs",
-          "Object": "252335:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_BarrettAudioLog01new",
-          "Object": "0753E5:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Outfit_Elite_Lin",
-          "Object": "288976:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_BarrettShip_LandDeck_RobotBay",
-          "Object": "003448:Starfield.esm",
-          "Alias": 111
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "SBarnardsStar_PFrost_Orbit",
-          "Object": "060904:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_034c_Stage1600Scene",
-          "Object": "1D078E:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "PlayerFaction",
-          "Object": "01C21C:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_010_BarrettWoundedScene",
-          "Object": "0057B8:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Clothes_Argos_Jumpsuit",
-          "Object": "21BBEC:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Tutorial_StarMapKreet_MSGBox",
-          "Object": "20C2BF:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_VecteraExteriorMiners",
-          "Object": "003448:Starfield.esm",
-          "Alias": 121
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101BerrettScene10Marker01",
-          "Object": "0057BA:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Crew_Elite_Sidestar",
-          "Object": "1F9584:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_Vasco",
-          "Object": "003448:Starfield.esm",
-          "Alias": 5
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "LC003PirateBossFaction",
-          "Object": "234998:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_017c_ApproachOutpostScene",
-          "Object": "05CB18:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "TestMQ101Drill",
+          "Name": "Cutter",
           "Object": "016758:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_014_SpaceCombatOverScene",
-          "Object": "0058C2:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_Stage35Trigger",
-          "Object": "003448:Starfield.esm",
-          "Alias": 37
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Tutorial_Inventory05",
-          "Object": "287921:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101VascoScene08Marker01",
-          "Object": "0057BD:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "WEF_MQ101_Exit_Airlock_Music_UnMute",
-          "Object": "00A1B3:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101Scene004LinMarker01",
-          "Object": "01403B:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MUSGenesisStingerFlightStart",
-          "Object": "05B862:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Health",
-          "Object": "0002D4:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "ConstellationFaction",
-          "Object": "0191DC:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Tutorial_ShipCombatMSG",
-          "Object": "1B9050:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_KreetBoss",
-          "Object": "003448:Starfield.esm",
-          "Alias": 145
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101KreetBossTravelMarkerRight",
-          "Object": "22114E:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_006b_SandwhichScene",
-          "Object": "253970:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Spacesuit_Miner_Helmet",
-          "Object": "052792:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "VascoEliteCrewQuest",
-          "Object": "256F51:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "TestVSWeapons",
-          "Object": "24AA02:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101ArtifactLinMarker02",
-          "Object": "068E68:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_019_EnoughFuelScene",
-          "Object": "019241:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MUSGenesisSpecialChargenComplete",
-          "Object": "251F4B:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "GameDay",
-          "Object": "000037:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "TraitStarterHome",
-          "Object": "0A47B8:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101MagicDoortoVectaraMine",
-          "Object": "1ED51E:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101KreetShipLandingMarkerREF",
-          "Object": "13D12D:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "LC003RoofFaction",
-          "Object": "221151:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_Barrett",
-          "Object": "003448:Starfield.esm",
-          "Alias": 2
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Tutorial_Light_Gamepad_MSGBox",
-          "Object": "1B015A:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "PlayerShipQuest",
-          "Object": "0174A2:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Spacesuit_Miner_Backpack_NoBoostPack",
-          "Object": "029C7A:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "LC003_RoofMarker001",
-          "Object": "13D2E3:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "idletakewatch",
-          "Object": "00155B:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_018_CFCaptainScene",
-          "Object": "20EED9:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_MedBench",
-          "Object": "003448:Starfield.esm",
-          "Alias": 71
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "TraitKidStuff",
-          "Object": "10C2FA:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_030b_ArriveAtJemisonScene",
-          "Object": "05ED74:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_VectaraLocation",
-          "Object": "003448:Starfield.esm",
-          "Alias": 14
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_PlayerShip",
-          "Object": "003448:Starfield.esm",
-          "Alias": 38
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101KreetBossTravelMarkerLeft",
-          "Object": "22114F:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "StarbornTempleQuest",
-          "Object": "214707:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Tutorial_ShipLowHealthMSG",
-          "Object": "1B8760:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_017f_Helium3Scene",
-          "Object": "05F3EF:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_034_OutsideLodgeScene",
-          "Object": "005989:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_BarrettShipSmallItemMarker02",
-          "Object": "003448:Starfield.esm",
-          "Alias": 133
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "SNarion_PAnselon_MKreet_Surface",
-          "Object": "01B1D4:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_KreetDigipick",
-          "Object": "003448:Starfield.esm",
-          "Alias": 141
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101SpaceEncounter01",
-          "Object": "0143B4:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "VecteraMineStarMarker",
-          "Object": "057F16:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_013d_ShieldsDownScene",
-          "Object": "0FED06:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101HellerScene08Marker02",
-          "Object": "05BD0D:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_010_BarrettScene2",
-          "Object": "00853E:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Tutorial_ScannerMSGBox",
-          "Object": "15E0A4:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_BarrettAudioLog03new",
-          "Object": "0753E7:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_LaserDrill",
-          "Object": "003448:Starfield.esm",
-          "Alias": 27
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_VecteraAirlock03",
-          "Object": "003448:Starfield.esm",
-          "Alias": 151
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_Calvert",
-          "Object": "003448:Starfield.esm",
-          "Alias": 25
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_039c_ArtifactsTogether03",
-          "Object": "2276BB:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101BarrettScene08Marker01",
-          "Object": "005789:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_BarrettShip_InteriorLocation",
-          "Object": "003448:Starfield.esm",
-          "Alias": 75
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "SQ_Crew",
-          "Object": "2A567D:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Clothes_Miner_UtilitySuit",
-          "Object": "01D1E7:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_VascoMarker01",
-          "Object": "009128:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Spacesuit_Miner_Outfit",
-          "Object": "25176F:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Spacesuit_Miner_Helmet_Orange_Heller_NOTPLAYABLE",
-          "Object": "27D005:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_KreetGuardLeft",
-          "Object": "003448:Starfield.esm",
-          "Alias": 155
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ_TutorialQuest_Misc08",
-          "Object": "31C06F:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101LinDefenseMarker01",
-          "Object": "0132AC:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "LC003_CafeteriaMarker",
-          "Object": "05C6FD:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "BarrettShipCaptainsLockerContents",
-          "Object": "0B8728:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_011b_VascoEscort",
-          "Object": "2CB1C6:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQPlayerStarbornShipREF",
-          "Object": "180F16:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_017d_ApproachOutpostScene02",
-          "Object": "252EE5:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Tutorial_ShipPower_MSGBox",
-          "Object": "1B017E:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MUSGenesisSpecialCardTitleOpening",
-          "Object": "066316:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "TestBarrettScene",
-          "Object": "1ED1DE:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Tutorial_LowHealthMSG",
-          "Object": "2FC36E:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_BarrettShipSmallItemMarker03",
-          "Object": "003448:Starfield.esm",
-          "Alias": 134
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_Player",
-          "Object": "003448:Starfield.esm",
-          "Alias": 17
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Tutorial_LowHealthMSG_PC",
-          "Object": "2FC371:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "CharGenStartMarker",
-          "Object": "00346B:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ_TutorialQuest_Misc04",
-          "Object": "021353:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101ShipAlarmKlaxonREF",
-          "Object": "1ED519:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_ArtifactDeposit",
-          "Object": "003448:Starfield.esm",
-          "Alias": 29
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ401",
-          "Object": "1DC45E:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_BarrettFinishedLandingEnableMarker",
-          "Object": "05C5EF:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_MQ101Artifact",
-          "Object": "003448:Starfield.esm",
-          "Alias": 4
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "BarrettLandingMarkerREF",
-          "Object": "0150D7:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ00",
-          "Object": "005790:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_034b_InsideLodgeScene",
-          "Object": "05E5A7:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101SpaceEncounter02",
-          "Object": "023187:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Outfit_Elite_Heller",
-          "Object": "288975:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ_TutorialQuest_Misc01",
-          "Object": "021356:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MUSGenesisStingerReveal2Medium",
-          "Object": "06D203:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_004_WallDownScene",
-          "Object": "013D4A:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_Bening",
-          "Object": "003448:Starfield.esm",
-          "Alias": 26
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_BoringCollision",
-          "Object": "250EE3:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "FactionUnitedColoniesSysDefPerk",
-          "Object": "147DBD:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_NoelArtifact01",
-          "Object": "003448:Starfield.esm",
-          "Alias": 138
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_017a_LandingScene",
-          "Object": "01923D:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101MagicDoortoVectaraExt",
-          "Object": "012EBC:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "NewGameShipMarkerREF",
-          "Object": "027306:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_034_DockedScene",
-          "Object": "005989:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "FactionRyujinIndustriesPerk",
-          "Object": "1C5152:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ_TutorialQuest",
-          "Object": "045640:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Tutorial_Inventory_MKB_MSGBox",
-          "Object": "1B0166:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_017e_InBaseScene",
-          "Object": "05F3EE:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_002_LinSupervisorScene",
-          "Object": "005646:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "SpaceshipGravJumpFuel",
-          "Object": "00854F:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "SpaceshipEnabledLandingLink",
-          "Object": "01448D:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101Artifact",
-          "Object": "005790:Starfield.esm",
-          "Alias": 0
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "SQ_ActorRoles_SuppressMessages",
-          "Object": "2073D9:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101Scene004HellerMarker02",
-          "Object": "0642F1:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101VascoScene10Marker01",
-          "Object": "0057BF:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_Troy",
-          "Object": "003448:Starfield.esm",
-          "Alias": 24
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "SAlphaCentauri_PJemison",
-          "Object": "01AB29:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_ShipServicesNPC",
-          "Object": "003448:Starfield.esm",
-          "Alias": 65
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101LinScene08Marker02",
-          "Object": "05BD0C:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_WalterStroud",
-          "Object": "003448:Starfield.esm",
-          "Alias": 8
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_KreetQuickstart_Vasco",
-          "Object": "114016:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_BarrettAudioLog02new",
-          "Object": "0753E6:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Tutorial_PlanetLandingMSGBox",
-          "Object": "07DB0C:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Outfit_Starborn",
-          "Object": "12E186:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_013_SpaceScene",
-          "Object": "0058C0:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "ENV_AllowPlayerSuffocation",
-          "Object": "23AED3:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "LC003_InteriorBaseActorEnableMarker",
-          "Object": "332AFE:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101LandingEncounter01",
-          "Object": "068EA8:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "RAD02",
-          "Object": "29EF60:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_BarrettShipDoor",
-          "Object": "003448:Starfield.esm",
-          "Alias": 100
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_014A_SecondCombatStarts",
-          "Object": "0011EF:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "FactionUnitedColoniesVanguardPerk",
-          "Object": "19651A:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101LinScene08Marker01",
-          "Object": "00578B:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "FactionCrimsonFleetPerk",
-          "Object": "1C5151:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Clothes_Miner_Jumpsuit",
-          "Object": "01D1D7:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_Armillary",
-          "Object": "003448:Starfield.esm",
-          "Alias": 112
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101PlayerScene08Marker02",
-          "Object": "05BD0E:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_IsabelleHellerFurnitureREF",
-          "Object": "0540E7:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Tutorial_ShipDamagedSystemMSG",
-          "Object": "1B8996:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_Scene05_MarkerLin",
-          "Object": "005745:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "TestMQ101HelperQuest",
-          "Object": "019089:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101TakeWatchMSG",
-          "Object": "098EB4:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Clothes_GenWare_01",
-          "Object": "165722:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_013A_FlightScene",
-          "Object": "01E76F:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Tutorial_City_MSGBox",
-          "Object": "31C071:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_BarrettShip",
-          "Object": "003448:Starfield.esm",
-          "Alias": 16
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Tutorial_PlanetMapKreet_MSGBox",
-          "Object": "20E6C6:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_MineWallBreakable",
-          "Object": "003448:Starfield.esm",
-          "Alias": 42
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "SAlphaCentauri_PJemison_Orbit",
-          "Object": "01AB2C:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "AnimArchetypeFastWalk",
-          "Object": "12AC06:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_035_SarahMorganScene",
-          "Object": "0059AF:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_012b_VascoAtStationScene",
-          "Object": "012F84:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "DNMQ101",
-          "Object": "02465E:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Clothes_Chronomark_Mq101",
-          "Object": "0D4893:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Tutorial_Light_MKB_MSGBox",
-          "Object": "1B015B:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_NoelArtifact02",
-          "Object": "003448:Starfield.esm",
-          "Alias": 139
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_ForemanBrock",
-          "Object": "003448:Starfield.esm",
-          "Alias": 0
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ102",
-          "Object": "0114CD:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_037_ReactToArtifactScene",
-          "Object": "27C8F3:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "City_NA_Aquilus01",
-          "Object": "07BDBF:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_DataSlate",
-          "Object": "003448:Starfield.esm",
-          "Alias": 110
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQProgress",
-          "Object": "26AE33:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_BarrettPilotChair",
-          "Object": "003448:Starfield.esm",
-          "Alias": 62
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_Lin",
-          "Object": "003448:Starfield.esm",
-          "Alias": 0
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_008_BarrettScene",
-          "Object": "005786:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Tutorial_ShipPower_MSGBox_PC",
-          "Object": "115242:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101KreetBossTravelMarker",
-          "Object": "20EEDC:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MUSGenesisStingerReveal3Long",
-          "Object": "05B524:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_Scene05_MarkerHeller",
-          "Object": "24A1F1:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_SpaceEncounter01_Ship02",
-          "Object": "003448:Starfield.esm",
-          "Alias": 51
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101PostQuest",
-          "Object": "06A960:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "NewGameLodgeMarker",
-          "Object": "051F88:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MQ101_017c_ApproachAliens",
-          "Object": "05F3ED:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "DNMQ101_Kreet",
-          "Object": "051ABA:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "MUSGenesisStingerDread3Long",
-          "Object": "05B523:Starfield.esm"
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_VecteraAirlock01",
-          "Object": "003448:Starfield.esm",
-          "Alias": 149
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "Alias_BarrettShipCrewMarker",
-          "Object": "003448:Starfield.esm",
-          "Alias": 58
-        },
-        {
-          "MutagenObjectType": "ScriptObjectProperty",
-          "Name": "SpaceshipRegistration",
-          "Object": "0C55B1:Starfield.esm"
         }
       ]
     },
@@ -3361,28 +3361,10 @@
         "FragmentName": "Fragment_Stage_0410_Item_00"
       },
       {
-        "Stage": 9000,
+        "Stage": 625,
         "Unknown2": 1,
         "ScriptName": "Fragments:Quests:QF_MQ101_00003448",
-        "FragmentName": "Fragment_Stage_9000_Item_00"
-      },
-      {
-        "Stage": 2000,
-        "Unknown2": 1,
-        "ScriptName": "Fragments:Quests:QF_MQ101_00003448",
-        "FragmentName": "Fragment_Stage_2000_Item_00"
-      },
-      {
-        "Stage": 1630,
-        "Unknown2": 1,
-        "ScriptName": "Fragments:Quests:QF_MQ101_00003448",
-        "FragmentName": "Fragment_Stage_1630_Item_00"
-      },
-      {
-        "Stage": 1620,
-        "Unknown2": 1,
-        "ScriptName": "Fragments:Quests:QF_MQ101_00003448",
-        "FragmentName": "Fragment_Stage_1620_Item_00"
+        "FragmentName": "Fragment_Stage_0625_Item_00"
       },
       {
         "Stage": 1610,
@@ -3391,10 +3373,28 @@
         "FragmentName": "Fragment_Stage_1610_Item_00"
       },
       {
-        "Stage": 625,
+        "Stage": 1620,
         "Unknown2": 1,
         "ScriptName": "Fragments:Quests:QF_MQ101_00003448",
-        "FragmentName": "Fragment_Stage_0625_Item_00"
+        "FragmentName": "Fragment_Stage_1620_Item_00"
+      },
+      {
+        "Stage": 1630,
+        "Unknown2": 1,
+        "ScriptName": "Fragments:Quests:QF_MQ101_00003448",
+        "FragmentName": "Fragment_Stage_1630_Item_00"
+      },
+      {
+        "Stage": 2000,
+        "Unknown2": 1,
+        "ScriptName": "Fragments:Quests:QF_MQ101_00003448",
+        "FragmentName": "Fragment_Stage_2000_Item_00"
+      },
+      {
+        "Stage": 9000,
+        "Unknown2": 1,
+        "ScriptName": "Fragments:Quests:QF_MQ101_00003448",
+        "FragmentName": "Fragment_Stage_9000_Item_00"
       }
     ],
     "Aliases": [
@@ -3410,13 +3410,13 @@
             "Properties": [
               {
                 "MutagenObjectType": "ScriptIntProperty",
-                "Name": "PrereqStage",
-                "Data": 305
+                "Name": "StageToSet",
+                "Data": 310
               },
               {
                 "MutagenObjectType": "ScriptIntProperty",
-                "Name": "StageToSet",
-                "Data": 310
+                "Name": "PrereqStage",
+                "Data": 305
               }
             ]
           }
@@ -3488,13 +3488,8 @@
             "Properties": [
               {
                 "MutagenObjectType": "ScriptObjectProperty",
-                "Name": "ArmorTypeHelmet",
-                "Object": "12EEE9:Starfield.esm"
-              },
-              {
-                "MutagenObjectType": "ScriptObjectProperty",
-                "Name": "NewAtlantisLocation",
-                "Object": "01295A:Starfield.esm"
+                "Name": "MineralType",
+                "Object": "0057D9:Starfield.esm"
               },
               {
                 "MutagenObjectType": "ScriptObjectProperty",
@@ -3503,26 +3498,14 @@
               },
               {
                 "MutagenObjectType": "ScriptObjectProperty",
-                "Name": "Vasco",
-                "Object": "003448:Starfield.esm",
-                "Alias": 5
+                "Name": "NewAtlantisLocation",
+                "Object": "01295A:Starfield.esm"
               },
               {
                 "MutagenObjectType": "ScriptObjectProperty",
                 "Name": "BarrettShip",
                 "Object": "003448:Starfield.esm",
                 "Alias": 16
-              },
-              {
-                "MutagenObjectType": "ScriptObjectProperty",
-                "Name": "PlayerShip",
-                "Object": "003448:Starfield.esm",
-                "Alias": 38
-              },
-              {
-                "MutagenObjectType": "ScriptObjectProperty",
-                "Name": "MineralType",
-                "Object": "0057D9:Starfield.esm"
               },
               {
                 "MutagenObjectType": "ScriptObjectProperty",
@@ -3537,9 +3520,8 @@
               },
               {
                 "MutagenObjectType": "ScriptObjectProperty",
-                "Name": "BarrettShipPilotChair",
-                "Object": "003448:Starfield.esm",
-                "Alias": 62
+                "Name": "Cutter",
+                "Object": "016758:Starfield.esm"
               },
               {
                 "MutagenObjectType": "ScriptObjectProperty",
@@ -3549,8 +3531,26 @@
               },
               {
                 "MutagenObjectType": "ScriptObjectProperty",
-                "Name": "Cutter",
-                "Object": "016758:Starfield.esm"
+                "Name": "BarrettShipPilotChair",
+                "Object": "003448:Starfield.esm",
+                "Alias": 62
+              },
+              {
+                "MutagenObjectType": "ScriptObjectProperty",
+                "Name": "ArmorTypeHelmet",
+                "Object": "12EEE9:Starfield.esm"
+              },
+              {
+                "MutagenObjectType": "ScriptObjectProperty",
+                "Name": "Vasco",
+                "Object": "003448:Starfield.esm",
+                "Alias": 5
+              },
+              {
+                "MutagenObjectType": "ScriptObjectProperty",
+                "Name": "PlayerShip",
+                "Object": "003448:Starfield.esm",
+                "Alias": 38
               }
             ]
           }
@@ -3655,6 +3655,42 @@
             "Properties": [
               {
                 "MutagenObjectType": "ScriptObjectProperty",
+                "Name": "SpaceshipBuildableThrusterPower",
+                "Object": "00ACDA:Starfield.esm"
+              },
+              {
+                "MutagenObjectType": "ScriptObjectProperty",
+                "Name": "TheLodge",
+                "Object": "003448:Starfield.esm",
+                "Alias": 31
+              },
+              {
+                "MutagenObjectType": "ScriptObjectProperty",
+                "Name": "SNarionA_PAnselon_MKreet_Orbit",
+                "Object": "01B1D5:Starfield.esm"
+              },
+              {
+                "MutagenObjectType": "ScriptObjectProperty",
+                "Name": "SpaceshipWeaponGatlingGunPower",
+                "Object": "219625:Starfield.esm"
+              },
+              {
+                "MutagenObjectType": "ScriptObjectProperty",
+                "Name": "SpaceshipBuildableEnginePower",
+                "Object": "00ACD9:Starfield.esm"
+              },
+              {
+                "MutagenObjectType": "ScriptObjectProperty",
+                "Name": "SpaceshipWeaponGunPower",
+                "Object": "219624:Starfield.esm"
+              },
+              {
+                "MutagenObjectType": "ScriptObjectProperty",
+                "Name": "SpaceshipWeaponMissileLauncherPower",
+                "Object": "219623:Starfield.esm"
+              },
+              {
+                "MutagenObjectType": "ScriptObjectProperty",
                 "Name": "SpaceshipGravJumpPower",
                 "Object": "1B02CF:Starfield.esm"
               },
@@ -3682,42 +3718,6 @@
                 "MutagenObjectType": "ScriptObjectProperty",
                 "Name": "SNarionA_PAnselon_MKreet",
                 "Object": "01B1D3:Starfield.esm"
-              },
-              {
-                "MutagenObjectType": "ScriptObjectProperty",
-                "Name": "SNarionA_PAnselon_MKreet_Orbit",
-                "Object": "01B1D5:Starfield.esm"
-              },
-              {
-                "MutagenObjectType": "ScriptObjectProperty",
-                "Name": "TheLodge",
-                "Object": "003448:Starfield.esm",
-                "Alias": 31
-              },
-              {
-                "MutagenObjectType": "ScriptObjectProperty",
-                "Name": "SpaceshipWeaponMissileLauncherPower",
-                "Object": "219623:Starfield.esm"
-              },
-              {
-                "MutagenObjectType": "ScriptObjectProperty",
-                "Name": "SpaceshipWeaponGunPower",
-                "Object": "219624:Starfield.esm"
-              },
-              {
-                "MutagenObjectType": "ScriptObjectProperty",
-                "Name": "SpaceshipBuildableThrusterPower",
-                "Object": "00ACDA:Starfield.esm"
-              },
-              {
-                "MutagenObjectType": "ScriptObjectProperty",
-                "Name": "SpaceshipWeaponGatlingGunPower",
-                "Object": "219625:Starfield.esm"
-              },
-              {
-                "MutagenObjectType": "ScriptObjectProperty",
-                "Name": "SpaceshipBuildableEnginePower",
-                "Object": "00ACD9:Starfield.esm"
               }
             ]
           }
@@ -3840,13 +3840,13 @@
             "Properties": [
               {
                 "MutagenObjectType": "ScriptIntProperty",
-                "Name": "StageToSet",
-                "Data": 1630
+                "Name": "PrereqStage",
+                "Data": 1620
               },
               {
                 "MutagenObjectType": "ScriptIntProperty",
-                "Name": "PrereqStage",
-                "Data": 1620
+                "Name": "StageToSet",
+                "Data": 1630
               }
             ]
           }
@@ -3914,13 +3914,13 @@
             "Properties": [
               {
                 "MutagenObjectType": "ScriptIntProperty",
-                "Name": "StageToSet",
-                "Data": 647
+                "Name": "PrereqStage",
+                "Data": 645
               },
               {
                 "MutagenObjectType": "ScriptIntProperty",
-                "Name": "PrereqStage",
-                "Data": 645
+                "Name": "StageToSet",
+                "Data": 647
               }
             ]
           },
@@ -3929,13 +3929,13 @@
             "Properties": [
               {
                 "MutagenObjectType": "ScriptIntProperty",
-                "Name": "PrereqStage",
-                "Data": 645
+                "Name": "StageToSet",
+                "Data": 647
               },
               {
                 "MutagenObjectType": "ScriptIntProperty",
-                "Name": "StageToSet",
-                "Data": 647
+                "Name": "PrereqStage",
+                "Data": 645
               }
             ]
           }
@@ -3955,16 +3955,6 @@
                 "MutagenObjectType": "ScriptIntProperty",
                 "Name": "StageToSet",
                 "Data": 695
-              }
-            ]
-          },
-          {
-            "Name": "DefaultAliasOnCombatStateChanged",
-            "Properties": [
-              {
-                "MutagenObjectType": "ScriptIntProperty",
-                "Name": "StageToSet",
-                "Data": 690
               }
             ]
           },
@@ -3992,6 +3982,16 @@
                 ]
               }
             ]
+          },
+          {
+            "Name": "DefaultAliasOnCombatStateChanged",
+            "Properties": [
+              {
+                "MutagenObjectType": "ScriptIntProperty",
+                "Name": "StageToSet",
+                "Data": 690
+              }
+            ]
           }
         ]
       },
@@ -4011,14 +4011,14 @@
                 "Data": true
               },
               {
-                "MutagenObjectType": "ScriptIntProperty",
-                "Name": "StageToSet",
-                "Data": 690
-              },
-              {
                 "MutagenObjectType": "ScriptBoolProperty",
                 "Name": "PlayerOnly",
                 "Data": true
+              },
+              {
+                "MutagenObjectType": "ScriptIntProperty",
+                "Name": "StageToSet",
+                "Data": 690
               }
             ]
           }
@@ -4035,20 +4035,6 @@
             "Name": "DefaultAliasOnActivate",
             "Properties": [
               {
-                "MutagenObjectType": "ScriptIntProperty",
-                "Name": "StageToSet",
-                "Data": 161
-              },
-              {
-                "MutagenObjectType": "ScriptIntProperty",
-                "Name": "PrereqStage",
-                "Data": 155
-              },
-              {
-                "MutagenObjectType": "ScriptBoolProperty",
-                "Name": "PlayerOnly"
-              },
-              {
                 "MutagenObjectType": "ScriptObjectListProperty",
                 "Name": "AliasesToCheckAgainst",
                 "Objects": [
@@ -4063,6 +4049,20 @@
                     "Alias": 17
                   }
                 ]
+              },
+              {
+                "MutagenObjectType": "ScriptBoolProperty",
+                "Name": "PlayerOnly"
+              },
+              {
+                "MutagenObjectType": "ScriptIntProperty",
+                "Name": "PrereqStage",
+                "Data": 155
+              },
+              {
+                "MutagenObjectType": "ScriptIntProperty",
+                "Name": "StageToSet",
+                "Data": 161
               }
             ]
           }

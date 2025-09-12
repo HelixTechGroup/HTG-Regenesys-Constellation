@@ -18,7 +18,7 @@
       "Conditions": [
         {
           "MutagenObjectType": "ConditionFloat",
-          "Unknown2": 61172,
+          "Unknown2": 65171,
           "Data": {
             "MutagenObjectType": "GetIsIDConditionData",
             "FirstParameter": "0059A7:Starfield.esm"
@@ -35,7 +35,7 @@
       "Conditions": [
         {
           "MutagenObjectType": "ConditionFloat",
-          "Unknown2": 61172,
+          "Unknown2": 65171,
           "Data": {
             "MutagenObjectType": "GetIsIDConditionData",
             "FirstParameter": "005787:Starfield.esm"
@@ -52,7 +52,7 @@
       "Conditions": [
         {
           "MutagenObjectType": "ConditionFloat",
-          "Unknown2": 61172,
+          "Unknown2": 65171,
           "Data": {
             "MutagenObjectType": "GetIsIDConditionData",
             "FirstParameter": "005999:Starfield.esm"
@@ -69,7 +69,7 @@
       "Conditions": [
         {
           "MutagenObjectType": "ConditionFloat",
-          "Unknown2": 61172,
+          "Unknown2": 65171,
           "Data": {
             "MutagenObjectType": "GetIsIDConditionData",
             "FirstParameter": "005999:Starfield.esm"
@@ -86,7 +86,7 @@
       "Conditions": [
         {
           "MutagenObjectType": "ConditionFloat",
-          "Unknown2": 61172,
+          "Unknown2": 65171,
           "Data": {
             "MutagenObjectType": "GetIsIDConditionData",
             "FirstParameter": "005983:Starfield.esm"
@@ -104,7 +104,7 @@
         {
           "MutagenObjectType": "ConditionFloat",
           "CompareOperator": "NotEqualTo",
-          "Unknown2": 61172,
+          "Unknown2": 65171,
           "Data": {
             "MutagenObjectType": "GetIsIDConditionData",
             "FirstParameter": "005787:Starfield.esm"
@@ -114,7 +114,7 @@
         {
           "MutagenObjectType": "ConditionFloat",
           "CompareOperator": "NotEqualTo",
-          "Unknown2": 61172,
+          "Unknown2": 65171,
           "Data": {
             "MutagenObjectType": "GetIsIDConditionData",
             "FirstParameter": "0059A7:Starfield.esm"
@@ -124,7 +124,7 @@
         {
           "MutagenObjectType": "ConditionFloat",
           "CompareOperator": "NotEqualTo",
-          "Unknown2": 61172,
+          "Unknown2": 65171,
           "Data": {
             "MutagenObjectType": "GetIsIDConditionData",
             "FirstParameter": "005999:Starfield.esm"
@@ -134,7 +134,7 @@
         {
           "MutagenObjectType": "ConditionFloat",
           "CompareOperator": "NotEqualTo",
-          "Unknown2": 61172,
+          "Unknown2": 65171,
           "Data": {
             "MutagenObjectType": "GetIsIDConditionData",
             "FirstParameter": "005983:Starfield.esm"
@@ -152,7 +152,7 @@
         {
           "MutagenObjectType": "ConditionFloat",
           "CompareOperator": "NotEqualTo",
-          "Unknown2": 61172,
+          "Unknown2": 65171,
           "Data": {
             "MutagenObjectType": "GetIsIDConditionData",
             "FirstParameter": "005787:Starfield.esm"
@@ -162,7 +162,7 @@
         {
           "MutagenObjectType": "ConditionFloat",
           "CompareOperator": "NotEqualTo",
-          "Unknown2": 61172,
+          "Unknown2": 65171,
           "Data": {
             "MutagenObjectType": "GetIsIDConditionData",
             "FirstParameter": "0059A7:Starfield.esm"
@@ -172,7 +172,7 @@
         {
           "MutagenObjectType": "ConditionFloat",
           "CompareOperator": "NotEqualTo",
-          "Unknown2": 61172,
+          "Unknown2": 65171,
           "Data": {
             "MutagenObjectType": "GetIsIDConditionData",
             "FirstParameter": "005999:Starfield.esm"
@@ -182,7 +182,7 @@
         {
           "MutagenObjectType": "ConditionFloat",
           "CompareOperator": "NotEqualTo",
-          "Unknown2": 61172,
+          "Unknown2": 65171,
           "Data": {
             "MutagenObjectType": "GetIsIDConditionData",
             "FirstParameter": "005983:Starfield.esm"
@@ -194,8 +194,5 @@
   ],
   "Model": {
     "LightLayer": 1
-  },
-  "MajorFlags": [
-    "UseAll"
-  ]
+  }
 }

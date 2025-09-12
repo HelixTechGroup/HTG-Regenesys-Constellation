@@ -6,30 +6,34 @@ import HTG:UtilityExt
 import HTG:Collections
 import HTG:Constellation:Structs
 import HTG:Constellation:Collections
+import Utility
 
 Group Autofill
-    ObjectReference Property PlayerRef Auto Const Mandatory
-    Keyword Property ShowWornItemsKeyword Auto Const Mandatory
-    RefCollectionAlias Property ActiveConstellationMembers Mandatory Auto
-    RefCollectionAlias Property KnownConstellationMembers Mandatory Auto
-    ObjectReference Property Loot_Mannequin_Spacesuit_Female_Mark1_Lodge Const Auto Mandatory
-    ActorValue Property PlayerUnityTimesEntered Const Auto Mandatory
+    ObjectReference Property PlayerRef Mandatory Const Auto
+    Keyword Property ShowWornItemsKeyword Mandatory Const Auto
+    RefCollectionAlias Property ActiveConstellationMembers Mandatory Const Auto
+    RefCollectionAlias Property AvailableConstellationMembers Mandatory Const Auto
+    RefCollectionAlias Property KnownConstellationMembers Mandatory Const Auto
+    ObjectReference Property Loot_Mannequin_Spacesuit_Female_Mark1_Lodge Mandatory Const Auto
+    ActorValue Property PlayerUnityTimesEntered Mandatory Const Auto
     GlobalVariable Property FirstActivation Mandatory Auto
 EndGroup
 
 Group SystemDefaults
-    ConstellationMember[] Property DefaultMemberData Const Auto Mandatory
-    QuestCheckInfo[] Property RewardQuests Const Auto Mandatory
-    ; ArmorSet Property ConstellationArmorSet Const Auto Mandatory
-    ; LeveledArmorSet Property ConstellationLeveldArmorSet Const Auto Mandatory
-    ArmorSet Property Mark1ArmorSet Const Auto Mandatory
-    ; LeveledArmorSet Property Mark1LeveledArmorSet Const Auto Mandatory
+    Bool Property MidgameInstall Auto Hidden
+    ConstellationMember[] Property DefaultMemberData Mandatory Const Auto
+    QuestCheckInfo[] Property RewardQuests Mandatory Const Auto
+    ArmorSet Property NonPlayableConstellationArmorSet Mandatory Const Auto
+    ArmorSet Property PlayableConstellationArmorSet Mandatory Const Auto
+    ; LeveledArmorSet Property ConstellationLeveldArmorSet Mandatory Const Auto
+    ArmorSet Property Mark1ArmorSet Mandatory Const Auto
+    ; LeveledArmorSet Property Mark1LeveledArmorSet Mandatory Const Auto
 EndGroup
 
 Group LegendaryLeveledItems
-    LeveledItem Property LL_Weapon_Constellation_Legendary Const Auto Mandatory
-    LeveledItem Property LL_Spacesuit_Constellation_Legendary Const Auto Mandatory
-    LeveledItem Property LL_Clothes_Constellation_Legendary Const Auto Mandatory
+    LeveledItem Property LL_Weapon_Constellation_Legendary Mandatory Const Auto
+    LeveledItem Property LL_Armor_Constellation_Legendary Mandatory Const Auto
+    LeveledItem Property LL_Clothes_Constellation_Legendary Mandatory Const Auto
     LeveledItem Property LL_Spacesuit_Mark1_FullSet_Legendary Mandatory Const Auto
 EndGroup
 
@@ -86,7 +90,7 @@ Event OnStageSet(int auiStageID, int auiItemID)
 
     If auiStageID == _giveAllEquipmentId && auiItemID == 0
         Debug.Notification("Updating available Constellation member's equipment.")
-        AddConstellationEquipmentToActiveMembers()
+        AddConstellationEquipmentToAvailableMembers()
         _recievedEquipment = True
     ElseIf auiStageID == _giveWeaponsId && auiItemID == 0
         AddConstellationWeaponsToActiveMembers()
@@ -104,8 +108,12 @@ Event OnStageSet(int auiStageID, int auiItemID)
         _checkedMark1 = True
     ElseIf auiStageID == _initId && auiItemID == 0
         If FirstActivation.GetValue() == 1.0
-            If ActiveConstellationMembers.GetCount() > 0
+            Actor kActor = PlayerRef as Actor
+            If (ActiveConstellationMembers.GetCount() > 0 \
+                || AvailableConstellationMembers.GetCount() > 0) \
+                || !Utilities.IsNewGame
                 SetStage(_giveAllEquipmentId)
+                ; && kActor.GetLevel() > 1 || 
             EndIf
 
             SetStage(_checkRewardsId)
@@ -204,7 +212,7 @@ Function AddConstellationWeaponsToActiveMembers()
         return
     EndIf
 
-    AddConstellationEquipmentToActiveMembers(False, True, False)
+    AddConstellationEquipmentToAvailableMembers(False, True, False)
 EndFunction
 
 Function AddConstellationArmorToActiveMembers()
@@ -214,7 +222,7 @@ Function AddConstellationArmorToActiveMembers()
         return
     EndIf
 
-    AddConstellationEquipmentToActiveMembers(True, False, False)
+    AddConstellationEquipmentToAvailableMembers(True, False, False)
 EndFunction
 
 Function AddConstellationClothesToActiveMembers()
@@ -224,93 +232,103 @@ Function AddConstellationClothesToActiveMembers()
         return
     EndIf
 
-    AddConstellationEquipmentToActiveMembers(False, False, True)
+    AddConstellationEquipmentToAvailableMembers(False, False, True)
 EndFunction
 
-Function AddClothesToMember(Actor actr, LeveledItem clothesList, Bool autoEquip = False)
+Function AddClothesToMember(ConstellationMember akMember,  LeveledItem clothesList, Bool autoEquip = False)
     WaitForInitialized()
 
-    If !AddLeveledItemToActor(actr, clothesList, 1, True, autoEquip)
-        Logger.Log("Failed to add Clothes: " + clothesList + " to Actor: " + actr)
+    Actor kActor = akMember.MemberRef as Actor
+    If !AddLeveledItemToActor(kActor, clothesList, akMember.MemberClothesPlayable, 1, True, autoEquip)
+        Logger.Log("Failed to add Clothes: " + clothesList + " to Actor: " + kActor)
+    EndIf
+
+    If !IsNone(akMember.MemberHatPlayable) && kActor.GetItemCount(akMember.MemberHatPlayable) > 0
+        kActor.EquipItem(akMember.MemberHatPlayable)
     EndIf
 EndFunction
 
-Function AddWeaponToMember(Actor actr, LeveledItem aWeaponList, bool autoEquip = False)
+Function AddWeaponToMember(ConstellationMember akMember,  LeveledItem aWeaponList, bool autoEquip = False)
     WaitForInitialized()
 
-    If !AddLeveledItemToActor(actr, aWeaponList, 1, True, autoEquip)
-        Logger.Log("Failed to add Weapon: " + aWeaponList + " to Actor: " + actr)
+    Actor kActor = akMember.MemberRef as Actor
+    If !AddLeveledItemToActor(kActor, aWeaponList, akMember.MemberWeapon, 1, True, autoEquip)
+        Logger.Log("Failed to add Weapon: " + aWeaponList + " to Actor: " + kActor)
     EndIf
 EndFunction
 
-Function AddArmorSetToMember(Actor actr, ArmorSet armorSet, LeveledItem aArmorList, bool autoEquip = False)
+Function AddArmorSetToMember(ConstellationMember akMember, ArmorSet armorSet, LeveledItem aArmorList, bool autoEquip = False)
     WaitForInitialized()
 
-    If !AddLeveledItemToActor(actr, aArmorList, 1, True, False)
-        Logger.Log("Failed to add ArmorSet: " + armorSet + " to Actor: " + actr)
+    Actor kActor = akMember.MemberRef as Actor
+    If !AddLeveledItemToActor(kActor, aArmorList)
+        Logger.Log("Failed to add ArmorSet: " + armorSet + " to Actor: " + kActor)
     Else
         WaitExt(0.666)
         If autoEquip
-            If !EquipItemToActor(actr, armorSet.Spacesuit)
-                Logger.Log("Failed to equip Spacesuit: " + armorSet.Spacesuit + " to Actor: " + actr)
+            If !EquipItemToActor(kActor, akMember.MemberSpacesuit)
+                Logger.Log("Failed to equip Spacesuit: " + armorSet.Spacesuit + " to Actor: " + kActor)
             EndIf
             WaitExt(0.25)
-            If !EquipItemToActor(actr, armorSet.Helmet)
-                Logger.Log("Failed to equip Helmet: " + armorSet.Helmet + " to Actor: " + actr)
+            If !EquipItemToActor(kActor, armorSet.Helmet)
+                Logger.Log("Failed to equip Helmet: " + armorSet.Helmet + " to Actor: " + kActor)
             EndIf
             WaitExt(0.25)
-            If !EquipItemToActor(actr, armorSet.Backpack)
-                Logger.Log("Failed to equip Backpack: " + armorSet.Backpack + " to Actor: " + actr)
+            If !EquipItemToActor(kActor, armorSet.Backpack)
+                Logger.Log("Failed to equip Backpack: " + armorSet.Backpack + " to Actor: " + kActor)
             EndIf
         EndIf
     EndIf
 EndFunction
 
-Function AddConstellationEquipmentToActiveMembers(bool addArmor = true, bool addWeapon = true, bool addClothes = true)
+Function AddConstellationEquipmentToAvailableMembers(bool addArmor = true, bool addWeapon = true, bool addClothes = true)
     WaitForInitialized()
 
     If _recievedEquipment
         return
     EndIf
 
-    If !IsNone(MemberData) && !IsNone(ActiveConstellationMembers)
+    If !IsNone(MemberData)
         ; WaitExt(0.25)
         Logger.Log("Found ActiveConstellationMembers: " + ActiveConstellationMembers.GetCount())
+        Logger.Log("Found AvailableConstellationMembers: " + AvailableConstellationMembers.GetCount())
         Logger.Log("Found Constellation MemberData: " + MemberData.Count)
         int i
         While i < MemberData.Count
-            ConstellationMember member = MemberData.GetAt(i)
-            If (InitializedMembers.Find(member.MemberRef) < 0 \
-                && ActiveConstellationMembers.Find(member.MemberRef) >= 0)
-                Actor memberActor = member.MemberRef as Actor
-                AddEquipmentToMember(member)
+            ConstellationMember kMember = MemberData.GetAt(i)
+            If (InitializedMembers.Find(kMember.MemberRef) < 0 \
+                && AvailableConstellationMembers.Find(kMember.MemberRef) >= 0)
+                ; Actor memberActor = member.MemberRef as Actor
+                _ClearExistingEquipment(kMember, NonPlayableConstellationArmorSet)
+                Wait(0.25)
+                AddEquipmentToMember(kMember)
 
                 ; WaitExt(0.25)
-                ; If !AddItemToActor(memberActor, member.Spacesuit, LL_Spacesuit_Constellation_Legendary, 1, True, True)
+                ; If !AddItemToActor(memberActor, member.Spacesuit, LL_Armor_Constellation_Legendary, 1, True, True)
                 ;     Logger.Log("Failed to add Legendary Constellation Spacesuit to member: " + member.MemberName)
                 ; Else
                 ;     WaitExt(0.666)
-                ;     If !EquipItemToActor(memberActor, ConstellationArmorSet.Helmet)
+                ;     If !EquipItemToActor(memberActor, NonPlayableConstellationArmorSet.Helmet)
                 ;         Logger.Log("Failed to add Legendary Constellation Helmet to member: " + member.MemberName)
                 ;     EndIf
                 ;     WaitExt(0.25)
-                ;     If !EquipItemToActor(memberActor, ConstellationArmorSet.Backpack)
+                ;     If !EquipItemToActor(memberActor, NonPlayableConstellationArmorSet.Backpack)
                 ;         Logger.Log("Failed to add Legendary Constellation Backpack to member: " + member.MemberName)
                 ;     EndIf
                 ; EndIf
 
                 ; WaitExt(0.25)
-                ; If !AddItemToActor(memberActor, ConstellationArmorSet.Helmet, ConstellationArmorSetLeveled.Helmet, 1, True, True)
+                ; If !AddItemToActor(memberActor, NonPlayableConstellationArmorSet.Helmet, ConstellationArmorSetLeveled.Helmet, 1, True, True)
                 ;     Logger.Log("Failed to add Legendary Constellation Helmet to member: " + member.MemberName)
                 ; EndIf
                 ; WaitExt(0.25)
-                ; If !AddItemToActor(memberActor, ConstellationArmorSet.Backpack, ConstellationArmorSetLeveled.Backpack, 1, True, True)
+                ; If !AddItemToActor(memberActor, NonPlayableConstellationArmorSet.Backpack, ConstellationArmorSetLeveled.Backpack, 1, True, True)
                 ;     Logger.Log("Failed to add Legendary Constellation Backpack to member: " + member.MemberName)
                 ; EndIf
-                Debug.Notification(member.MemberName + " recieved Legendary Constellation equipment.")
-                InitializedMembers.Add(memberActor)
+                Debug.Notification(kMember.MemberName + " recieved Legendary Constellation equipment.")
+                InitializedMembers.Add(kMember.MemberRef)
             Else
-                Logger.Log("Member is not currently active: " + member.MemberName)
+                Logger.Log("Member is not currently active: " + kMember.MemberName)
             EndIf
 
             i += 1
@@ -387,16 +405,16 @@ Function AddEquipmentToMember(ConstellationMember akMember, bool abAddArmor = tr
     ; WaitExt(0.5)
 
     If abAddWeapon
-        AddWeaponToMember(kMemberActor, LL_Weapon_Constellation_Legendary)
+        AddWeaponToMember(akMember, LL_Weapon_Constellation_Legendary, True)
     EndIf
     WaitExt(0.333)
     If abAddArmor
-        AddLeveledItemToActor(kMemberActor, LL_Spacesuit_Constellation_Legendary, 1, True, False)
-        ; AddArmorSetToMember(kMemberActor, , LL_Spacesuit_Constellation_Legendary)
+        ; AddLeveledItemToActor(kMemberActor, LL_Armor_Constellation_Legendary, 1, True, False)
+        AddArmorSetToMember(akMember, PlayableConstellationArmorSet, LL_Armor_Constellation_Legendary, True)
     EndIf
     WaitExt(0.333)
     If abAddClothes
-        AddClothesToMember(kMemberActor, LL_Clothes_Constellation_Legendary)
+        AddClothesToMember(akMember, LL_Clothes_Constellation_Legendary, True)
     EndIf
 EndFunction
 
@@ -425,4 +443,38 @@ Bool Function _UpdateMemberData()
     EndWhile
 
     return MemberData.Count > 0
+EndFunction
+
+Bool Function _ClearExistingEquipment(ConstellationMember akMember, ArmorSet akArmorSet)
+    ObjectReference kMember = akMember.MemberRef
+    If kMember.GetItemCount(akMember.MemberSpacesuit) > 0
+        kMember.RemoveItem(akMember.MemberSpacesuit)
+    EndIf
+
+    If kMember.GetItemCount(akArmorSet.Helmet) > 0
+        kMember.RemoveItem(akArmorSet.Helmet)
+    EndIf
+
+    If kMember.GetItemCount(akArmorSet.Backpack) > 0
+        kMember.RemoveItem(akArmorSet.Backpack)
+    EndIf
+
+    If kMember.GetItemCount(akMember.MemberWeapon) > 0
+        kMember.RemoveItem(akMember.MemberWeapon)
+    EndIf
+
+    If kMember.GetItemCount(akMember.MemberClothes) > 0
+        kMember.RemoveItem(akMember.MemberClothes)
+    EndIf
+
+    If !IsNone(akMember.MemberHat) && kMember.GetItemCount(akMember.MemberHat) > 0
+        kMember.RemoveItem(akMember.MemberHat)
+    EndIf
+
+    return kMember.GetItemCount(akMember.MemberSpacesuit) > 0 \
+            && kMember.GetItemCount(akArmorSet.Helmet) > 0 \
+            && kMember.GetItemCount(akArmorSet.Backpack) > 0 \
+            && kMember.GetItemCount(akMember.MemberWeapon) > 0 \
+            && kMember.GetItemCount(akMember.MemberClothes) > 0 \
+            && (!IsNone(akMember.MemberHat) && kMember.GetItemCount(akMember.MemberClothes) > 0)
 EndFunction
